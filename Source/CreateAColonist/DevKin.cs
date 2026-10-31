@@ -559,6 +559,17 @@ namespace CreateAColonist
                 Expect(PawnEditor.ParentsOf(b).Contains(parent), "removing a colonist took their sibling's parent too");
                 Remove(parent);
             }, false, null, 3);
+            Add("kin_sibling_needs_parent_age", () => { }, () =>
+            {
+                Pawn parent = AddColonist();
+                PawnEditor.SetBiologicalAge(parent, 40);
+                PawnEditor.SetBiologicalAge(b, 20);
+                PawnEditor.SetBiologicalAge(a, 30);
+                PawnEditor.SetParent(b, parent);
+                string sibling = PawnRelationDefOf.Sibling.GetGenderSpecificLabelCap(b);
+                Expect(RelationOptions(a, b).First(o => o.Label.StartsWith(sibling)).Disabled, "the menu offers a sibling link that gives a parent only 10 years older");
+                Remove(parent);
+            }, false, null, 3);
         }
     }
 

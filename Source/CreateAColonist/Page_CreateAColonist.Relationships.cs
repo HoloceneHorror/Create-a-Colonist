@@ -132,7 +132,12 @@ namespace CreateAColonist
                     yield return new FloatMenuOption(d.GetGenderSpecificLabelCap(other), () => PawnEditor.SetLoveRelation(me, other, d));
                 }
             }
-            yield return new FloatMenuOption(PawnRelationDefOf.Sibling.GetGenderSpecificLabelCap(other), () => PawnEditor.SetSiblings(me, other));
+            // A sibling shares the other's parents, so a parent in the colony needs the usual age gap over me too.
+            string sibling = PawnRelationDefOf.Sibling.GetGenderSpecificLabelCap(other);
+            Pawn tooYoung = PawnEditor.ParentsOf(other).FirstOrDefault(p => p != me && Colonists.Contains(p) && !PawnEditor.OldEnoughToParent(p, me));
+            yield return tooYoung == null
+                ? new FloatMenuOption(sibling, () => PawnEditor.SetSiblings(me, other))
+                : new FloatMenuOption(sibling + " (" + "CAC_TooYoungToBeParent".Translate(tooYoung.LabelShortCap) + ")", null);
             yield return ParentOption(PawnRelationDefOf.Parent.GetGenderSpecificLabelCap(other), me, other);
             yield return ParentOption(PawnRelationDefOf.Child.GetGenderSpecificLabelCap(other), other, me);
         }
