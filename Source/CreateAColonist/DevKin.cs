@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using RimWorld;
+using RimWorld.Planet;
 using UnityEngine;
 using Verse;
 using Verse.AI;
@@ -443,6 +444,62 @@ namespace CreateAColonist
                 PawnEditor.SetParent(kid, a);
                 PawnEditor.SetBiologicalAge(kid, 30);
                 Expect(!PawnEditor.ParentsOf(kid).Contains(a), "a child aged close to their parent kept the link");
+            }, false, null, 3);
+
+            Add("kin_undo_age_keeps_family", () =>
+            {
+                Grown(a, b);
+                PawnEditor.SetBiologicalAge(kid, 5);
+                PawnEditor.ClearRelationsBetween(a, b);
+                PawnEditor.ClearRelationsBetween(a, kid);
+                PawnEditor.SetLoveRelation(a, b, PawnRelationDefOf.Spouse);
+                PawnEditor.SetParent(kid, a);
+                Select(a);
+                RecordUndo();
+            }, () =>
+            {
+                bool Linked() => a.relations.DirectRelationExists(PawnRelationDefOf.Spouse, b) && PawnEditor.ParentsOf(kid).Contains(a);
+                bool Cut() => !a.relations.DirectRelationExists(PawnRelationDefOf.Spouse, b) && !PawnEditor.ParentsOf(kid).Contains(a);
+                Expect(Linked(), "couldn't set up the family");
+                PawnEditor.SetBiologicalAge(a, 15);
+                RecordUndo();
+                Expect(Cut(), "an age of 15 kept a spouse or a child");
+                StepUndo(false);
+                Expect(Linked() && a.ageTracker.AgeBiologicalYears == 40, "undo didn't bring the family back");
+                StepUndo(true);
+                Expect(Cut() && a.ageTracker.AgeBiologicalYears == 15, "redo didn't take the family away again");
+                StepUndo(false);
+                Expect(Linked(), "a second undo didn't bring the family back");
+                // A link removed by hand isn't undone along with something else.
+                PawnEditor.SetBiologicalAge(a, 41);
+                RecordUndo();
+                PawnEditor.ClearRelationsBetween(a, b);
+                RecordUndo();
+                StepUndo(false);
+                Expect(a.ageTracker.AgeBiologicalYears == 40 && !a.relations.DirectRelationExists(PawnRelationDefOf.Spouse, b), "undo brought back a spouse removed by hand");
+                PawnEditor.ClearRelationsBetween(a, kid);
+            }, false, null, 3);
+
+            Add("kin_sibling_parents_elsewhere", () =>
+            {
+                Grown(a, b);
+                List<Pawn> elsewhere = PawnEditor.ParentsOf(a).Where(p => !Colonists.Contains(p)).ToList();
+                if (elsewhere.Count == 0)
+                {
+                    Pawn parent = PawnGenerator.GeneratePawn(new PawnGenerationRequest(a.kindDef, a.Faction, forceGenerateNewPawn: true, fixedGender: Gender.Female));
+                    Find.WorldPawns.PassToWorld(parent, PawnDiscardDecideMode.KeepForever);
+                    a.relations.AddDirectRelation(PawnRelationDefOf.Parent, parent);
+                    elsewhere.Add(parent);
+                }
+                // 57 fits 41 under the game's ages, but only 39 under the group's 18 years.
+                elsewhere.ForEach(p => p.ageTracker.AgeBiologicalTicks = 57L * GenDate.TicksPerYear + 1);
+                Open().SetAge(41);
+                window.SetRole(a, KinRole.Sibling);
+            }, () =>
+            {
+                Expect(window.Problem == null, "the sibling was refused: " + window.Problem);
+                Expect(window.Rolled?.ageTracker.AgeBiologicalYears == 41, "held to the 18-year rule for a parent elsewhere: " + window.Rolled?.ageTracker.AgeBiologicalYears);
+                window.Close();
             }, false, null, 3);
 
             Pawn newborn = null;

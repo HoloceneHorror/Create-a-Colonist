@@ -86,6 +86,10 @@ namespace CreateAColonist
             return kin;
         }
 
+        // A sibling's parents living elsewhere keep the game's looser ages, as they do on the age box.
+        private int ParentGap(Pawn parent) => relatives.Contains(parent) ? PawnEditor.GrownUpAge
+            : (int)(parent.gender == Gender.Female ? ChildRelationUtility.MinFemaleAgeToHaveChildren : ChildRelationUtility.MinMaleAgeToHaveChildren);
+
         /// <summary>Parents have to be old enough for them, and they for any children. Until the age is set by hand, a likely one.</summary>
         private void FitAge(Kin kin)
         {
@@ -93,7 +97,7 @@ namespace CreateAColonist
             maxAge = PawnEditor.MaxStartAge(relatives[0]);
             foreach (Pawn parent in kin.ActualParents)
             {
-                maxAge = Mathf.Min(maxAge, Age(parent) - PawnEditor.GrownUpAge);
+                maxAge = Mathf.Min(maxAge, Age(parent) - ParentGap(parent));
             }
             foreach (Pawn child in kin.children)
             {
@@ -147,7 +151,7 @@ namespace CreateAColonist
             if (minAge > maxAge)
             {
                 int youngest = PawnEditor.MinAgeYears(relatives[0]);
-                Pawn tooYoung = kin.ActualParents.FirstOrDefault(p => Age(p) - PawnEditor.GrownUpAge < youngest);
+                Pawn tooYoung = kin.ActualParents.FirstOrDefault(p => relatives.Contains(p) && Age(p) - PawnEditor.GrownUpAge < youngest);
                 return tooYoung != null ? "CAC_TooYoungToBeParent".Translate(tooYoung.LabelShortCap).ToString() : "CAC_NoAgeFits".Translate(PawnEditor.GrownUpAge).ToString();
             }
             Pawn full = kin.children.FirstOrDefault(c => g.HasValue ? ParentTaken(c, g.Value) : ParentTaken(c, Gender.Male) && ParentTaken(c, Gender.Female));

@@ -17,6 +17,8 @@
          holds a generated source file and sits under the user's AppData (see Directory.Build.props). -->
     <DebugType>embedded</DebugType>
     <Deterministic>true</Deterministic>
+    <EnableSourceLink>false</EnableSourceLink>
+    <EnableSourceControlManagerQueries>false</EnableSourceControlManagerQueries>
     <PathMap>$(MSBuildProjectDirectory)=CreateAColonist,$(BaseIntermediateOutputPath)=obj</PathMap>
     <!-- build.ps1 -Dev adds the in-game test tooling (DevTest.cs). Published builds never include it. -->
     <DefineConstants Condition="'$(DevBuild)' == 'true'">$(DefineConstants);CAC_DEV</DefineConstants>

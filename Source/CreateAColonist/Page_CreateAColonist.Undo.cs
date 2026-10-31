@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using RimWorld;
 using UnityEngine;
 using Verse;
@@ -10,7 +11,7 @@ namespace CreateAColonist
     /// Undo and redo for edits to a colonist or pet. Just after a click or key press the selected one is compared with
     /// how it was (a colonist saved the way the gallery saves colonists, a pet the way a saved colony keeps pets); if
     /// anything changed, the old version becomes an undo step and undoing loads it back. Adding or removing them and
-    /// family links aren't steps: they change the group.
+    /// family links aren't steps: they change the group. Links an age change broke do come back with that step.
     /// </summary>
     public partial class Page_CreateAColonist
     {
@@ -21,6 +22,17 @@ namespace CreateAColonist
             public Pawn master;
             public int chronological;
             public string key;
+            public List<(Pawn from, PawnRelationDef def, Pawn to)> links;
+            public List<(Pawn from, PawnRelationDef def, Pawn to)> lost = new List<(Pawn, PawnRelationDef, Pawn)>();
+
+            // Only for an age change: a link the player took away themselves stays gone.
+            public void NoteLost(UndoState now)
+            {
+                if (colonist != null && now.colonist != null && colonist.age != now.colonist.age)
+                {
+                    lost = links.Except(now.links).ToList();
+                }
+            }
         }
 
         private const int MaxUndoSteps = 50;
@@ -37,7 +49,11 @@ namespace CreateAColonist
             if (pawn.RaceProps.Humanlike)
             {
                 ColonistPreset preset = ColonistPreset.From(pawn, null, withFamily: false);
-                return new UndoState { colonist = preset, key = Scribe.saver.DebugOutputFor(preset) };
+                List<(Pawn, PawnRelationDef, Pawn)> links = pawn.relations.DirectRelations
+                    .Where(r => r.def == PawnRelationDefOf.Parent || PawnEditor.LoveRelations.Contains(r.def))
+                    .Select(r => (pawn, r.def, r.otherPawn)).ToList();
+                links.AddRange(pawn.relations.Children.Select(c => (c, PawnRelationDefOf.Parent, pawn)));
+                return new UndoState { colonist = preset, key = Scribe.saver.DebugOutputFor(preset), links = links };
             }
             UndoState s = new UndoState
             {
@@ -62,6 +78,13 @@ namespace CreateAColonist
             if (s.colonist != null)
             {
                 s.colonist.ApplyTo(pawn, withFamily: false);
+                foreach ((Pawn from, PawnRelationDef def, Pawn to) in s.lost)
+                {
+                    if (!from.Discarded && !to.Discarded && !from.relations.DirectRelationExists(def, to))
+                    {
+                        from.relations.AddDirectRelation(def, to);
+                    }
+                }
                 return pawn;
             }
             int index = state.pets.IndexOf(pawn);
@@ -170,6 +193,10 @@ namespace CreateAColonist
                         undoSteps.RemoveAt(0);
                     }
                 }
+                if (selected == undoPawn)
+                {
+                    undoSteps[undoSteps.Count - 1].before.NoteLost(now);
+                }
                 undoTyping = typing;
                 redoSteps.Clear();
             }
@@ -195,8 +222,10 @@ namespace CreateAColonist
             countBuffers.Clear();
             bioAgeText = chronoAgeText = null;
             StopSkillEdit();
-            to.Add((pawn, Snapshot(pawn)));
+            UndoState current = Snapshot(pawn);
+            to.Add((pawn, current));
             pawn = Restore(pawn, before);
+            current.NoteLost(Snapshot(pawn));
             Select(pawn);
             // Undoing can take a tab away (a baby has no Ideoligion tab).
             EnsureSelection();
