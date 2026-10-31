@@ -385,8 +385,9 @@ namespace CreateAColonist
                 PawnEditor.SetName(pawn, first, nick, last);
             }
             // A scenario can ask for someone older than this colonist was saved at.
-            bool oldAsSaved = age >= PawnEditor.MinAgeYears(pawn);
-            PawnEditor.SetBiologicalAge(pawn, Mathf.Max(age, PawnEditor.MinAgeYears(pawn)));
+            int minAge = PawnEditor.MinAgeYears(pawn);
+            bool oldAsSaved = age >= minAge;
+            PawnEditor.SetBiologicalAge(pawn, Mathf.Max(age, minAge));
             bool baby = pawn.DevelopmentalStage.Baby();
             if (ageChronological >= 0)
             {
