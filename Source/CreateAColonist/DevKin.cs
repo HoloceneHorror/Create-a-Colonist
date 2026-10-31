@@ -535,6 +535,19 @@ namespace CreateAColonist
                 Expect(newborn.GetMother() == a && newborn.GetFather() == b, "the baby's parents didn't come back with the colony");
                 Expect(Find.GameInitData.startingPossessions[newborn].Any(t => t.ThingDef == ThingDefOf.BabyFood), "the baby's food didn't come back with the colony");
             }, false, null, 3);
+
+            Add("kin_colony_too_big_family", () => { }, () =>
+            {
+                // Saved as two colonists and a relative; the second colonist no longer fits. Node 1 is that colonist, node 2 the relative.
+                FamilyTree tree = new FamilyTree();
+                tree.people.Add(new FamilyTree.Person { first = "Elsewhere", last = "Kin", gender = Gender.Female, age = 70, ageChronological = 70 });
+                tree.links.Add(new FamilyTree.Link { from = 0, to = 1, def = PawnRelationDefOf.Spouse });
+                tree.links.Add(new FamilyTree.Link { from = 0, to = 2, def = PawnRelationDefOf.Parent });
+                List<Pawn> others = Colonists.Where(p => p != a).ToList();
+                tree.ApplyTo(new List<Pawn> { a }, others, dropped: 1);
+                Expect(!a.relations.DirectRelations.Any(r => r.def == PawnRelationDefOf.Spouse), "the left-out colonist's spouse link landed on a relative");
+                Expect(PawnEditor.ParentsOf(a).Any(p => p.LabelShort == "Elsewhere"), "the relative's link was lost");
+            }, false, null, 3);
         }
     }
 

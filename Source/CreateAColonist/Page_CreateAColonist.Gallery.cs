@@ -47,7 +47,7 @@ namespace CreateAColonist
                 colony.colonists[i].ApplyTo(colonists[i], withFamily: false);
             }
             // The whole family at once: each other, and relatives outside the colony.
-            colony.family.ApplyTo(colonists);
+            colony.family.ApplyTo(colonists, dropped: colony.colonists.Count - colonists.Count);
 
             foreach (Pawn pet in state.pets.ToList())
             {

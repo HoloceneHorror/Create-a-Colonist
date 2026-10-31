@@ -160,7 +160,8 @@ namespace CreateAColonist
         /// Rebuilds the family on these colonists (by position). Their old family goes first: everything when
         /// <paramref name="keep"/> is null, otherwise everything except relationships with the people in it.
         /// </summary>
-        public void ApplyTo(List<Pawn> colonists, ICollection<Pawn> keep = null)
+        /// <param name="dropped">Saved colonists left off the end of <paramref name="colonists"/>.</param>
+        public void ApplyTo(List<Pawn> colonists, ICollection<Pawn> keep = null, int dropped = 0)
         {
             foreach (Pawn p in colonists)
             {
@@ -181,6 +182,8 @@ namespace CreateAColonist
             }
 
             List<Pawn> nodes = colonists.ToList();
+            // Links count by position, so the dropped keep their places or their links land on relatives.
+            nodes.AddRange(new Pawn[dropped]);
             foreach (Person person in people)
             {
                 nodes.Add(MakeRelative(person, colonists.FirstOrDefault()));
