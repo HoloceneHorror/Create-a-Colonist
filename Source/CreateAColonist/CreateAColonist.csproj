@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Native RimWorld 1.7 build: .NET 10, compiled against the game's own
+       Assembly-CSharp / UnityStubs / Waylith instead of Unity reference assemblies. -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <AssemblyName>CreateAColonist</AssemblyName>
+    <RootNamespace>CreateAColonist</RootNamespace>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <OutputPath>..\..\1.7\Assemblies\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <GenerateDependencyFile>false</GenerateDependencyFile>
+    <!-- Debug info lives inside the DLL (for line numbers in error reports), with every path rewritten so no
+         local folder or username ends up in the published mod. That includes the build folder (obj), which
+         holds a generated source file and sits under the user's AppData (see Directory.Build.props). -->
+    <DebugType>embedded</DebugType>
+    <Deterministic>true</Deterministic>
+    <PathMap>$(MSBuildProjectDirectory)=CreateAColonist,$(BaseIntermediateOutputPath)=obj</PathMap>
+    <!-- build.ps1 -Dev adds the in-game test tooling (DevTest.cs). Published builds never include it. -->
+    <DefineConstants Condition="'$(DevBuild)' == 'true'">$(DefineConstants);CAC_DEV</DefineConstants>
+    <NoWarn>$(NoWarn);CS0649;CS0169</NoWarn>
+    <RimWorldDir Condition="'$(RimWorldDir)' == ''">C:\Program Files (x86)\Steam\steamapps\common\RimWorld</RimWorldDir>
+    <HarmonyDir Condition="'$(HarmonyDir)' == ''">C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\2009463077\1.7\Assemblies</HarmonyDir>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>$(RimWorldDir)\Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityStubs">
+      <HintPath>$(RimWorldDir)\UnityStubs.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Waylith">
+      <HintPath>$(RimWorldDir)\Waylith.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>$(HarmonyDir)\0Harmony.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>

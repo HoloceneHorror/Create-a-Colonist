@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- New Colony popup -->
+  <CAC_ModeTitle>How do you want to make your colonists?</CAC_ModeTitle>
+  <CAC_ModeSubtitle>You can pick your scenario, storyteller and world next, as usual.</CAC_ModeSubtitle>
+  <CAC_ModeNormal>Normal colony creation</CAC_ModeNormal>
+  <CAC_ModeNormalDesc>The standard RimWorld character screen: roll random colonists until you like them.</CAC_ModeNormalDesc>
+  <CAC_ModeCreator>Character Creation</CAC_ModeCreator>
+  <CAC_ModeCreatorDesc>Design every colonist and pet yourself: personality, looks, genes, clothes, gear and relationships.</CAC_ModeCreatorDesc>
+
+  <!-- Page -->
+  <CAC_PageTitle>Create a Colonist</CAC_PageTitle>
+  <CAC_GroupSummary>{0}  ·  {1} of {2} colonists  ·  {3}</CAC_GroupSummary>
+  <CAC_PetCountOne>1 pet</CAC_PetCountOne>
+  <CAC_PetCount>{0} pets</CAC_PetCount>
+  <CAC_ColonistSubtitle>{0}, {1}</CAC_ColonistSubtitle>
+  <CAC_ColonistSubtitleXeno>{0}, {1} {2}</CAC_ColonistSubtitleXeno>
+  <CAC_PetSubtitle>{0}, {1}</CAC_PetSubtitle>
+  <CAC_RandomName>Random name</CAC_RandomName>
+  <CAC_RotateLeft>Turn left</CAC_RotateLeft>
+  <CAC_RotateRight>Turn right</CAC_RotateRight>
+  <CAC_RandomColonist>Randomize colonist</CAC_RandomColonist>
+  <CAC_RandomPet>Random pet</CAC_RandomPet>
+  <CAC_Play>Play</CAC_Play>
+  <CAC_PlayTip>Start the colony with this group.</CAC_PlayTip>
+  <CAC_ConfirmBack>Go back to the previous page? Going back makes the game generate new starting colonists, so the colonists you made here will be lost (save any you want to keep to the gallery first).</CAC_ConfirmBack>
+  <CAC_AddToGroup>Add a colonist or pet</CAC_AddToGroup>
+  <CAC_AddColonist>Add colonist</CAC_AddColonist>
+  <CAC_AddColonistFull>Add colonist (limit of {0} reached)</CAC_AddColonistFull>
+  <CAC_AddPet>Add pet</CAC_AddPet>
+  <CAC_AddFromGallery>Add colonist from gallery...</CAC_AddFromGallery>
+  <CAC_AddFromGalleryFull>Add colonist from gallery (group is full)</CAC_AddFromGalleryFull>
+  <CAC_ConfirmRemove>Remove {0} from your starting group?</CAC_ConfirmRemove>
+  <CAC_None>None</CAC_None>
+  <CAC_Custom>Custom...</CAC_Custom>
+  <CAC_NothingMatches>Nothing matches.</CAC_NothingMatches>
+  <CAC_HoverForDetails>Point at an option to see what it does.</CAC_HoverForDetails>
+  <CAC_HideWorkBlockers>Hide ones that block work</CAC_HideWorkBlockers>
+  <CAC_MustDo>Must be able to do...</CAC_MustDo>
+  <CAC_MustDoCount>Must be able to do ({0})...</CAC_MustDoCount>
+  <CAC_MustDoTitle>Must be able to do</CAC_MustDoTitle>
+  <CAC_MustDoNote>Only show backstories and traits that leave all of these available. This is remembered for next time.</CAC_MustDoNote>
+  <CAC_Violence>Violence</CAC_Violence>
+  <CAC_CantDo>Can't: {0}</CAC_CantDo>
+  <CAC_ClearAll>Clear all</CAC_ClearAll>
+
+  <!-- Tabs -->
+  <CAC_Tab_Personality>Personality</CAC_Tab_Personality>
+  <CAC_Tab_Appearance>Appearance</CAC_Tab_Appearance>
+  <CAC_Tab_Genes>Genes</CAC_Tab_Genes>
+  <CAC_Tab_Clothing>Clothing</CAC_Tab_Clothing>
+  <CAC_Tab_Inventory>Inventory</CAC_Tab_Inventory>
+  <CAC_Tab_Relationships>Relationships</CAC_Tab_Relationships>
+  <CAC_Tab_Animal>Animal</CAC_Tab_Animal>
+  <CAC_Tab_Ideoligion>Ideoligion</CAC_Tab_Ideoligion>
+  <CAC_Tab_Health>Health</CAC_Tab_Health>
+  <CAC_TabDesc_Personality>Backstories, traits, skills and passions.</CAC_TabDesc_Personality>
+  <CAC_TabDesc_Appearance>Gender, age, body, head, hair, beard, tattoos, skin, hair and eye colour.</CAC_TabDesc_Appearance>
+  <CAC_TabDesc_Genes>Xenotype and genes.</CAC_TabDesc_Genes>
+  <CAC_TabDesc_Clothing>What this colonist is wearing.</CAC_TabDesc_Clothing>
+  <CAC_TabDesc_Inventory>Weapon, carried items and the colony's starting supplies.</CAC_TabDesc_Inventory>
+  <CAC_TabDesc_Relationships>Family, partners and pet bonds within your group.</CAC_TabDesc_Relationships>
+  <CAC_TabDesc_Animal>Species, gender and age.</CAC_TabDesc_Animal>
+  <CAC_TabDesc_Ideoligion>What this colonist believes, and how strongly.</CAC_TabDesc_Ideoligion>
+  <CAC_TabDesc_Health>Old injuries, missing body parts, prosthetics, implants, conditions and addictions.</CAC_TabDesc_Health>
+
+  <!-- Personality -->
+  <CAC_Backstory>Backstory</CAC_Backstory>
+  <CAC_TooYoungForAdulthood>Colonists get an adult backstory at age {0}.</CAC_TooYoungForAdulthood>
+  <CAC_RandomBackstory>Random backstory</CAC_RandomBackstory>
+  <CAC_AddTrait>+ Add trait</CAC_AddTrait>
+  <CAC_AlreadyHasTrait>Already has this trait.</CAC_AlreadyHasTrait>
+  <CAC_ConflictsWith>Conflicts with {0}.</CAC_ConflictsWith>
+  <CAC_BackstoryForbids>Not allowed by the backstory "{0}".</CAC_BackstoryForbids>
+  <CAC_SkillsNote>Skill levels come from the backstories and traits you pick. Click a flame to raise the passion and right-click to lower it: none, interested, burning. Click a level to type your own number (0–20).</CAC_SkillsNote>
+  <CAC_PassionTip>Passion: {0}\nClick to raise, right-click to lower.</CAC_PassionTip>
+  <CAC_Passion_None>none</CAC_Passion_None>
+  <CAC_Passion_Minor>interested</CAC_Passion_Minor>
+  <CAC_Passion_Major>burning</CAC_Passion_Major>
+
+  <!-- Appearance -->
+  <CAC_Sub_Body>Body</CAC_Sub_Body>
+  <CAC_Sub_Hair>Hair</CAC_Sub_Hair>
+  <CAC_Sub_Beard>Beard</CAC_Sub_Beard>
+  <CAC_Sub_Tattoos>Tattoos</CAC_Sub_Tattoos>
+  <CAC_Sub_Colours>Colours</CAC_Sub_Colours>
+  <CAC_Gender>Gender</CAC_Gender>
+  <CAC_Age>Age</CAC_Age>
+  <CAC_AgeValue>Age {0} (born {1} years ago)</CAC_AgeValue>
+  <CAC_AgeChrono>Chronological age</CAC_AgeChrono>
+  <CAC_AgeTip>Biological age: how old their body is. Type a number or use the arrows, up to {0}.</CAC_AgeTip>
+  <CAC_AgeChronoTip>Chronological age: years since they were born, counting time in cryptosleep. Never less than their biological age.</CAC_AgeChronoTip>
+  <CAC_Undo>Undo (Ctrl+Z)</CAC_Undo>
+  <CAC_Redo>Redo (Ctrl+Y)</CAC_Redo>
+  <CAC_Coat>Coat</CAC_Coat>
+  <CAC_CoatNumber>Coat {0}</CAC_CoatNumber>
+  <CAC_LockTab>Lock this tab: what's here is kept when you press "{0}".</CAC_LockTab>
+  <CAC_UnlockTab>Locked: what's here is kept when you press "{0}". Click to unlock.</CAC_UnlockTab>
+  <CAC_ChildNote>Children can't do every job and grow up over time.</CAC_ChildNote>
+  <CAC_BodyType>Body type</CAC_BodyType>
+  <CAC_Body_Male>Masculine</CAC_Body_Male>
+  <CAC_Body_Female>Feminine</CAC_Body_Female>
+  <CAC_Body_Thin>Thin</CAC_Body_Thin>
+  <CAC_Body_Fat>Fat</CAC_Body_Fat>
+  <CAC_Body_Hulk>Hulk</CAC_Body_Hulk>
+  <CAC_Body_Child>Child</CAC_Body_Child>
+  <CAC_Body_Baby>Baby</CAC_Body_Baby>
+  <CAC_HeadType>Head</CAC_HeadType>
+  <CAC_HairColour>Hair colour</CAC_HairColour>
+  <CAC_Hairstyle>Hairstyle</CAC_Hairstyle>
+  <CAC_Beard>Beard</CAC_Beard>
+  <CAC_NoStyle>This colonist can't be styled.</CAC_NoStyle>
+  <CAC_FaceTattoo>Face tattoo</CAC_FaceTattoo>
+  <CAC_BodyTattoo>Body tattoo</CAC_BodyTattoo>
+  <CAC_SkinColour>Skin colour</CAC_SkinColour>
+  <CAC_NaturalSkin>Back to natural skin</CAC_NaturalSkin>
+  <CAC_EyeColour>Eye colour</CAC_EyeColour>
+  <CAC_EyeColourNote>Eye colours come from genes, including any your other mods add. Some modded eye genes do more than change colour, so point at one to see everything it does.</CAC_EyeColourNote>
+  <CAC_NaturalEyes>Natural eyes (no eye gene)</CAC_NaturalEyes>
+  <CAC_NaturalEyesShort>Natural</CAC_NaturalEyesShort>
+  <CAC_Brightness>Brightness</CAC_Brightness>
+
+  <!-- Genes -->
+  <CAC_Xenotype>Xenotype</CAC_Xenotype>
+  <CAC_CustomXenotypes>Your custom xenotypes</CAC_CustomXenotypes>
+  <CAC_OpenXenotypeEditor>Make a custom xenotype...</CAC_OpenXenotypeEditor>
+  <CAC_GenesList>Genes</CAC_GenesList>
+
+  <!-- Health -->
+  <CAC_HealthOverview>Overview</CAC_HealthOverview>
+  <CAC_Conditions>Conditions</CAC_Conditions>
+  <CAC_Healthy>{0} is in perfect health.</CAC_Healthy>
+  <CAC_AddToHealth>Add</CAC_AddToHealth>
+  <CAC_HealthNote>Everything here is in place when the colony starts. Prosthetics and implants are free, and nothing that would kill the colonist can be added.</CAC_HealthNote>
+  <CAC_AddImplant>Prosthetic or implant...</CAC_AddImplant>
+  <CAC_AddScar>Old injury...</CAC_AddScar>
+  <CAC_AddMissingPart>Missing body part...</CAC_AddMissingPart>
+  <CAC_AddCondition>Age-related condition...</CAC_AddCondition>
+  <CAC_AddAddiction>Addiction...</CAC_AddAddiction>
+  <CAC_HealAll>Remove all conditions</CAC_HealAll>
+  <CAC_RemoveCondition>Remove</CAC_RemoveCondition>
+  <CAC_PartEfficiency>Part efficiency: {0}</CAC_PartEfficiency>
+  <CAC_ScarDesc>A healed injury that left a permanent scar. Some scars still hurt now and then.</CAC_ScarDesc>
+  <CAC_MissingPartDesc>Starts the game without the {0}. A prosthetic can replace it later.</CAC_MissingPartDesc>
+  <CAC_WouldKill>This would kill {0}.</CAC_WouldKill>
+  <CAC_AlreadyHasThis>Already has this.</CAC_AlreadyHasThis>
+  <CAC_WontTakeDrugs>{0} won't take drugs, because of a trait or their ideoligion.</CAC_WontTakeDrugs>
+  <CAC_CouldNotAdd>Couldn't add {0}. The colonist may already have it everywhere it can go.</CAC_CouldNotAdd>
+  <CAC_NothingToAdd>There's nothing of this kind that can be added right now.</CAC_NothingToAdd>
+
+  <!-- Ideoligion -->
+  <CAC_ChangeIdeo>Change ideoligion...</CAC_ChangeIdeo>
+  <CAC_IdeoDetails>Full details...</CAC_IdeoDetails>
+  <CAC_IdeoOfColony>Your colony's main ideoligion</CAC_IdeoOfColony>
+  <CAC_IdeoOfFactions>Followed by {0}</CAC_IdeoOfFactions>
+  <CAC_IdeoFromSaved>One of your saved ideoligions</CAC_IdeoFromSaved>
+  <CAC_IdeoNoFaction>Not followed by any faction</CAC_IdeoNoFaction>
+  <CAC_CertaintyNote>How firmly {0} believes. The lower it is, the easier it is for others to convert them.</CAC_CertaintyNote>
+  <CAC_IdeoStory>Description</CAC_IdeoStory>
+  <CAC_ColonyIdeo>Colony ideoligion</CAC_ColonyIdeo>
+  <CAC_ColonyIdeoNote>When the game starts, the ideoligion most of your colonists follow becomes the colony's main one, just as it would during play. Colonists who believe in something else keep their own ideoligion.</CAC_ColonyIdeoNote>
+  <CAC_NoSavedIdeos>You don't have any saved ideoligions yet. You can save one from the ideoligion editor when you start a colony.</CAC_NoSavedIdeos>
+  <CAC_SavedIdeoFile>Saved as "{0}"</CAC_SavedIdeoFile>
+
+  <!-- Clothing -->
+  <CAC_Wearing>Wearing</CAC_Wearing>
+  <CAC_WearingNothing>Nothing.</CAC_WearingNothing>
+  <CAC_RemoveAll>Remove all</CAC_RemoveAll>
+  <CAC_AddClothing>Add clothing</CAC_AddClothing>
+  <CAC_Layer_All>All</CAC_Layer_All>
+  <CAC_Layer_Head>Head</CAC_Layer_Head>
+  <CAC_Layer_Outer>Outer</CAC_Layer_Outer>
+  <CAC_Layer_Middle>Middle</CAC_Layer_Middle>
+  <CAC_Layer_Skin>Skin</CAC_Layer_Skin>
+  <CAC_Layer_Belt>Belt</CAC_Layer_Belt>
+  <CAC_Layer_Other>Other</CAC_Layer_Other>
+
+  <!-- Inventory -->
+  <CAC_Carried>This colonist</CAC_Carried>
+  <CAC_ColonySupplies>Colony supplies</CAC_ColonySupplies>
+  <CAC_Weapon>Weapon</CAC_Weapon>
+  <CAC_Unarmed>Unarmed.</CAC_Unarmed>
+  <CAC_ChooseWeapon>Choose weapon...</CAC_ChooseWeapon>
+  <CAC_ChangeWeapon>Change weapon...</CAC_ChangeWeapon>
+  <CAC_CarriedItems>Inventory</CAC_CarriedItems>
+  <CAC_CarriedNote>What this colonist carries in their pockets and pack. The weight limit is the game's own, so body size, genes and mods that change carrying all count.</CAC_CarriedNote>
+  <CAC_CantCarry>{0} can't carry anything.</CAC_CantCarry>
+  <CAC_Weight>Carrying {0} of {1}</CAC_Weight>
+  <CAC_WeightTip>The game's own carry limit for this colonist. Worn clothes and weapon: {0}. Inventory: {1}.</CAC_WeightTip>
+  <CAC_NoRoom>{0} can't carry any more.</CAC_NoRoom>
+  <CAC_TooHeavyToAdd>Too heavy. {0} has {1} of room left.</CAC_TooHeavyToAdd>
+  <CAC_OverWeight>{0} is carrying {1} too much, maybe because of heavier clothes or a weapon. Remove something, or the extra will arrive next to them when the colony starts.</CAC_OverWeight>
+  <CAC_ArrivesNextTo>These don't fit in {0}'s inventory, so they'll arrive next to them when the colony starts:</CAC_ArrivesNextTo>
+  <CAC_AddItem>+ Add item</CAC_AddItem>
+  <CAC_SuppliesNote>Shared starting supplies from the "{0}" scenario. Change amounts, add or remove anything. Shift-click +/- for 10, Ctrl-click for 100.</CAC_SuppliesNote>
+  <CAC_ArrivesWithColonists>Arrives with the colonists</CAC_ArrivesWithColonists>
+  <CAC_ScatteredNearby>Scattered nearby</CAC_ScatteredNearby>
+  <CAC_AddSupply>+ Add supply</CAC_AddSupply>
+  <CAC_ResetSupplies>Reset to scenario defaults</CAC_ResetSupplies>
+  <CAC_ResetSuppliesConfirm>Put the colony supplies back to the scenario's original list?</CAC_ResetSuppliesConfirm>
+
+  <!-- Relationships -->
+  <CAC_RelationsNote>How {0} is related to the rest of your group. Pick a relationship from each dropdown.</CAC_RelationsNote>
+  <CAC_InYourColony>In your colony</CAC_InYourColony>
+  <CAC_NoOneElse>Add more colonists to give them relationships.</CAC_NoOneElse>
+  <CAC_IsMy>is {0}'s</CAC_IsMy>
+  <CAC_RelationNone>No relation</CAC_RelationNone>
+  <CAC_Pets>Pets</CAC_Pets>
+  <CAC_Bonded>Bonded</CAC_Bonded>
+  <CAC_FamilyOutside>Family outside the colony</CAC_FamilyOutside>
+  <CAC_FamilyOutsideNote>Relatives who aren't joining. They may turn up later in the game.</CAC_FamilyOutsideNote>
+  <CAC_BondNote>A bonded pet follows its master and is trained to obey. Pick who {0} is bonded to.</CAC_BondNote>
+  <CAC_BondedTo>Bonded to</CAC_BondedTo>
+  <CAC_NoBond>Nobody</CAC_NoBond>
+
+  <!-- Pets -->
+  <CAC_Species>Species</CAC_Species>
+  <CAC_PetsOnly>Pets only</CAC_PetsOnly>
+  <CAC_NotAPet>(wild animal)</CAC_NotAPet>
+
+  <!-- Gallery -->
+  <CAC_SaveToGallery>Save colonist to gallery</CAC_SaveToGallery>
+  <CAC_OpenGallery>Gallery: load a saved colonist or colony</CAC_OpenGallery>
+  <CAC_Gallery>Gallery</CAC_Gallery>
+  <CAC_GalleryEmpty>No saved colonists yet. Use the save button above a colonist to add one.</CAC_GalleryEmpty>
+  <CAC_OverwritePreset>A saved colonist called "{0}" already exists. Replace it?</CAC_OverwritePreset>
+  <CAC_Saved>Saved {0} to the gallery.</CAC_Saved>
+  <CAC_LoadInto>Load into {0}</CAC_LoadInto>
+  <CAC_AddAsNew>Add as new colonist</CAC_AddAsNew>
+  <CAC_GroupFull>Your group is full.</CAC_GroupFull>
+  <CAC_DeletePreset>Delete "{0}" from the gallery?</CAC_DeletePreset>
+  <CAC_SaveMenuTip>Save to gallery: this colonist or the whole colony</CAC_SaveMenuTip>
+  <CAC_SaveThisColonist>Save this colonist ({0})</CAC_SaveThisColonist>
+  <CAC_SaveWholeColony>Save the whole colony</CAC_SaveWholeColony>
+  <CAC_SaveColonyTitle>Save colony to gallery</CAC_SaveColonyTitle>
+  <CAC_OverwriteColony>A saved colony called "{0}" already exists. Replace it?</CAC_OverwriteColony>
+  <CAC_GalleryColonists>Colonists</CAC_GalleryColonists>
+  <CAC_GalleryColonies>Colonies</CAC_GalleryColonies>
+  <CAC_GalleryNoColonies>No saved colonies yet. Use the save button above a colonist and choose "Save the whole colony".</CAC_GalleryNoColonies>
+  <CAC_ColonySummary>Colonists: {0} · Pets: {1} · Supplies: {2}</CAC_ColonySummary>
+  <CAC_LoadColony>Load this colony</CAC_LoadColony>
+  <CAC_LoadColonyConfirm>Replace your current colonists, pets and colony supplies with "{0}"?</CAC_LoadColonyConfirm>
+  <CAC_ColonyLoaded>Loaded the colony "{0}".</CAC_ColonyLoaded>
+  <CAC_ColonyTooBig>That colony has {0} colonists, but this start allows {1}. Only the first {1} were loaded.</CAC_ColonyTooBig>
+  <CAC_Rename>Rename</CAC_Rename>
+  <CAC_Duplicate>Duplicate</CAC_Duplicate>
+  <CAC_RenameTitle>Rename "{0}"</CAC_RenameTitle>
+  <CAC_Renamed>Renamed to {0}.</CAC_Renamed>
+  <CAC_Duplicated>Saved a copy as "{0}".</CAC_Duplicated>
+  <CAC_CopyName>{0} (copy)</CAC_CopyName>
+
+  <!-- Skill editing, Facial Animation, mod filter, info cards, colour reset -->
+  <CAC_SkillLevelTip>Click the number to type a level (0–20). Enter keeps it, Escape cancels.</CAC_SkillLevelTip>
+  <CAC_ManualSkills>Hand-set skill levels</CAC_ManualSkills>
+  <CAC_ManualSkillsTip>On once you type a level in. Backstory, trait, age and xenotype changes then leave this colonist's skill levels as they are.</CAC_ManualSkillsTip>
+  <CAC_RecalculateSkills>Recalculate from backstories</CAC_RecalculateSkills>
+  <CAC_RecalculateSkillsTip>Work this colonist's skill levels out from their backstories and traits again, replacing the ones you typed.</CAC_RecalculateSkillsTip>
+  <CAC_FacialAnimation>Facial Animation</CAC_FacialAnimation>
+  <CAC_FaPart_Head>Head</CAC_FaPart_Head>
+  <CAC_FaPart_Eye>Eyes</CAC_FaPart_Eye>
+  <CAC_FaPart_Brow>Brows</CAC_FaPart_Brow>
+  <CAC_FaPart_Mouth>Mouth</CAC_FaPart_Mouth>
+  <CAC_FaPart_Lid>Lids</CAC_FaPart_Lid>
+  <CAC_FaPart_Skin>Skin</CAC_FaPart_Skin>
+  <CAC_FaNoStyles>Facial Animation has no styles of this kind for this colonist.</CAC_FaNoStyles>
+  <CAC_FaEyeColourNote>Iris colour is set on the Colours tab.</CAC_FaEyeColourNote>
+  <CAC_FaEyeColour>Iris colour (Facial Animation)</CAC_FaEyeColour>
+  <CAC_OddEyes>Odd eyes</CAC_OddEyes>
+  <CAC_FirstEye>First eye</CAC_FirstEye>
+  <CAC_SecondEye>Second eye</CAC_SecondEye>
+  <CAC_ModAll>All</CAC_ModAll>
+  <CAC_ModFilter>Mod: {0}</CAC_ModFilter>
+  <CAC_ResetColour>Reset</CAC_ResetColour>
+  <CAC_ClickForInfo>Click for details.</CAC_ClickForInfo>
+
+  <!-- Add from genetics -->
+  <CAC_AddFromGenetics>Add colonist from genetics...</CAC_AddFromGenetics>
+  <CAC_AddFromGeneticsFull>Add colonist from genetics (group is full)</CAC_AddFromGeneticsFull>
+  <CAC_GeneticsTitle>Add colonist from genetics</CAC_GeneticsTitle>
+  <CAC_GeneticsNote>Choose how the new colonist is related to your colonists. Their genes come from those relatives.</CAC_GeneticsNote>
+  <CAC_GeneticsTheirRelation>The new colonist is their</CAC_GeneticsTheirRelation>
+  <CAC_GeneticsPickRelative>Choose at least one relative.</CAC_GeneticsPickRelative>
+  <CAC_GeneticsSavedParent>Add a saved colonist as a parent...</CAC_GeneticsSavedParent>
+  <CAC_GeneticsAdd>Add to group</CAC_GeneticsAdd>
+  <CAC_GeneticsRoll>Roll again</CAC_GeneticsRoll>
+  <CAC_GeneticsAgeTip>Any age their relatives allow.</CAC_GeneticsAgeTip>
+  <CAC_GeneticsFailed>This colonist couldn't be made. The log has the details.</CAC_GeneticsFailed>
+  <CAC_Newborn>Newborn</CAC_Newborn>
+  <CAC_TooYoungToBeParent>{0} is too young to be a parent.</CAC_TooYoungToBeParent>
+  <CAC_TwoParentsMax>A colonist can only have two parents.</CAC_TwoParentsMax>
+  <CAC_SiblingOrParents>Siblings share their parents, so choose a sibling or parents, not both.</CAC_SiblingOrParents>
+  <CAC_NotSiblings>{0} and {1} aren't siblings.</CAC_NotSiblings>
+  <CAC_NoAgeFits>No age fits: a parent must be at least {0} years older than their child.</CAC_NoAgeFits>
+  <CAC_HasThatParent>{0} already has that parent in your group.</CAC_HasThatParent>
+  <CAC_NeedsGrownUp>A colony needs someone aged {0} or older.</CAC_NeedsGrownUp>
+  <CAC_BabyNote>Babies have no backstory or traits yet. They get them as they grow up.</CAC_BabyNote>
+
+  <!-- The game keeps these in Ideology, so they are missing without it -->
+  <CAC_ShowApparel>Show apparel</CAC_ShowApparel>
+  <CAC_ShowHeadgear>Show headgear</CAC_ShowHeadgear>
+  <CAC_Name>Name</CAC_Name>
+
+</LanguageData>

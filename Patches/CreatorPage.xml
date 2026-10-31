@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Every "starting people" scenario part opens the character page through its pageClass.
+       Point them at our page; it behaves exactly like vanilla unless Character Creation was chosen. -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ScenPartDef[pageClass="Page_ConfigureStartingPawns"]/pageClass</xpath>
+    <value>
+      <pageClass>CreateAColonist.Page_CreateAColonist</pageClass>
+    </value>
+  </Operation>
+</Patch>

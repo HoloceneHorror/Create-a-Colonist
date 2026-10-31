@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- New Colony popup -->
+  <CAC_ModeTitle>入植者をどのように作成しますか？</CAC_ModeTitle>
+  <CAC_ModeSubtitle>シナリオ、ストーリーテラー、ワールドはこの後いつも通り選べます。</CAC_ModeSubtitle>
+  <CAC_ModeNormal>通常のコロニー作成</CAC_ModeNormal>
+  <CAC_ModeNormalDesc>RimWorld 標準のキャラクター画面です。気に入るまで入植者をランダムに生成します。</CAC_ModeNormalDesc>
+  <CAC_ModeCreator>キャラクター作成</CAC_ModeCreator>
+  <CAC_ModeCreatorDesc>すべての入植者とペットを自分でデザインします。性格、外観、遺伝子、服装、装備、人間関係まで。</CAC_ModeCreatorDesc>
+
+  <!-- Page -->
+  <CAC_PageTitle>入植者を作成</CAC_PageTitle>
+  <CAC_GroupSummary>{0}  ·  入植者 {1}/{2} 人  ·  {3}</CAC_GroupSummary>
+  <CAC_PetCountOne>ペット 1 匹</CAC_PetCountOne>
+  <CAC_PetCount>ペット {0} 匹</CAC_PetCount>
+  <CAC_ColonistSubtitle>{0}、{1}</CAC_ColonistSubtitle>
+  <CAC_ColonistSubtitleXeno>{0}、{1}、{2}</CAC_ColonistSubtitleXeno>
+  <CAC_PetSubtitle>{0}、{1}</CAC_PetSubtitle>
+  <CAC_RandomName>ランダムな名前</CAC_RandomName>
+  <CAC_RotateLeft>左に回転</CAC_RotateLeft>
+  <CAC_RotateRight>右に回転</CAC_RotateRight>
+  <CAC_RandomColonist>入植者をランダム化</CAC_RandomColonist>
+  <CAC_RandomPet>ランダムなペット</CAC_RandomPet>
+  <CAC_Play>プレイ</CAC_Play>
+  <CAC_PlayTip>このメンバーでコロニーを始めます。</CAC_PlayTip>
+  <CAC_ConfirmBack>前のページに戻りますか？戻ると初期入植者が生成し直されるため、ここで作成した入植者は失われます（残したい入植者は先にギャラリーに保存してください）。</CAC_ConfirmBack>
+  <CAC_AddToGroup>入植者またはペットを追加</CAC_AddToGroup>
+  <CAC_AddColonist>入植者を追加</CAC_AddColonist>
+  <CAC_AddColonistFull>入植者を追加（上限の {0} 人に達しています）</CAC_AddColonistFull>
+  <CAC_AddPet>ペットを追加</CAC_AddPet>
+  <CAC_AddFromGallery>ギャラリーから入植者を追加...</CAC_AddFromGallery>
+  <CAC_AddFromGalleryFull>ギャラリーから入植者を追加（メンバーが満員です）</CAC_AddFromGalleryFull>
+  <CAC_ConfirmRemove>{0} を初期メンバーから外しますか？</CAC_ConfirmRemove>
+  <CAC_None>なし</CAC_None>
+  <CAC_Custom>カスタム...</CAC_Custom>
+  <CAC_NothingMatches>一致するものがありません。</CAC_NothingMatches>
+  <CAC_HoverForDetails>項目にカーソルを合わせると説明が表示されます。</CAC_HoverForDetails>
+  <CAC_HideWorkBlockers>仕事ができなくなるものを隠す</CAC_HideWorkBlockers>
+  <CAC_MustDo>できなければならない仕事...</CAC_MustDo>
+  <CAC_MustDoCount>できなければならない仕事（{0}）...</CAC_MustDoCount>
+  <CAC_MustDoTitle>できなければならない仕事</CAC_MustDoTitle>
+  <CAC_MustDoNote>これらの仕事をすべてできる生い立ちと特性だけを表示します。この設定は次回も保存されます。</CAC_MustDoNote>
+  <CAC_Violence>暴力</CAC_Violence>
+  <CAC_CantDo>不可：{0}</CAC_CantDo>
+  <CAC_ClearAll>すべて解除</CAC_ClearAll>
+
+  <!-- Tabs -->
+  <CAC_Tab_Personality>性格</CAC_Tab_Personality>
+  <CAC_Tab_Appearance>外観</CAC_Tab_Appearance>
+  <CAC_Tab_Genes>遺伝子</CAC_Tab_Genes>
+  <CAC_Tab_Clothing>服装</CAC_Tab_Clothing>
+  <CAC_Tab_Inventory>所持品</CAC_Tab_Inventory>
+  <CAC_Tab_Relationships>人間関係</CAC_Tab_Relationships>
+  <CAC_Tab_Animal>動物</CAC_Tab_Animal>
+  <CAC_Tab_Ideoligion>思想</CAC_Tab_Ideoligion>
+  <CAC_Tab_Health>健康</CAC_Tab_Health>
+  <CAC_TabDesc_Personality>生い立ち、才能・性格、スキル、情熱。</CAC_TabDesc_Personality>
+  <CAC_TabDesc_Appearance>性別、年齢、体型、頭、髪型、ひげ、タトゥー、肌の色、髪の色、目の色。</CAC_TabDesc_Appearance>
+  <CAC_TabDesc_Genes>ゼノタイプと遺伝子。</CAC_TabDesc_Genes>
+  <CAC_TabDesc_Clothing>この入植者が着ている服。</CAC_TabDesc_Clothing>
+  <CAC_TabDesc_Inventory>武器、持ち物、コロニーの初期物資。</CAC_TabDesc_Inventory>
+  <CAC_TabDesc_Relationships>メンバー内の家族、パートナー、ペットとの絆。</CAC_TabDesc_Relationships>
+  <CAC_TabDesc_Animal>種、性別、年齢。</CAC_TabDesc_Animal>
+  <CAC_TabDesc_Ideoligion>この入植者が何を信じ、どれほど強く信じているか。</CAC_TabDesc_Ideoligion>
+  <CAC_TabDesc_Health>古傷、失った身体部位、義肢、インプラント、持病、依存症。</CAC_TabDesc_Health>
+
+  <!-- Personality -->
+  <CAC_Backstory>生い立ち</CAC_Backstory>
+  <CAC_TooYoungForAdulthood>成年期の生い立ちは {0} 歳から付きます。</CAC_TooYoungForAdulthood>
+  <CAC_RandomBackstory>ランダムな生い立ち</CAC_RandomBackstory>
+  <CAC_AddTrait>+ 特性を追加</CAC_AddTrait>
+  <CAC_AlreadyHasTrait>すでにこの特性を持っています。</CAC_AlreadyHasTrait>
+  <CAC_ConflictsWith>{0}と両立しません。</CAC_ConflictsWith>
+  <CAC_BackstoryForbids>生い立ち「{0}」では選べません。</CAC_BackstoryForbids>
+  <CAC_SkillsNote>スキルレベルは選んだ生い立ちと特性で決まります。炎のアイコンを左クリックで情熱を上げ、右クリックで下げます：なし、興味あり、熱中。 レベルをクリックすると数値（0–20）を直接入力できます。</CAC_SkillsNote>
+  <CAC_PassionTip>情熱：{0}\n左クリックで上げる、右クリックで下げる。</CAC_PassionTip>
+  <CAC_Passion_None>なし</CAC_Passion_None>
+  <CAC_Passion_Minor>興味あり</CAC_Passion_Minor>
+  <CAC_Passion_Major>熱中</CAC_Passion_Major>
+
+  <!-- Appearance -->
+  <CAC_Sub_Body>体</CAC_Sub_Body>
+  <CAC_Sub_Hair>髪</CAC_Sub_Hair>
+  <CAC_Sub_Beard>ひげ</CAC_Sub_Beard>
+  <CAC_Sub_Tattoos>タトゥー</CAC_Sub_Tattoos>
+  <CAC_Sub_Colours>色</CAC_Sub_Colours>
+  <CAC_Gender>性別</CAC_Gender>
+  <CAC_Age>年齢</CAC_Age>
+  <CAC_AgeValue>{0} 歳（{1} 年前に誕生）</CAC_AgeValue>
+  <CAC_AgeChrono>暦上での年齢</CAC_AgeChrono>
+  <CAC_AgeTip>生物学的年齢：体の年齢です。数字を入力するか矢印で変更できます（最大{0}歳）。</CAC_AgeTip>
+  <CAC_AgeChronoTip>暦上での年齢：生まれてからの年数で、冬眠カプセルで過ごした期間も含みます。生物学的年齢より若くはできません。</CAC_AgeChronoTip>
+  <CAC_Undo>元に戻す (Ctrl+Z)</CAC_Undo>
+  <CAC_Redo>やり直す (Ctrl+Y)</CAC_Redo>
+  <CAC_Coat>毛色</CAC_Coat>
+  <CAC_CoatNumber>毛色 {0}</CAC_CoatNumber>
+  <CAC_LockTab>このタブをロック：「{0}」を押しても、ここの内容は保持されます。</CAC_LockTab>
+  <CAC_UnlockTab>ロック中：「{0}」を押しても、ここの内容は保持されます。クリックで解除。</CAC_UnlockTab>
+  <CAC_ChildNote>子供はすべての仕事ができるわけではなく、時間とともに成長します。</CAC_ChildNote>
+  <CAC_BodyType>体型</CAC_BodyType>
+  <CAC_Body_Male>男性的</CAC_Body_Male>
+  <CAC_Body_Female>女性的</CAC_Body_Female>
+  <CAC_Body_Thin>細身</CAC_Body_Thin>
+  <CAC_Body_Fat>太め</CAC_Body_Fat>
+  <CAC_Body_Hulk>大柄</CAC_Body_Hulk>
+  <CAC_Body_Child>子供</CAC_Body_Child>
+  <CAC_Body_Baby>赤ちゃん</CAC_Body_Baby>
+  <CAC_HeadType>頭</CAC_HeadType>
+  <CAC_HairColour>髪の色</CAC_HairColour>
+  <CAC_Hairstyle>髪型</CAC_Hairstyle>
+  <CAC_Beard>ひげ</CAC_Beard>
+  <CAC_NoStyle>この入植者は見た目を変更できません。</CAC_NoStyle>
+  <CAC_FaceTattoo>顔のタトゥー</CAC_FaceTattoo>
+  <CAC_BodyTattoo>体のタトゥー</CAC_BodyTattoo>
+  <CAC_SkinColour>肌の色</CAC_SkinColour>
+  <CAC_NaturalSkin>元の肌の色に戻す</CAC_NaturalSkin>
+  <CAC_EyeColour>目の色</CAC_EyeColour>
+  <CAC_EyeColourNote>目の色は遺伝子で決まり、他の MOD が追加した遺伝子も含まれます。MOD の目の色の遺伝子には色を変える以外の効果を持つものもあるので、カーソルを合わせてすべての効果を確認してください。</CAC_EyeColourNote>
+  <CAC_NaturalEyes>生まれつきの目（目の色の遺伝子なし）</CAC_NaturalEyes>
+  <CAC_NaturalEyesShort>生まれつき</CAC_NaturalEyesShort>
+  <CAC_Brightness>明るさ</CAC_Brightness>
+
+  <!-- Genes -->
+  <CAC_Xenotype>ゼノタイプ</CAC_Xenotype>
+  <CAC_CustomXenotypes>カスタムゼノタイプ</CAC_CustomXenotypes>
+  <CAC_OpenXenotypeEditor>カスタムゼノタイプを作成...</CAC_OpenXenotypeEditor>
+  <CAC_GenesList>遺伝子</CAC_GenesList>
+
+  <!-- Health -->
+  <CAC_HealthOverview>概要</CAC_HealthOverview>
+  <CAC_Conditions>状態</CAC_Conditions>
+  <CAC_Healthy>{0} は完全に健康です。</CAC_Healthy>
+  <CAC_AddToHealth>追加</CAC_AddToHealth>
+  <CAC_HealthNote>ここにあるものはすべてコロニー開始時から存在します。義肢とインプラントは無料で、入植者が死んでしまうものは追加できません。</CAC_HealthNote>
+  <CAC_AddImplant>義肢・インプラント...</CAC_AddImplant>
+  <CAC_AddScar>古傷...</CAC_AddScar>
+  <CAC_AddMissingPart>失った身体部位...</CAC_AddMissingPart>
+  <CAC_AddCondition>加齢による持病...</CAC_AddCondition>
+  <CAC_AddAddiction>依存症...</CAC_AddAddiction>
+  <CAC_HealAll>すべての状態を取り除く</CAC_HealAll>
+  <CAC_RemoveCondition>取り除く</CAC_RemoveCondition>
+  <CAC_PartEfficiency>部位効率：{0}</CAC_PartEfficiency>
+  <CAC_ScarDesc>治ったものの、消えない傷跡が残った古傷です。傷跡によっては今でも時々痛みます。</CAC_ScarDesc>
+  <CAC_MissingPartDesc>{0}がない状態でゲームを始めます。後で義肢に置き換えられます。</CAC_MissingPartDesc>
+  <CAC_WouldKill>{0} が死んでしまいます。</CAC_WouldKill>
+  <CAC_AlreadyHasThis>すでに持っています。</CAC_AlreadyHasThis>
+  <CAC_WontTakeDrugs>特性または思想のため、{0} は薬物を摂取しません。</CAC_WontTakeDrugs>
+  <CAC_CouldNotAdd>{0}を追加できませんでした。この入植者は追加できる部位すべてにすでに持っているのかもしれません。</CAC_CouldNotAdd>
+  <CAC_NothingToAdd>今この種類で追加できるものはありません。</CAC_NothingToAdd>
+
+  <!-- Ideoligion -->
+  <CAC_ChangeIdeo>思想を変更...</CAC_ChangeIdeo>
+  <CAC_IdeoDetails>詳細をすべて表示...</CAC_IdeoDetails>
+  <CAC_IdeoOfColony>あなたのコロニーの主要な思想</CAC_IdeoOfColony>
+  <CAC_IdeoOfFactions>信仰している勢力：{0}</CAC_IdeoOfFactions>
+  <CAC_IdeoFromSaved>保存したあなたの思想</CAC_IdeoFromSaved>
+  <CAC_IdeoNoFaction>信仰している勢力はありません</CAC_IdeoNoFaction>
+  <CAC_CertaintyNote>{0} がどれほど強く信じているか。信仰度が低いほど、他者に改宗させられやすくなります。</CAC_CertaintyNote>
+  <CAC_IdeoStory>説明</CAC_IdeoStory>
+  <CAC_ColonyIdeo>コロニーの思想</CAC_ColonyIdeo>
+  <CAC_ColonyIdeoNote>ゲーム開始時、最も多くの入植者が信仰している思想がコロニーの主要な思想になります。これはプレイ中と同じルールです。別の思想を信じる入植者は自分の思想を持ち続けます。</CAC_ColonyIdeoNote>
+  <CAC_NoSavedIdeos>保存した思想はまだありません。コロニーを始めるときに思想エディターから保存できます。</CAC_NoSavedIdeos>
+  <CAC_SavedIdeoFile>「{0}」として保存</CAC_SavedIdeoFile>
+
+  <!-- Clothing -->
+  <CAC_Wearing>着用中</CAC_Wearing>
+  <CAC_WearingNothing>何も着ていません。</CAC_WearingNothing>
+  <CAC_RemoveAll>すべて脱ぐ</CAC_RemoveAll>
+  <CAC_AddClothing>服を追加</CAC_AddClothing>
+  <CAC_Layer_All>すべて</CAC_Layer_All>
+  <CAC_Layer_Head>頭</CAC_Layer_Head>
+  <CAC_Layer_Outer>アウター</CAC_Layer_Outer>
+  <CAC_Layer_Middle>中間</CAC_Layer_Middle>
+  <CAC_Layer_Skin>肌着</CAC_Layer_Skin>
+  <CAC_Layer_Belt>ベルト</CAC_Layer_Belt>
+  <CAC_Layer_Other>その他</CAC_Layer_Other>
+
+  <!-- Inventory -->
+  <CAC_Carried>この入植者</CAC_Carried>
+  <CAC_ColonySupplies>コロニーの物資</CAC_ColonySupplies>
+  <CAC_Weapon>武器</CAC_Weapon>
+  <CAC_Unarmed>武器なし。</CAC_Unarmed>
+  <CAC_ChooseWeapon>武器を選ぶ...</CAC_ChooseWeapon>
+  <CAC_ChangeWeapon>武器を変更...</CAC_ChangeWeapon>
+  <CAC_CarriedItems>持ち物</CAC_CarriedItems>
+  <CAC_CarriedNote>この入植者がポケットや荷物に入れて運ぶ物。運べる量はゲーム本来の上限で決まり、体の大きさ、遺伝子、運搬量を変える MOD もすべて反映されます。</CAC_CarriedNote>
+  <CAC_CantCarry>{0} は何も運べません。</CAC_CantCarry>
+  <CAC_Weight>重量 {0} / {1}</CAC_Weight>
+  <CAC_WeightTip>ゲームがこの入植者に定めている運搬上限です。着ている服と武器：{0}。持ち物：{1}。</CAC_WeightTip>
+  <CAC_NoRoom>{0} はこれ以上運べません。</CAC_NoRoom>
+  <CAC_TooHeavyToAdd>重すぎます。{0} の空きは {1} です。</CAC_TooHeavyToAdd>
+  <CAC_OverWeight>{0} は {1} 重量オーバーです。重い服や武器のせいかもしれません。何かを外してください。外さない場合、超えた分はコロニー開始時にそばに届きます。</CAC_OverWeight>
+  <CAC_ArrivesNextTo>次の物は {0} の持ち物に入りきらないため、コロニー開始時にそばに届きます：</CAC_ArrivesNextTo>
+  <CAC_AddItem>+ アイテムを追加</CAC_AddItem>
+  <CAC_SuppliesNote>シナリオ「{0}」の共有初期物資です。数量の変更、追加、削除が自由にできます。Shift を押しながら +/- をクリックで 10、Ctrl で 100 ずつ変わります。</CAC_SuppliesNote>
+  <CAC_ArrivesWithColonists>入植者と一緒に到着</CAC_ArrivesWithColonists>
+  <CAC_ScatteredNearby>近くに散らばっている</CAC_ScatteredNearby>
+  <CAC_AddSupply>+ 物資を追加</CAC_AddSupply>
+  <CAC_ResetSupplies>シナリオの初期設定に戻す</CAC_ResetSupplies>
+  <CAC_ResetSuppliesConfirm>コロニーの物資をシナリオ本来のリストに戻しますか？</CAC_ResetSuppliesConfirm>
+
+  <!-- Relationships -->
+  <CAC_RelationsNote>{0} とメンバー内の他の人との関係です。それぞれのドロップダウンから関係を選んでください。</CAC_RelationsNote>
+  <CAC_InYourColony>コロニーのメンバー</CAC_InYourColony>
+  <CAC_NoOneElse>入植者を追加すると関係を設定できます。</CAC_NoOneElse>
+  <CAC_IsMy>は {0} の</CAC_IsMy>
+  <CAC_RelationNone>関係なし</CAC_RelationNone>
+  <CAC_Pets>ペット</CAC_Pets>
+  <CAC_Bonded>絆</CAC_Bonded>
+  <CAC_FamilyOutside>コロニー外の家族</CAC_FamilyOutside>
+  <CAC_FamilyOutsideNote>一緒に来なかった親族です。ゲーム中に現れることがあります。</CAC_FamilyOutsideNote>
+  <CAC_BondNote>絆を結んだペットは主人について回り、服従の訓練も済んでいます。{0} が誰と絆を結ぶか選んでください。</CAC_BondNote>
+  <CAC_BondedTo>絆の相手</CAC_BondedTo>
+  <CAC_NoBond>なし</CAC_NoBond>
+
+  <!-- Pets -->
+  <CAC_Species>種</CAC_Species>
+  <CAC_PetsOnly>ペットのみ</CAC_PetsOnly>
+  <CAC_NotAPet>（野生動物）</CAC_NotAPet>
+
+  <!-- Gallery -->
+  <CAC_SaveToGallery>入植者をギャラリーに保存</CAC_SaveToGallery>
+  <CAC_OpenGallery>ギャラリー：保存した入植者やコロニーを読み込む</CAC_OpenGallery>
+  <CAC_Gallery>ギャラリー</CAC_Gallery>
+  <CAC_GalleryEmpty>保存した入植者はまだいません。入植者の上にある保存ボタンで追加できます。</CAC_GalleryEmpty>
+  <CAC_OverwritePreset>「{0}」という入植者はすでに保存されています。置き換えますか？</CAC_OverwritePreset>
+  <CAC_Saved>{0} をギャラリーに保存しました。</CAC_Saved>
+  <CAC_LoadInto>{0} に読み込む</CAC_LoadInto>
+  <CAC_AddAsNew>新しい入植者として追加</CAC_AddAsNew>
+  <CAC_GroupFull>メンバーが満員です。</CAC_GroupFull>
+  <CAC_DeletePreset>「{0}」をギャラリーから削除しますか？</CAC_DeletePreset>
+  <CAC_SaveMenuTip>ギャラリーに保存：この入植者、またはコロニー全体</CAC_SaveMenuTip>
+  <CAC_SaveThisColonist>この入植者を保存（{0}）</CAC_SaveThisColonist>
+  <CAC_SaveWholeColony>コロニー全体を保存</CAC_SaveWholeColony>
+  <CAC_SaveColonyTitle>コロニーをギャラリーに保存</CAC_SaveColonyTitle>
+  <CAC_OverwriteColony>「{0}」というコロニーはすでに保存されています。置き換えますか？</CAC_OverwriteColony>
+  <CAC_GalleryColonists>入植者</CAC_GalleryColonists>
+  <CAC_GalleryColonies>コロニー</CAC_GalleryColonies>
+  <CAC_GalleryNoColonies>保存したコロニーはまだありません。入植者の上にある保存ボタンを押して「コロニー全体を保存」を選んでください。</CAC_GalleryNoColonies>
+  <CAC_ColonySummary>入植者：{0}・ペット：{1}・物資：{2}</CAC_ColonySummary>
+  <CAC_LoadColony>このコロニーを読み込む</CAC_LoadColony>
+  <CAC_LoadColonyConfirm>今の入植者、ペット、コロニーの物資を「{0}」に置き換えますか？</CAC_LoadColonyConfirm>
+  <CAC_ColonyLoaded>コロニー「{0}」を読み込みました。</CAC_ColonyLoaded>
+  <CAC_ColonyTooBig>このコロニーには入植者が {0} 人いますが、このスタートでは {1} 人までです。最初の {1} 人だけを読み込みました。</CAC_ColonyTooBig>
+  <CAC_Rename>名前を変更</CAC_Rename>
+  <CAC_Duplicate>複製</CAC_Duplicate>
+  <CAC_RenameTitle>「{0}」の名前を変更</CAC_RenameTitle>
+  <CAC_Renamed>名前を {0} に変更しました。</CAC_Renamed>
+  <CAC_Duplicated>コピーを「{0}」として保存しました。</CAC_Duplicated>
+  <CAC_CopyName>{0}（コピー）</CAC_CopyName>
+
+  <!-- Skill editing, Facial Animation, mod filter, info cards, colour reset -->
+  <CAC_SkillLevelTip>数字をクリックしてレベルを入力（0–20）。Enterで確定、Escで取消。</CAC_SkillLevelTip>
+  <CAC_ManualSkills>スキルレベルを手動設定</CAC_ManualSkills>
+  <CAC_ManualSkillsTip>レベルを入力すると自動でオンになります。以後、生い立ち・特性・年齢・ゼノタイプを変えてもこの入植者のスキルレベルは変わりません。</CAC_ManualSkillsTip>
+  <CAC_RecalculateSkills>生い立ちから再計算</CAC_RecalculateSkills>
+  <CAC_RecalculateSkillsTip>生い立ちと特性からこの入植者のスキルレベルを再計算し、入力した値を置き換えます。</CAC_RecalculateSkillsTip>
+  <CAC_FacialAnimation>Facial Animation</CAC_FacialAnimation>
+  <CAC_FaPart_Head>頭</CAC_FaPart_Head>
+  <CAC_FaPart_Eye>目</CAC_FaPart_Eye>
+  <CAC_FaPart_Brow>眉</CAC_FaPart_Brow>
+  <CAC_FaPart_Mouth>口</CAC_FaPart_Mouth>
+  <CAC_FaPart_Lid>まぶた</CAC_FaPart_Lid>
+  <CAC_FaPart_Skin>肌</CAC_FaPart_Skin>
+  <CAC_FaNoStyles>この入植者に使えるこの種類のFacial Animationスタイルはありません。</CAC_FaNoStyles>
+  <CAC_FaEyeColourNote>虹彩の色は「色」タブで設定します。</CAC_FaEyeColourNote>
+  <CAC_FaEyeColour>虹彩の色（Facial Animation）</CAC_FaEyeColour>
+  <CAC_OddEyes>オッドアイ</CAC_OddEyes>
+  <CAC_FirstEye>1つ目の目</CAC_FirstEye>
+  <CAC_SecondEye>2つ目の目</CAC_SecondEye>
+  <CAC_ModAll>すべて</CAC_ModAll>
+  <CAC_ModFilter>Mod: {0}</CAC_ModFilter>
+  <CAC_ResetColour>リセット</CAC_ResetColour>
+  <CAC_ClickForInfo>クリックで詳細。</CAC_ClickForInfo>
+
+  <!-- Add from genetics -->
+  <CAC_AddFromGenetics>遺伝情報から入植者を追加...</CAC_AddFromGenetics>
+  <CAC_AddFromGeneticsFull>遺伝情報から入植者を追加（メンバーが満員です）</CAC_AddFromGeneticsFull>
+  <CAC_GeneticsTitle>遺伝情報から入植者を追加</CAC_GeneticsTitle>
+  <CAC_GeneticsNote>新しい入植者と既存の入植者の関係を選びます。遺伝子はその親族から受け継ぎます。</CAC_GeneticsNote>
+  <CAC_GeneticsTheirRelation>新しい入植者との関係</CAC_GeneticsTheirRelation>
+  <CAC_GeneticsPickRelative>親族を1人以上選んでください。</CAC_GeneticsPickRelative>
+  <CAC_GeneticsSavedParent>保存した入植者を親として追加...</CAC_GeneticsSavedParent>
+  <CAC_GeneticsAdd>メンバーに追加</CAC_GeneticsAdd>
+  <CAC_GeneticsRoll>振り直す</CAC_GeneticsRoll>
+  <CAC_GeneticsAgeTip>親族の条件に合う年齢を指定できます。</CAC_GeneticsAgeTip>
+  <CAC_GeneticsFailed>この入植者を作成できませんでした。詳細はログを確認してください。</CAC_GeneticsFailed>
+  <CAC_Newborn>新生児</CAC_Newborn>
+  <CAC_TooYoungToBeParent>{0} は親になるには若すぎます。</CAC_TooYoungToBeParent>
+  <CAC_TwoParentsMax>親は2人までです。</CAC_TwoParentsMax>
+  <CAC_SiblingOrParents>きょうだいは親が同じです。きょうだいか親のどちらかを選んでください。</CAC_SiblingOrParents>
+  <CAC_NotSiblings>{0} と {1} はきょうだいではありません。</CAC_NotSiblings>
+  <CAC_NoAgeFits>合う年齢がありません。親は子より {0} 歳以上年上である必要があります。</CAC_NoAgeFits>
+  <CAC_HasThatParent>{0} にはメンバー内にその親がすでにいます。</CAC_HasThatParent>
+  <CAC_NeedsGrownUp>コロニーには {0} 歳以上の人が必要です。</CAC_NeedsGrownUp>
+  <CAC_BabyNote>赤ん坊にはまだ生い立ちも特性もありません。成長とともに身につけます。</CAC_BabyNote>
+
+  <!-- The game keeps these in Ideology, so they are missing without it -->
+  <CAC_ShowApparel>衣服を表示</CAC_ShowApparel>
+  <CAC_ShowHeadgear>頭装備を表示</CAC_ShowHeadgear>
+  <CAC_Name>名前</CAC_Name>
+
+</LanguageData>

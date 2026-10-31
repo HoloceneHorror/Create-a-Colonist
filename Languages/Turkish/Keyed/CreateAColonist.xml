@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- New Colony popup -->
+  <CAC_ModeTitle>Kolonicilerini nasıl oluşturmak istersin?</CAC_ModeTitle>
+  <CAC_ModeSubtitle>Senaryoyu, hikâye anlatıcısını ve dünyayı ardından her zamanki gibi seçebilirsin.</CAC_ModeSubtitle>
+  <CAC_ModeNormal>Normal koloni kurulumu</CAC_ModeNormal>
+  <CAC_ModeNormalDesc>RimWorld'ün standart karakter ekranı: beğenene kadar rastgele koloniciler oluştur.</CAC_ModeNormalDesc>
+  <CAC_ModeCreator>Karakter oluşturma</CAC_ModeCreator>
+  <CAC_ModeCreatorDesc>Her koloniciyi ve evcil hayvanı kendin tasarla: kişilik, görünüm, genler, kıyafet, teçhizat ve ilişkiler.</CAC_ModeCreatorDesc>
+
+  <!-- Page -->
+  <CAC_PageTitle>Kolonici oluştur</CAC_PageTitle>
+  <CAC_GroupSummary>{0}  ·  kolonici: {1}/{2}  ·  {3}</CAC_GroupSummary>
+  <CAC_PetCountOne>evcil hayvan: 1</CAC_PetCountOne>
+  <CAC_PetCount>evcil hayvan: {0}</CAC_PetCount>
+  <CAC_ColonistSubtitle>{0}, {1}</CAC_ColonistSubtitle>
+  <CAC_ColonistSubtitleXeno>{0}, {1}, {2}</CAC_ColonistSubtitleXeno>
+  <CAC_PetSubtitle>{0}, {1}</CAC_PetSubtitle>
+  <CAC_RandomName>Rastgele isim</CAC_RandomName>
+  <CAC_RotateLeft>Sola döndür</CAC_RotateLeft>
+  <CAC_RotateRight>Sağa döndür</CAC_RotateRight>
+  <CAC_RandomColonist>Rastgele kolonici</CAC_RandomColonist>
+  <CAC_RandomPet>Rastgele evcil hayvan</CAC_RandomPet>
+  <CAC_Play>Oyna</CAC_Play>
+  <CAC_PlayTip>Koloniyi bu grupla başlat.</CAC_PlayTip>
+  <CAC_ConfirmBack>Önceki sayfaya dönülsün mü? Geri dönersen oyun başlangıç kolonicilerini yeniden oluşturur ve burada yaptığın koloniciler kaybolur (saklamak istediklerini önce galeriye kaydet).</CAC_ConfirmBack>
+  <CAC_AddToGroup>Kolonici ya da evcil hayvan ekle</CAC_AddToGroup>
+  <CAC_AddColonist>Kolonici ekle</CAC_AddColonist>
+  <CAC_AddColonistFull>Kolonici ekle (sınıra ulaşıldı: {0})</CAC_AddColonistFull>
+  <CAC_AddPet>Evcil hayvan ekle</CAC_AddPet>
+  <CAC_AddFromGallery>Galeriden kolonici ekle...</CAC_AddFromGallery>
+  <CAC_AddFromGalleryFull>Galeriden kolonici ekle (grup dolu)</CAC_AddFromGalleryFull>
+  <CAC_ConfirmRemove>Başlangıç grubundan çıkarılsın mı: {0}?</CAC_ConfirmRemove>
+  <CAC_None>Yok</CAC_None>
+  <CAC_Custom>Özel...</CAC_Custom>
+  <CAC_NothingMatches>Eşleşen bir şey yok.</CAC_NothingMatches>
+  <CAC_HoverForDetails>Ne işe yaradığını görmek için bir seçeneğin üzerine gel.</CAC_HoverForDetails>
+  <CAC_HideWorkBlockers>İşi engelleyenleri gizle</CAC_HideWorkBlockers>
+  <CAC_MustDo>Yapabilmesi gerekenler...</CAC_MustDo>
+  <CAC_MustDoCount>Yapabilmesi gerekenler ({0})...</CAC_MustDoCount>
+  <CAC_MustDoTitle>Yapabilmesi gerekenler</CAC_MustDoTitle>
+  <CAC_MustDoNote>Yalnızca bu işlerin hepsine izin veren geçmişleri ve özellikleri göster. Seçimin hatırlanır.</CAC_MustDoNote>
+  <CAC_Violence>Şiddet</CAC_Violence>
+  <CAC_CantDo>Yapamaz: {0}</CAC_CantDo>
+  <CAC_ClearAll>Hepsini temizle</CAC_ClearAll>
+
+  <!-- Tabs -->
+  <CAC_Tab_Personality>Kişilik</CAC_Tab_Personality>
+  <CAC_Tab_Appearance>Görünüm</CAC_Tab_Appearance>
+  <CAC_Tab_Genes>Genler</CAC_Tab_Genes>
+  <CAC_Tab_Clothing>Kıyafet</CAC_Tab_Clothing>
+  <CAC_Tab_Inventory>Envanter</CAC_Tab_Inventory>
+  <CAC_Tab_Relationships>İlişkiler</CAC_Tab_Relationships>
+  <CAC_Tab_Animal>Hayvan</CAC_Tab_Animal>
+  <CAC_Tab_Ideoligion>İdeodin</CAC_Tab_Ideoligion>
+  <CAC_Tab_Health>Sağlık</CAC_Tab_Health>
+  <CAC_TabDesc_Personality>Geçmiş, kişisel özellikler, beceriler ve şevk.</CAC_TabDesc_Personality>
+  <CAC_TabDesc_Appearance>Cinsiyet, yaş, vücut tipi, kafa, saç modeli, sakal, dövmeler, ten, saç ve göz rengi.</CAC_TabDesc_Appearance>
+  <CAC_TabDesc_Genes>Zenotip ve genler.</CAC_TabDesc_Genes>
+  <CAC_TabDesc_Clothing>Bu kolonicinin üzerindekiler.</CAC_TabDesc_Clothing>
+  <CAC_TabDesc_Inventory>Silah, taşınan eşyalar ve koloninin başlangıç malzemeleri.</CAC_TabDesc_Inventory>
+  <CAC_TabDesc_Relationships>Grup içindeki aile, partnerler ve evcil hayvan bağları.</CAC_TabDesc_Relationships>
+  <CAC_TabDesc_Animal>Tür, cinsiyet ve yaş.</CAC_TabDesc_Animal>
+  <CAC_TabDesc_Ideoligion>Bu kolonicinin neye ve ne kadar güçlü inandığı.</CAC_TabDesc_Ideoligion>
+  <CAC_TabDesc_Health>Eski yaralar, eksik vücut parçaları, protezler, implantlar, rahatsızlıklar ve bağımlılıklar.</CAC_TabDesc_Health>
+
+  <!-- Personality -->
+  <CAC_Backstory>Geçmiş</CAC_Backstory>
+  <CAC_TooYoungForAdulthood>Koloniciler yetişkinlik geçmişini {0} yaşında alır.</CAC_TooYoungForAdulthood>
+  <CAC_RandomBackstory>Rastgele geçmiş</CAC_RandomBackstory>
+  <CAC_AddTrait>+ Özellik ekle</CAC_AddTrait>
+  <CAC_AlreadyHasTrait>Bu özellik zaten var.</CAC_AlreadyHasTrait>
+  <CAC_ConflictsWith>Şununla çakışıyor: {0}.</CAC_ConflictsWith>
+  <CAC_BackstoryForbids>"{0}" geçmişi buna izin vermiyor.</CAC_BackstoryForbids>
+  <CAC_SkillsNote>Beceri seviyeleri seçtiğin geçmişlerden ve özelliklerden gelir. Şevki artırmak için aleve tıkla, azaltmak için sağ tıkla: yok, ilgili, tutkulu. Kendi değerini (0–20) yazmak için bir seviyeye tıkla.</CAC_SkillsNote>
+  <CAC_PassionTip>Şevk: {0}\nTıkla artır, sağ tıkla azalt.</CAC_PassionTip>
+  <CAC_Passion_None>yok</CAC_Passion_None>
+  <CAC_Passion_Minor>ilgili</CAC_Passion_Minor>
+  <CAC_Passion_Major>tutkulu</CAC_Passion_Major>
+
+  <!-- Appearance -->
+  <CAC_Sub_Body>Vücut</CAC_Sub_Body>
+  <CAC_Sub_Hair>Saç</CAC_Sub_Hair>
+  <CAC_Sub_Beard>Sakal</CAC_Sub_Beard>
+  <CAC_Sub_Tattoos>Dövmeler</CAC_Sub_Tattoos>
+  <CAC_Sub_Colours>Renkler</CAC_Sub_Colours>
+  <CAC_Gender>Cinsiyet</CAC_Gender>
+  <CAC_Age>Yaş</CAC_Age>
+  <CAC_AgeValue>Yaş {0} (kronolojik yaş: {1})</CAC_AgeValue>
+  <CAC_AgeChrono>Kronolojik yaş</CAC_AgeChrono>
+  <CAC_AgeTip>Biyolojik yaş: bedenin yaşı. Bir sayı yazın ya da okları kullanın, en fazla {0}.</CAC_AgeTip>
+  <CAC_AgeChronoTip>Kronolojik yaş: doğumdan bu yana geçen yıllar, kripto-uykuda geçen süre dahil. Biyolojik yaştan az olamaz.</CAC_AgeChronoTip>
+  <CAC_Undo>Geri al (Ctrl+Z)</CAC_Undo>
+  <CAC_Redo>Yinele (Ctrl+Y)</CAC_Redo>
+  <CAC_Coat>Post</CAC_Coat>
+  <CAC_CoatNumber>Post {0}</CAC_CoatNumber>
+  <CAC_LockTab>Bu sekmeyi kilitle: "{0}" düğmesine basınca buradakiler korunur.</CAC_LockTab>
+  <CAC_UnlockTab>Kilitli: "{0}" düğmesine basınca buradakiler korunur. Kilidi açmak için tıklayın.</CAC_UnlockTab>
+  <CAC_ChildNote>Çocuklar her işi yapamaz ve zamanla büyür.</CAC_ChildNote>
+  <CAC_BodyType>Vücut tipi</CAC_BodyType>
+  <CAC_Body_Male>Erkeksi</CAC_Body_Male>
+  <CAC_Body_Female>Kadınsı</CAC_Body_Female>
+  <CAC_Body_Thin>Zayıf</CAC_Body_Thin>
+  <CAC_Body_Fat>Kilolu</CAC_Body_Fat>
+  <CAC_Body_Hulk>İri</CAC_Body_Hulk>
+  <CAC_Body_Child>Çocuk</CAC_Body_Child>
+  <CAC_Body_Baby>Bebek</CAC_Body_Baby>
+  <CAC_HeadType>Kafa</CAC_HeadType>
+  <CAC_HairColour>Saç rengi</CAC_HairColour>
+  <CAC_Hairstyle>Saç modeli</CAC_Hairstyle>
+  <CAC_Beard>Sakal</CAC_Beard>
+  <CAC_NoStyle>Bu kolonicinin görünümü değiştirilemez.</CAC_NoStyle>
+  <CAC_FaceTattoo>Yüz dövmesi</CAC_FaceTattoo>
+  <CAC_BodyTattoo>Vücut dövmesi</CAC_BodyTattoo>
+  <CAC_SkinColour>Ten rengi</CAC_SkinColour>
+  <CAC_NaturalSkin>Doğal ten rengine dön</CAC_NaturalSkin>
+  <CAC_EyeColour>Göz rengi</CAC_EyeColour>
+  <CAC_EyeColourNote>Göz rengi genlerden gelir, diğer modların eklediği genler de buna dahildir. Bazı mod göz genleri rengi değiştirmekten fazlasını yapar, bu yüzden tüm etkilerini görmek için üzerine gel.</CAC_EyeColourNote>
+  <CAC_NaturalEyes>Doğal gözler (göz rengi geni yok)</CAC_NaturalEyes>
+  <CAC_NaturalEyesShort>Doğal</CAC_NaturalEyesShort>
+  <CAC_Brightness>Parlaklık</CAC_Brightness>
+
+  <!-- Genes -->
+  <CAC_Xenotype>Zenotip</CAC_Xenotype>
+  <CAC_CustomXenotypes>Özel zenotiplerin</CAC_CustomXenotypes>
+  <CAC_OpenXenotypeEditor>Özel zenotip oluştur...</CAC_OpenXenotypeEditor>
+  <CAC_GenesList>Genler</CAC_GenesList>
+
+  <!-- Health -->
+  <CAC_HealthOverview>Genel bakış</CAC_HealthOverview>
+  <CAC_Conditions>Durumlar</CAC_Conditions>
+  <CAC_Healthy>Sağlık durumu kusursuz: {0}.</CAC_Healthy>
+  <CAC_AddToHealth>Ekle</CAC_AddToHealth>
+  <CAC_HealthNote>Buradaki her şey koloni başladığında zaten mevcut olur. Protezler ve implantlar ücretsizdir, koloniciyi öldürecek hiçbir şey eklenemez.</CAC_HealthNote>
+  <CAC_AddImplant>Protez ya da implant...</CAC_AddImplant>
+  <CAC_AddScar>Eski yara...</CAC_AddScar>
+  <CAC_AddMissingPart>Eksik vücut parçası...</CAC_AddMissingPart>
+  <CAC_AddCondition>Yaşa bağlı rahatsızlık...</CAC_AddCondition>
+  <CAC_AddAddiction>Bağımlılık...</CAC_AddAddiction>
+  <CAC_HealAll>Tüm durumları kaldır</CAC_HealAll>
+  <CAC_RemoveCondition>Kaldır</CAC_RemoveCondition>
+  <CAC_PartEfficiency>Parça verimliliği: {0}</CAC_PartEfficiency>
+  <CAC_ScarDesc>Kalıcı bir iz bırakarak iyileşmiş bir yara. Bazı izler hâlâ ara sıra acır.</CAC_ScarDesc>
+  <CAC_MissingPartDesc>Oyuna bu vücut parçası olmadan başlar: {0}. Daha sonra bir protezle değiştirilebilir.</CAC_MissingPartDesc>
+  <CAC_WouldKill>Bu, şu koloniciyi öldürür: {0}.</CAC_WouldKill>
+  <CAC_AlreadyHasThis>Zaten var.</CAC_AlreadyHasThis>
+  <CAC_WontTakeDrugs>Bir özellik ya da ideodin nedeniyle uyuşturucu kullanmaz: {0}.</CAC_WontTakeDrugs>
+  <CAC_CouldNotAdd>Eklenemedi: {0}. Kolonicide bu, olabilecek her yerde zaten olabilir.</CAC_CouldNotAdd>
+  <CAC_NothingToAdd>Şu anda bu türden eklenebilecek bir şey yok.</CAC_NothingToAdd>
+
+  <!-- Ideoligion -->
+  <CAC_ChangeIdeo>İdeodini değiştir...</CAC_ChangeIdeo>
+  <CAC_IdeoDetails>Tüm ayrıntılar...</CAC_IdeoDetails>
+  <CAC_IdeoOfColony>Kolonin ana ideodini</CAC_IdeoOfColony>
+  <CAC_IdeoOfFactions>İnananlar: {0}</CAC_IdeoOfFactions>
+  <CAC_IdeoFromSaved>Kaydettiğin ideodinlerden biri</CAC_IdeoFromSaved>
+  <CAC_IdeoNoFaction>Hiçbir fraksiyon inanmıyor</CAC_IdeoNoFaction>
+  <CAC_CertaintyNote>Bu kolonicinin ne kadar güçlü inandığı ({0}). İman ne kadar düşükse koloniciyi döndürmek o kadar kolaydır.</CAC_CertaintyNote>
+  <CAC_IdeoStory>Açıklama</CAC_IdeoStory>
+  <CAC_ColonyIdeo>Koloninin ideodini</CAC_ColonyIdeo>
+  <CAC_ColonyIdeoNote>Oyun başladığında, kolonicilerin çoğunun inandığı ideodin koloninin ana ideodini olur, tıpkı oyun sırasında olduğu gibi. Başka bir şeye inanan koloniciler kendi ideodinlerini korur.</CAC_ColonyIdeoNote>
+  <CAC_NoSavedIdeos>Henüz kaydettiğin bir ideodin yok. Bir koloni başlatırken ideodin düzenleyicisinden kaydedebilirsin.</CAC_NoSavedIdeos>
+  <CAC_SavedIdeoFile>Kayıt adı: "{0}"</CAC_SavedIdeoFile>
+
+  <!-- Clothing -->
+  <CAC_Wearing>Üzerindekiler</CAC_Wearing>
+  <CAC_WearingNothing>Hiçbir şey.</CAC_WearingNothing>
+  <CAC_RemoveAll>Hepsini çıkar</CAC_RemoveAll>
+  <CAC_AddClothing>Kıyafet ekle</CAC_AddClothing>
+  <CAC_Layer_All>Tümü</CAC_Layer_All>
+  <CAC_Layer_Head>Kafa</CAC_Layer_Head>
+  <CAC_Layer_Outer>Dış</CAC_Layer_Outer>
+  <CAC_Layer_Middle>Orta</CAC_Layer_Middle>
+  <CAC_Layer_Skin>Ten</CAC_Layer_Skin>
+  <CAC_Layer_Belt>Kemer</CAC_Layer_Belt>
+  <CAC_Layer_Other>Diğer</CAC_Layer_Other>
+
+  <!-- Inventory -->
+  <CAC_Carried>Bu kolonici</CAC_Carried>
+  <CAC_ColonySupplies>Koloni malzemeleri</CAC_ColonySupplies>
+  <CAC_Weapon>Silah</CAC_Weapon>
+  <CAC_Unarmed>Silahsız.</CAC_Unarmed>
+  <CAC_ChooseWeapon>Silah seç...</CAC_ChooseWeapon>
+  <CAC_ChangeWeapon>Silahı değiştir...</CAC_ChangeWeapon>
+  <CAC_CarriedItems>Envanter</CAC_CarriedItems>
+  <CAC_CarriedNote>Bu kolonicinin ceplerinde ve çantasında taşıdıkları. Sınırı oyunun kendisi belirler: vücut büyüklüğü, genler ve taşıma kapasitesini değiştiren modlar hesaba katılır.</CAC_CarriedNote>
+  <CAC_CantCarry>Hiçbir şey taşıyamaz: {0}.</CAC_CantCarry>
+  <CAC_Weight>Yük: {0} / {1}</CAC_Weight>
+  <CAC_WeightTip>Oyunun bu koloniciye verdiği taşıma sınırı. Giyilen kıyafet ve silah: {0}. Envanter: {1}.</CAC_WeightTip>
+  <CAC_NoRoom>Daha fazla taşıyamaz: {0}.</CAC_NoRoom>
+  <CAC_TooHeavyToAdd>Çok ağır. Kalan yer ({0}): {1}.</CAC_TooHeavyToAdd>
+  <CAC_OverWeight>Kapasitesinden {1} fazla taşıyor ({0}), belki daha ağır kıyafet ya da silah yüzünden. Bir şey çıkar, yoksa fazlası oyun başladığında kolonicinin yanına düşer.</CAC_OverWeight>
+  <CAC_ArrivesNextTo>Bunlar envantere sığmıyor ({0}), bu yüzden oyun başladığında yanına düşecek:</CAC_ArrivesNextTo>
+  <CAC_AddItem>+ Eşya ekle</CAC_AddItem>
+  <CAC_SuppliesNote>"{0}" senaryosunun ortak başlangıç malzemeleri. Miktarları değiştir, istediğini ekle ya da çıkar. +/- üzerine Shift+tık 10, Ctrl+tık 100 değiştirir.</CAC_SuppliesNote>
+  <CAC_ArrivesWithColonists>Kolonicilerle birlikte gelir</CAC_ArrivesWithColonists>
+  <CAC_ScatteredNearby>Yakınlara dağılmış</CAC_ScatteredNearby>
+  <CAC_AddSupply>+ Malzeme ekle</CAC_AddSupply>
+  <CAC_ResetSupplies>Senaryo varsayılanına dön</CAC_ResetSupplies>
+  <CAC_ResetSuppliesConfirm>Koloni malzemeleri senaryonun orijinal listesine döndürülsün mü?</CAC_ResetSuppliesConfirm>
+
+  <!-- Relationships -->
+  <CAC_RelationsNote>Gruptaki diğer kişilerle ilişkiler ({0}). Her listeden bir ilişki seç.</CAC_RelationsNote>
+  <CAC_InYourColony>Kolonide</CAC_InYourColony>
+  <CAC_NoOneElse>İlişki vermek için daha fazla kolonici ekle.</CAC_NoOneElse>
+  <CAC_IsMy>{0} için</CAC_IsMy>
+  <CAC_RelationNone>İlişki yok</CAC_RelationNone>
+  <CAC_Pets>Evcil hayvanlar</CAC_Pets>
+  <CAC_Bonded>Bağlı</CAC_Bonded>
+  <CAC_FamilyOutside>Koloni dışındaki aile</CAC_FamilyOutside>
+  <CAC_FamilyOutsideNote>Katılmayan akrabalar. Oyunun ilerleyen bölümlerinde ortaya çıkabilirler.</CAC_FamilyOutsideNote>
+  <CAC_BondNote>Bağlı bir evcil hayvan sahibini takip eder ve itaat eğitimi almıştır. Bağ kurulacak kişiyi seç ({0}).</CAC_BondNote>
+  <CAC_BondedTo>Bağlı olduğu kişi</CAC_BondedTo>
+  <CAC_NoBond>Kimse</CAC_NoBond>
+
+  <!-- Pets -->
+  <CAC_Species>Tür</CAC_Species>
+  <CAC_PetsOnly>Yalnızca evcil hayvanlar</CAC_PetsOnly>
+  <CAC_NotAPet>(vahşi hayvan)</CAC_NotAPet>
+
+  <!-- Gallery -->
+  <CAC_SaveToGallery>Koloniciyi galeriye kaydet</CAC_SaveToGallery>
+  <CAC_OpenGallery>Galeri: kayıtlı bir koloniciyi ya da koloniyi yükle</CAC_OpenGallery>
+  <CAC_Gallery>Galeri</CAC_Gallery>
+  <CAC_GalleryEmpty>Henüz kayıtlı kolonici yok. Eklemek için bir kolonicinin üstündeki kaydet düğmesini kullan.</CAC_GalleryEmpty>
+  <CAC_OverwritePreset>"{0}" adında kayıtlı bir kolonici zaten var. Değiştirilsin mi?</CAC_OverwritePreset>
+  <CAC_Saved>Galeriye kaydedildi: {0}.</CAC_Saved>
+  <CAC_LoadInto>Şuraya yükle: {0}</CAC_LoadInto>
+  <CAC_AddAsNew>Yeni kolonici olarak ekle</CAC_AddAsNew>
+  <CAC_GroupFull>Grubun dolu.</CAC_GroupFull>
+  <CAC_DeletePreset>"{0}" galeriden silinsin mi?</CAC_DeletePreset>
+  <CAC_SaveMenuTip>Galeriye kaydet: bu kolonici ya da tüm koloni</CAC_SaveMenuTip>
+  <CAC_SaveThisColonist>Bu koloniciyi kaydet ({0})</CAC_SaveThisColonist>
+  <CAC_SaveWholeColony>Tüm koloniyi kaydet</CAC_SaveWholeColony>
+  <CAC_SaveColonyTitle>Koloniyi galeriye kaydet</CAC_SaveColonyTitle>
+  <CAC_OverwriteColony>"{0}" adında kayıtlı bir koloni zaten var. Değiştirilsin mi?</CAC_OverwriteColony>
+  <CAC_GalleryColonists>Koloniciler</CAC_GalleryColonists>
+  <CAC_GalleryColonies>Koloniler</CAC_GalleryColonies>
+  <CAC_GalleryNoColonies>Henüz kayıtlı koloni yok. Bir kolonicinin üstündeki kaydet düğmesine bas ve "Tüm koloniyi kaydet" seçeneğini seç.</CAC_GalleryNoColonies>
+  <CAC_ColonySummary>Koloniciler: {0} · Evcil hayvanlar: {1} · Malzemeler: {2}</CAC_ColonySummary>
+  <CAC_LoadColony>Bu koloniyi yükle</CAC_LoadColony>
+  <CAC_LoadColonyConfirm>Şu anki koloniciler, evcil hayvanlar ve koloni malzemeleri bu kayıtla değiştirilsin mi: "{0}"</CAC_LoadColonyConfirm>
+  <CAC_ColonyLoaded>Koloni yüklendi: "{0}"</CAC_ColonyLoaded>
+  <CAC_ColonyTooBig>Bu kolonide {0} kolonici var ama bu başlangıç en fazla {1} kişiye izin veriyor. Yalnızca ilk {1} kişi yüklendi.</CAC_ColonyTooBig>
+  <CAC_Rename>Yeniden adlandır</CAC_Rename>
+  <CAC_Duplicate>Kopyala</CAC_Duplicate>
+  <CAC_RenameTitle>Yeniden adlandır: "{0}"</CAC_RenameTitle>
+  <CAC_Renamed>Yeni ad: {0}</CAC_Renamed>
+  <CAC_Duplicated>Kopya kaydedildi: "{0}"</CAC_Duplicated>
+  <CAC_CopyName>{0} (kopya)</CAC_CopyName>
+
+  <!-- Skill editing, Facial Animation, mod filter, info cards, colour reset -->
+  <CAC_SkillLevelTip>Seviye yazmak için sayıya tıkla (0–20). Enter onaylar, Esc iptal eder.</CAC_SkillLevelTip>
+  <CAC_ManualSkills>Elle ayarlanan beceri seviyeleri</CAC_ManualSkills>
+  <CAC_ManualSkillsTip>Bir seviye yazınca açılır. Bundan sonra geçmiş, özellik, yaş veya ksenotip değişiklikleri bu kolonistin beceri seviyelerini değiştirmez.</CAC_ManualSkillsTip>
+  <CAC_RecalculateSkills>Geçmişlerden yeniden hesapla</CAC_RecalculateSkills>
+  <CAC_RecalculateSkillsTip>Bu kolonistin beceri seviyelerini geçmişlerinden ve özelliklerinden yeniden hesaplar, yazdığın değerlerin yerine koyar.</CAC_RecalculateSkillsTip>
+  <CAC_FacialAnimation>Facial Animation</CAC_FacialAnimation>
+  <CAC_FaPart_Head>Baş</CAC_FaPart_Head>
+  <CAC_FaPart_Eye>Gözler</CAC_FaPart_Eye>
+  <CAC_FaPart_Brow>Kaşlar</CAC_FaPart_Brow>
+  <CAC_FaPart_Mouth>Ağız</CAC_FaPart_Mouth>
+  <CAC_FaPart_Lid>Göz kapakları</CAC_FaPart_Lid>
+  <CAC_FaPart_Skin>Ten</CAC_FaPart_Skin>
+  <CAC_FaNoStyles>Facial Animation'da bu kolonist için bu türde stil yok.</CAC_FaNoStyles>
+  <CAC_FaEyeColourNote>İris rengi Renkler sekmesinden ayarlanır.</CAC_FaEyeColourNote>
+  <CAC_FaEyeColour>İris rengi (Facial Animation)</CAC_FaEyeColour>
+  <CAC_OddEyes>Farklı renkli gözler</CAC_OddEyes>
+  <CAC_FirstEye>Birinci göz</CAC_FirstEye>
+  <CAC_SecondEye>İkinci göz</CAC_SecondEye>
+  <CAC_ModAll>Tümü</CAC_ModAll>
+  <CAC_ModFilter>Mod: {0}</CAC_ModFilter>
+  <CAC_ResetColour>Sıfırla</CAC_ResetColour>
+  <CAC_ClickForInfo>Ayrıntılar için tıkla.</CAC_ClickForInfo>
+
+  <!-- Add from genetics -->
+  <CAC_AddFromGenetics>Genetikten kolonici ekle...</CAC_AddFromGenetics>
+  <CAC_AddFromGeneticsFull>Genetikten kolonici ekle (grup dolu)</CAC_AddFromGeneticsFull>
+  <CAC_GeneticsTitle>Genetikten kolonici ekle</CAC_GeneticsTitle>
+  <CAC_GeneticsNote>Yeni kolonicinin kolonicilerinle akrabalığını seç. Genleri bu akrabalardan gelir.</CAC_GeneticsNote>
+  <CAC_GeneticsTheirRelation>Yeni kolonicinin bu kişiyle akrabalığı</CAC_GeneticsTheirRelation>
+  <CAC_GeneticsPickRelative>En az bir akraba seç.</CAC_GeneticsPickRelative>
+  <CAC_GeneticsSavedParent>Kayıtlı bir koloniciyi ebeveyn olarak ekle...</CAC_GeneticsSavedParent>
+  <CAC_GeneticsAdd>Gruba ekle</CAC_GeneticsAdd>
+  <CAC_GeneticsRoll>Yeniden oluştur</CAC_GeneticsRoll>
+  <CAC_GeneticsAgeTip>Akrabalarının izin verdiği herhangi bir yaş.</CAC_GeneticsAgeTip>
+  <CAC_GeneticsFailed>Bu kolonici oluşturulamadı. Ayrıntılar günlükte.</CAC_GeneticsFailed>
+  <CAC_Newborn>Yenidoğan</CAC_Newborn>
+  <CAC_TooYoungToBeParent>{0} ebeveyn olmak için çok genç.</CAC_TooYoungToBeParent>
+  <CAC_TwoParentsMax>Bir kolonicinin yalnızca iki ebeveyni olabilir.</CAC_TwoParentsMax>
+  <CAC_SiblingOrParents>Kardeşlerin ebeveynleri aynıdır: ya kardeş ya da ebeveyn seç, ikisini birden değil.</CAC_SiblingOrParents>
+  <CAC_NotSiblings>{0} ve {1} kardeş değil.</CAC_NotSiblings>
+  <CAC_NoAgeFits>Uygun yaş yok: ebeveyn, çocuğundan en az {0} yaş büyük olmalı.</CAC_NoAgeFits>
+  <CAC_HasThatParent>{0} için bu ebeveyn grubunda zaten var.</CAC_HasThatParent>
+  <CAC_NeedsGrownUp>Bir koloninin {0} yaşında veya daha büyük birine ihtiyacı var.</CAC_NeedsGrownUp>
+  <CAC_BabyNote>Bebeklerin henüz geçmişi ve özellikleri yok. Büyüdükçe kazanırlar.</CAC_BabyNote>
+
+  <!-- The game keeps these in Ideology, so they are missing without it -->
+  <CAC_ShowApparel>Kıyafeti göster</CAC_ShowApparel>
+  <CAC_ShowHeadgear>Başlığı göster</CAC_ShowHeadgear>
+  <CAC_Name>İsim</CAC_Name>
+
+</LanguageData>

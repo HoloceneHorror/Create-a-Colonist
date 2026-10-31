@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- New Colony popup -->
+  <CAC_ModeTitle>Як ви хочете створити колоністів?</CAC_ModeTitle>
+  <CAC_ModeSubtitle>Сценарій, оповідача і світ можна буде вибрати далі, як завжди.</CAC_ModeSubtitle>
+  <CAC_ModeNormal>Звичайне створення колонії</CAC_ModeNormal>
+  <CAC_ModeNormalDesc>Стандартний екран персонажів RimWorld: перебирайте випадкових колоністів, доки вони вам не сподобаються.</CAC_ModeNormalDesc>
+  <CAC_ModeCreator>Створення персонажів</CAC_ModeCreator>
+  <CAC_ModeCreatorDesc>Створіть кожного колоніста й улюбленця самі: характер, зовнішність, гени, одяг, спорядження і стосунки.</CAC_ModeCreatorDesc>
+
+  <!-- Page -->
+  <CAC_PageTitle>Створення колоніста</CAC_PageTitle>
+  <CAC_GroupSummary>{0}  ·  колоністів: {1} з {2}  ·  {3}</CAC_GroupSummary>
+  <CAC_PetCountOne>улюбленців: 1</CAC_PetCountOne>
+  <CAC_PetCount>улюбленців: {0}</CAC_PetCount>
+  <CAC_ColonistSubtitle>{0}, {1}</CAC_ColonistSubtitle>
+  <CAC_ColonistSubtitleXeno>{0}, {1}, {2}</CAC_ColonistSubtitleXeno>
+  <CAC_PetSubtitle>{0}, {1}</CAC_PetSubtitle>
+  <CAC_RandomName>Випадкове ім'я</CAC_RandomName>
+  <CAC_RotateLeft>Повернути ліворуч</CAC_RotateLeft>
+  <CAC_RotateRight>Повернути праворуч</CAC_RotateRight>
+  <CAC_RandomColonist>Випадковий колоніст</CAC_RandomColonist>
+  <CAC_RandomPet>Випадковий улюбленець</CAC_RandomPet>
+  <CAC_Play>Грати</CAC_Play>
+  <CAC_PlayTip>Почати колонію з цією групою.</CAC_PlayTip>
+  <CAC_ConfirmBack>Повернутися на попередню сторінку? Після повернення гра заново створить стартових колоністів, і створені тут колоністи будуть втрачені (спершу збережіть у галерею тих, кого хочете залишити).</CAC_ConfirmBack>
+  <CAC_AddToGroup>Додати колоніста або улюбленця</CAC_AddToGroup>
+  <CAC_AddColonist>Додати колоніста</CAC_AddColonist>
+  <CAC_AddColonistFull>Додати колоніста (досягнуто межі: {0})</CAC_AddColonistFull>
+  <CAC_AddPet>Додати улюбленця</CAC_AddPet>
+  <CAC_AddFromGallery>Додати колоніста з галереї...</CAC_AddFromGallery>
+  <CAC_AddFromGalleryFull>Додати колоніста з галереї (група заповнена)</CAC_AddFromGalleryFull>
+  <CAC_ConfirmRemove>Прибрати {0} зі стартової групи?</CAC_ConfirmRemove>
+  <CAC_None>Немає</CAC_None>
+  <CAC_Custom>Свій варіант...</CAC_Custom>
+  <CAC_NothingMatches>Нічого не знайдено.</CAC_NothingMatches>
+  <CAC_HoverForDetails>Наведіть курсор на варіант, щоб побачити, що він робить.</CAC_HoverForDetails>
+  <CAC_HideWorkBlockers>Сховати те, що забороняє роботу</CAC_HideWorkBlockers>
+  <CAC_MustDo>Обов'язкові роботи...</CAC_MustDo>
+  <CAC_MustDoCount>Обов'язкові роботи ({0})...</CAC_MustDoCount>
+  <CAC_MustDoTitle>Обов'язкові роботи</CAC_MustDoTitle>
+  <CAC_MustDoNote>Показувати лише передісторії та риси, які залишають усі ці роботи доступними. Вибір запам'ятовується.</CAC_MustDoNote>
+  <CAC_Violence>Насильство</CAC_Violence>
+  <CAC_CantDo>Не може: {0}</CAC_CantDo>
+  <CAC_ClearAll>Зняти все</CAC_ClearAll>
+
+  <!-- Tabs -->
+  <CAC_Tab_Personality>Характер</CAC_Tab_Personality>
+  <CAC_Tab_Appearance>Зовнішність</CAC_Tab_Appearance>
+  <CAC_Tab_Genes>Гени</CAC_Tab_Genes>
+  <CAC_Tab_Clothing>Одяг</CAC_Tab_Clothing>
+  <CAC_Tab_Inventory>Інвентар</CAC_Tab_Inventory>
+  <CAC_Tab_Relationships>Стосунки</CAC_Tab_Relationships>
+  <CAC_Tab_Animal>Тварина</CAC_Tab_Animal>
+  <CAC_Tab_Ideoligion>Ідеологія</CAC_Tab_Ideoligion>
+  <CAC_Tab_Health>Здоров'я</CAC_Tab_Health>
+  <CAC_TabDesc_Personality>Передісторія, риси, навички та зацікавленість.</CAC_TabDesc_Personality>
+  <CAC_TabDesc_Appearance>Стать, вік, статура, голова, зачіска, борода, татуювання, колір шкіри, волосся й очей.</CAC_TabDesc_Appearance>
+  <CAC_TabDesc_Genes>Ксенотип і гени.</CAC_TabDesc_Genes>
+  <CAC_TabDesc_Clothing>Що вдягнено на цьому колоністі.</CAC_TabDesc_Clothing>
+  <CAC_TabDesc_Inventory>Зброя, речі при собі та стартові припаси колонії.</CAC_TabDesc_Inventory>
+  <CAC_TabDesc_Relationships>Родина, партнери та зв'язки з улюбленцями всередині групи.</CAC_TabDesc_Relationships>
+  <CAC_TabDesc_Animal>Вид, стать і вік.</CAC_TabDesc_Animal>
+  <CAC_TabDesc_Ideoligion>У що вірить цей колоніст і наскільки твердо.</CAC_TabDesc_Ideoligion>
+  <CAC_TabDesc_Health>Старі рани, відсутні частини тіла, протези, імпланти, хвороби та залежності.</CAC_TabDesc_Health>
+
+  <!-- Personality -->
+  <CAC_Backstory>Передісторія</CAC_Backstory>
+  <CAC_TooYoungForAdulthood>Доросла передісторія з'являється у {0} років.</CAC_TooYoungForAdulthood>
+  <CAC_RandomBackstory>Випадкова передісторія</CAC_RandomBackstory>
+  <CAC_AddTrait>+ Додати рису</CAC_AddTrait>
+  <CAC_AlreadyHasTrait>Ця риса вже є.</CAC_AlreadyHasTrait>
+  <CAC_ConflictsWith>Несумісно з рисою «{0}».</CAC_ConflictsWith>
+  <CAC_BackstoryForbids>Заборонено передісторією «{0}».</CAC_BackstoryForbids>
+  <CAC_SkillsNote>Рівні навичок залежать від вибраних передісторій і рис. Клацання по вогнику підвищує зацікавленість, правий клік знижує: немає, цікавить, захоплення. Клацніть по рівню, щоб ввести власне значення (0–20).</CAC_SkillsNote>
+  <CAC_PassionTip>Зацікавленість: {0}\nКлацання підвищує, правий клік знижує.</CAC_PassionTip>
+  <CAC_Passion_None>немає</CAC_Passion_None>
+  <CAC_Passion_Minor>цікавить</CAC_Passion_Minor>
+  <CAC_Passion_Major>захоплення</CAC_Passion_Major>
+
+  <!-- Appearance -->
+  <CAC_Sub_Body>Тіло</CAC_Sub_Body>
+  <CAC_Sub_Hair>Волосся</CAC_Sub_Hair>
+  <CAC_Sub_Beard>Борода</CAC_Sub_Beard>
+  <CAC_Sub_Tattoos>Татуювання</CAC_Sub_Tattoos>
+  <CAC_Sub_Colours>Кольори</CAC_Sub_Colours>
+  <CAC_Gender>Стать</CAC_Gender>
+  <CAC_Age>Вік</CAC_Age>
+  <CAC_AgeValue>Вік: {0} (хронологічний: {1})</CAC_AgeValue>
+  <CAC_AgeChrono>Хронологічний вік</CAC_AgeChrono>
+  <CAC_AgeTip>Біологічний вік: скільки років тілу. Введіть число або скористайтеся стрілками, до {0}.</CAC_AgeTip>
+  <CAC_AgeChronoTip>Хронологічний вік: роки від народження, разом із часом у криптосні. Не може бути меншим за біологічний.</CAC_AgeChronoTip>
+  <CAC_Undo>Скасувати (Ctrl+Z)</CAC_Undo>
+  <CAC_Redo>Повторити (Ctrl+Y)</CAC_Redo>
+  <CAC_Coat>Забарвлення</CAC_Coat>
+  <CAC_CoatNumber>Забарвлення {0}</CAC_CoatNumber>
+  <CAC_LockTab>Закріпити вкладку: при натисканні «{0}» її вміст збережеться.</CAC_LockTab>
+  <CAC_UnlockTab>Закріплено: при натисканні «{0}» вміст зберігається. Натисніть, щоб відкріпити.</CAC_UnlockTab>
+  <CAC_ChildNote>Діти можуть виконувати не всю роботу і з часом ростуть.</CAC_ChildNote>
+  <CAC_BodyType>Статура</CAC_BodyType>
+  <CAC_Body_Male>Чоловіча</CAC_Body_Male>
+  <CAC_Body_Female>Жіноча</CAC_Body_Female>
+  <CAC_Body_Thin>Худорлява</CAC_Body_Thin>
+  <CAC_Body_Fat>Повна</CAC_Body_Fat>
+  <CAC_Body_Hulk>Кремезна</CAC_Body_Hulk>
+  <CAC_Body_Child>Дитяча</CAC_Body_Child>
+  <CAC_Body_Baby>Немовляча</CAC_Body_Baby>
+  <CAC_HeadType>Голова</CAC_HeadType>
+  <CAC_HairColour>Колір волосся</CAC_HairColour>
+  <CAC_Hairstyle>Зачіска</CAC_Hairstyle>
+  <CAC_Beard>Борода</CAC_Beard>
+  <CAC_NoStyle>Зовнішність цього колоніста змінювати не можна.</CAC_NoStyle>
+  <CAC_FaceTattoo>Татуювання на обличчі</CAC_FaceTattoo>
+  <CAC_BodyTattoo>Татуювання на тілі</CAC_BodyTattoo>
+  <CAC_SkinColour>Колір шкіри</CAC_SkinColour>
+  <CAC_NaturalSkin>Повернути природний колір шкіри</CAC_NaturalSkin>
+  <CAC_EyeColour>Колір очей</CAC_EyeColour>
+  <CAC_EyeColourNote>Колір очей визначають гени, зокрема гени з інших модів. Деякі гени очей із модів роблять більше, ніж змінюють колір, тому наведіть на них курсор, щоб побачити всі ефекти.</CAC_EyeColourNote>
+  <CAC_NaturalEyes>Природні очі (без гена кольору очей)</CAC_NaturalEyes>
+  <CAC_NaturalEyesShort>Природні</CAC_NaturalEyesShort>
+  <CAC_Brightness>Яскравість</CAC_Brightness>
+
+  <!-- Genes -->
+  <CAC_Xenotype>Ксенотип</CAC_Xenotype>
+  <CAC_CustomXenotypes>Ваші ксенотипи</CAC_CustomXenotypes>
+  <CAC_OpenXenotypeEditor>Створити власний ксенотип...</CAC_OpenXenotypeEditor>
+  <CAC_GenesList>Гени</CAC_GenesList>
+
+  <!-- Health -->
+  <CAC_HealthOverview>Огляд</CAC_HealthOverview>
+  <CAC_Conditions>Стани</CAC_Conditions>
+  <CAC_Healthy>{0}: цілком здоровий стан.</CAC_Healthy>
+  <CAC_AddToHealth>Додати</CAC_AddToHealth>
+  <CAC_HealthNote>Усе тут буде в колоніста з самого початку колонії. Протези та імпланти безкоштовні, а те, що вб'є колоніста, додати не можна.</CAC_HealthNote>
+  <CAC_AddImplant>Протез або імплант...</CAC_AddImplant>
+  <CAC_AddScar>Стара рана...</CAC_AddScar>
+  <CAC_AddMissingPart>Відсутня частина тіла...</CAC_AddMissingPart>
+  <CAC_AddCondition>Вікова хвороба...</CAC_AddCondition>
+  <CAC_AddAddiction>Залежність...</CAC_AddAddiction>
+  <CAC_HealAll>Прибрати всі стани</CAC_HealAll>
+  <CAC_RemoveCondition>Прибрати</CAC_RemoveCondition>
+  <CAC_PartEfficiency>Ефективність частини тіла: {0}</CAC_PartEfficiency>
+  <CAC_ScarDesc>Загоєна рана, що залишила постійний шрам. Деякі шрами досі іноді болять.</CAC_ScarDesc>
+  <CAC_MissingPartDesc>Починає гру без цієї частини тіла: {0}. Згодом її можна замінити протезом.</CAC_MissingPartDesc>
+  <CAC_WouldKill>Це вб'є {0}.</CAC_WouldKill>
+  <CAC_AlreadyHasThis>Уже є.</CAC_AlreadyHasThis>
+  <CAC_WontTakeDrugs>{0} не вживає наркотики через рису або ідеологію.</CAC_WontTakeDrugs>
+  <CAC_CouldNotAdd>Не вдалося додати: {0}. Можливо, у колоніста це вже є всюди, де можливо.</CAC_CouldNotAdd>
+  <CAC_NothingToAdd>Зараз нічого додати з цієї категорії.</CAC_NothingToAdd>
+
+  <!-- Ideoligion -->
+  <CAC_ChangeIdeo>Змінити ідеологію...</CAC_ChangeIdeo>
+  <CAC_IdeoDetails>Докладніше...</CAC_IdeoDetails>
+  <CAC_IdeoOfColony>Основна ідеологія вашої колонії</CAC_IdeoOfColony>
+  <CAC_IdeoOfFactions>Її дотримуються: {0}</CAC_IdeoOfFactions>
+  <CAC_IdeoFromSaved>Одна з ваших збережених ідеологій</CAC_IdeoFromSaved>
+  <CAC_IdeoNoFaction>Жодна фракція її не дотримується</CAC_IdeoNoFaction>
+  <CAC_CertaintyNote>Наскільки твердо вірить {0}. Що нижча впевненість, то легше навернути колоніста в іншу віру.</CAC_CertaintyNote>
+  <CAC_IdeoStory>Опис</CAC_IdeoStory>
+  <CAC_ColonyIdeo>Ідеологія колонії</CAC_ColonyIdeo>
+  <CAC_ColonyIdeoNote>Коли гра почнеться, ідеологія більшості колоністів стане основною ідеологією колонії, як це відбувається і під час гри. Колоністи, що вірять у щось інше, збережуть свою ідеологію.</CAC_ColonyIdeoNote>
+  <CAC_NoSavedIdeos>У вас ще немає збережених ідеологій. Зберегти ідеологію можна в її редакторі під час створення колонії.</CAC_NoSavedIdeos>
+  <CAC_SavedIdeoFile>Збережено як «{0}»</CAC_SavedIdeoFile>
+
+  <!-- Clothing -->
+  <CAC_Wearing>Вдягнено</CAC_Wearing>
+  <CAC_WearingNothing>Нічого.</CAC_WearingNothing>
+  <CAC_RemoveAll>Зняти все</CAC_RemoveAll>
+  <CAC_AddClothing>Додати одяг</CAC_AddClothing>
+  <CAC_Layer_All>Усе</CAC_Layer_All>
+  <CAC_Layer_Head>Голова</CAC_Layer_Head>
+  <CAC_Layer_Outer>Верхній шар</CAC_Layer_Outer>
+  <CAC_Layer_Middle>Середній шар</CAC_Layer_Middle>
+  <CAC_Layer_Skin>Нижній шар</CAC_Layer_Skin>
+  <CAC_Layer_Belt>Пояс</CAC_Layer_Belt>
+  <CAC_Layer_Other>Інше</CAC_Layer_Other>
+
+  <!-- Inventory -->
+  <CAC_Carried>Цей колоніст</CAC_Carried>
+  <CAC_ColonySupplies>Припаси колонії</CAC_ColonySupplies>
+  <CAC_Weapon>Зброя</CAC_Weapon>
+  <CAC_Unarmed>Без зброї.</CAC_Unarmed>
+  <CAC_ChooseWeapon>Вибрати зброю...</CAC_ChooseWeapon>
+  <CAC_ChangeWeapon>Змінити зброю...</CAC_ChangeWeapon>
+  <CAC_CarriedItems>Інвентар</CAC_CarriedItems>
+  <CAC_CarriedNote>Що колоніст несе в кишенях і сумці. Скільки можна нести, вирішує сама гра: враховуються розмір тіла, гени та моди, що змінюють вантажопідйомність.</CAC_CarriedNote>
+  <CAC_CantCarry>{0} не може нічого нести.</CAC_CantCarry>
+  <CAC_Weight>Вантаж: {0} з {1}</CAC_Weight>
+  <CAC_WeightTip>Межа вантажу, яку гра задає цьому колоністу. Одяг і зброя: {0}. Інвентар: {1}.</CAC_WeightTip>
+  <CAC_NoRoom>{0} більше нічого не понесе.</CAC_NoRoom>
+  <CAC_TooHeavyToAdd>Надто важко: {0} може нести ще лише {1}.</CAC_TooHeavyToAdd>
+  <CAC_OverWeight>{0} несе на {1} більше, ніж може, можливо через важчий одяг чи зброю. Приберіть щось, інакше зайве прибуде поруч із колоністом на початку гри.</CAC_OverWeight>
+  <CAC_ArrivesNextTo>Це не вміщається в інвентар ({0}), тож прибуде поруч на початку гри:</CAC_ArrivesNextTo>
+  <CAC_AddItem>+ Додати предмет</CAC_AddItem>
+  <CAC_SuppliesNote>Спільні стартові припаси зі сценарію «{0}». Змінюйте кількість, додавайте або прибирайте що завгодно. Shift і клацання по +/- змінюють на 10, Ctrl — на 100.</CAC_SuppliesNote>
+  <CAC_ArrivesWithColonists>Прибуває з колоністами</CAC_ArrivesWithColonists>
+  <CAC_ScatteredNearby>Розкидано поблизу</CAC_ScatteredNearby>
+  <CAC_AddSupply>+ Додати припаси</CAC_AddSupply>
+  <CAC_ResetSupplies>Повернути як у сценарії</CAC_ResetSupplies>
+  <CAC_ResetSuppliesConfirm>Повернути припаси колонії до початкового списку сценарію?</CAC_ResetSuppliesConfirm>
+
+  <!-- Relationships -->
+  <CAC_RelationsNote>Ким {0} доводиться іншим у групі. Виберіть стосунки в кожному списку.</CAC_RelationsNote>
+  <CAC_InYourColony>У вашій колонії</CAC_InYourColony>
+  <CAC_NoOneElse>Додайте ще колоністів, щоб задати їм стосунки.</CAC_NoOneElse>
+  <CAC_IsMy>для {0}</CAC_IsMy>
+  <CAC_RelationNone>Немає стосунків</CAC_RelationNone>
+  <CAC_Pets>Улюбленці</CAC_Pets>
+  <CAC_Bonded>Зв'язок</CAC_Bonded>
+  <CAC_FamilyOutside>Родина поза колонією</CAC_FamilyOutside>
+  <CAC_FamilyOutsideNote>Родичі, які не приєднуються. Згодом вони можуть з'явитися в грі.</CAC_FamilyOutsideNote>
+  <CAC_BondNote>Улюбленець, пов'язаний із господарем, ходить за ним і навчений слухняності. Виберіть, з ким пов'язаний {0}.</CAC_BondNote>
+  <CAC_BondedTo>Пов'язаний з</CAC_BondedTo>
+  <CAC_NoBond>Ні з ким</CAC_NoBond>
+
+  <!-- Pets -->
+  <CAC_Species>Вид</CAC_Species>
+  <CAC_PetsOnly>Лише улюбленці</CAC_PetsOnly>
+  <CAC_NotAPet>(дика тварина)</CAC_NotAPet>
+
+  <!-- Gallery -->
+  <CAC_SaveToGallery>Зберегти колоніста в галерею</CAC_SaveToGallery>
+  <CAC_OpenGallery>Галерея: завантажити збереженого колоніста або колонію</CAC_OpenGallery>
+  <CAC_Gallery>Галерея</CAC_Gallery>
+  <CAC_GalleryEmpty>Збережених колоністів ще немає. Додайте їх кнопкою збереження над колоністом.</CAC_GalleryEmpty>
+  <CAC_OverwritePreset>Колоніст «{0}» уже збережений. Замінити?</CAC_OverwritePreset>
+  <CAC_Saved>{0}: збережено в галерею.</CAC_Saved>
+  <CAC_LoadInto>Завантажити в: {0}</CAC_LoadInto>
+  <CAC_AddAsNew>Додати як нового колоніста</CAC_AddAsNew>
+  <CAC_GroupFull>Група заповнена.</CAC_GroupFull>
+  <CAC_DeletePreset>Видалити «{0}» з галереї?</CAC_DeletePreset>
+  <CAC_SaveMenuTip>Зберегти в галерею: цього колоніста або всю колонію</CAC_SaveMenuTip>
+  <CAC_SaveThisColonist>Зберегти цього колоніста ({0})</CAC_SaveThisColonist>
+  <CAC_SaveWholeColony>Зберегти всю колонію</CAC_SaveWholeColony>
+  <CAC_SaveColonyTitle>Зберегти колонію в галерею</CAC_SaveColonyTitle>
+  <CAC_OverwriteColony>Колонія «{0}» уже збережена. Замінити?</CAC_OverwriteColony>
+  <CAC_GalleryColonists>Колоністи</CAC_GalleryColonists>
+  <CAC_GalleryColonies>Колонії</CAC_GalleryColonies>
+  <CAC_GalleryNoColonies>Збережених колоній ще немає. Натисніть кнопку збереження над колоністом і виберіть «Зберегти всю колонію».</CAC_GalleryNoColonies>
+  <CAC_ColonySummary>Колоністи: {0} · Улюбленці: {1} · Припаси: {2}</CAC_ColonySummary>
+  <CAC_LoadColony>Завантажити цю колонію</CAC_LoadColony>
+  <CAC_LoadColonyConfirm>Замінити поточних колоністів, улюбленців і припаси колонії на «{0}»?</CAC_LoadColonyConfirm>
+  <CAC_ColonyLoaded>Колонію «{0}» завантажено.</CAC_ColonyLoaded>
+  <CAC_ColonyTooBig>У цій колонії колоністів: {0}, але цей старт дозволяє лише {1}. Завантажено лише перших {1}.</CAC_ColonyTooBig>
+  <CAC_Rename>Перейменувати</CAC_Rename>
+  <CAC_Duplicate>Дублювати</CAC_Duplicate>
+  <CAC_RenameTitle>Перейменувати «{0}»</CAC_RenameTitle>
+  <CAC_Renamed>Нова назва: {0}.</CAC_Renamed>
+  <CAC_Duplicated>Копію збережено як «{0}».</CAC_Duplicated>
+  <CAC_CopyName>{0} (копія)</CAC_CopyName>
+
+  <!-- Skill editing, Facial Animation, mod filter, info cards, colour reset -->
+  <CAC_SkillLevelTip>Клацніть по числу, щоб ввести рівень (0–20). Enter — зберегти, Esc — скасувати.</CAC_SkillLevelTip>
+  <CAC_ManualSkills>Рівні навичок вручну</CAC_ManualSkills>
+  <CAC_ManualSkillsTip>Вмикається, щойно ви вводите рівень. Після цього зміна передісторії, рис, віку чи ксенотипу не змінює рівні навичок цього колоніста.</CAC_ManualSkillsTip>
+  <CAC_RecalculateSkills>Перерахувати за передісторією</CAC_RecalculateSkills>
+  <CAC_RecalculateSkillsTip>Знову розрахувати рівні навичок цього колоніста за передісторією та рисами, замінивши введені значення.</CAC_RecalculateSkillsTip>
+  <CAC_FacialAnimation>Facial Animation</CAC_FacialAnimation>
+  <CAC_FaPart_Head>Голова</CAC_FaPart_Head>
+  <CAC_FaPart_Eye>Очі</CAC_FaPart_Eye>
+  <CAC_FaPart_Brow>Брови</CAC_FaPart_Brow>
+  <CAC_FaPart_Mouth>Рот</CAC_FaPart_Mouth>
+  <CAC_FaPart_Lid>Повіки</CAC_FaPart_Lid>
+  <CAC_FaPart_Skin>Шкіра</CAC_FaPart_Skin>
+  <CAC_FaNoStyles>У Facial Animation немає стилів цього типу для цього колоніста.</CAC_FaNoStyles>
+  <CAC_FaEyeColourNote>Колір райдужки задається на вкладці «Кольори».</CAC_FaEyeColourNote>
+  <CAC_FaEyeColour>Колір райдужки (Facial Animation)</CAC_FaEyeColour>
+  <CAC_OddEyes>Різнокольорові очі</CAC_OddEyes>
+  <CAC_FirstEye>Перше око</CAC_FirstEye>
+  <CAC_SecondEye>Друге око</CAC_SecondEye>
+  <CAC_ModAll>Усі</CAC_ModAll>
+  <CAC_ModFilter>Мод: {0}</CAC_ModFilter>
+  <CAC_ResetColour>Скинути</CAC_ResetColour>
+  <CAC_ClickForInfo>Клацніть, щоб побачити подробиці.</CAC_ClickForInfo>
+
+  <!-- Add from genetics -->
+  <CAC_AddFromGenetics>Додати колоніста за генетикою...</CAC_AddFromGenetics>
+  <CAC_AddFromGeneticsFull>Додати колоніста за генетикою (група заповнена)</CAC_AddFromGeneticsFull>
+  <CAC_GeneticsTitle>Додати колоніста за генетикою</CAC_GeneticsTitle>
+  <CAC_GeneticsNote>Виберіть, ким новий колоніст доводиться вашим колоністам. Гени він отримає від цих родичів.</CAC_GeneticsNote>
+  <CAC_GeneticsTheirRelation>Ким доводиться новий колоніст</CAC_GeneticsTheirRelation>
+  <CAC_GeneticsPickRelative>Виберіть хоча б одного родича.</CAC_GeneticsPickRelative>
+  <CAC_GeneticsSavedParent>Додати збереженого колоніста як батька чи матір...</CAC_GeneticsSavedParent>
+  <CAC_GeneticsAdd>Додати до групи</CAC_GeneticsAdd>
+  <CAC_GeneticsRoll>Перекинути</CAC_GeneticsRoll>
+  <CAC_GeneticsAgeTip>Будь-який вік, який дозволяють родичі.</CAC_GeneticsAgeTip>
+  <CAC_GeneticsFailed>Не вдалося створити цього колоніста. Подробиці в журналі.</CAC_GeneticsFailed>
+  <CAC_Newborn>Новонароджений</CAC_Newborn>
+  <CAC_TooYoungToBeParent>{0}: надто юний вік для батьків.</CAC_TooYoungToBeParent>
+  <CAC_TwoParentsMax>Колоніст може мати лише двох батьків.</CAC_TwoParentsMax>
+  <CAC_SiblingOrParents>Брати й сестри мають спільних батьків: виберіть або брата чи сестру, або батьків.</CAC_SiblingOrParents>
+  <CAC_NotSiblings>{0} і {1} не брати й сестри.</CAC_NotSiblings>
+  <CAC_NoAgeFits>Немає відповідного віку: батько чи мати мають бути старшими за дитину щонайменше на {0} років.</CAC_NoAgeFits>
+  <CAC_HasThatParent>{0}: ці батьки вже є у вашій групі.</CAC_HasThatParent>
+  <CAC_NeedsGrownUp>У колонії потрібен хтось віком від {0} років.</CAC_NeedsGrownUp>
+  <CAC_BabyNote>Немовлята ще не мають передісторії та рис. Вони з'являться, коли дитина підросте.</CAC_BabyNote>
+
+  <!-- The game keeps these in Ideology, so they are missing without it -->
+  <CAC_ShowApparel>Показувати одяг</CAC_ShowApparel>
+  <CAC_ShowHeadgear>Показувати головний убір</CAC_ShowHeadgear>
+  <CAC_Name>Ім'я</CAC_Name>
+
+</LanguageData>

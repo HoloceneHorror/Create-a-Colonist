@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- New Colony popup -->
+  <CAC_ModeTitle>你想如何建立殖民者？</CAC_ModeTitle>
+  <CAC_ModeSubtitle>接下來你仍可以照常選擇劇本、故事敘述者和世界。</CAC_ModeSubtitle>
+  <CAC_ModeNormal>一般殖民地建立</CAC_ModeNormal>
+  <CAC_ModeNormalDesc>RimWorld 原版的角色畫面：不斷隨機產生殖民者，直到滿意為止。</CAC_ModeNormalDesc>
+  <CAC_ModeCreator>角色創建</CAC_ModeCreator>
+  <CAC_ModeCreatorDesc>親手設計每一位殖民者和寵物：個性、外觀、基因、服裝、裝備和人際關係。</CAC_ModeCreatorDesc>
+
+  <!-- Page -->
+  <CAC_PageTitle>建立殖民者</CAC_PageTitle>
+  <CAC_GroupSummary>{0}  ·  {1}/{2} 名殖民者  ·  {3}</CAC_GroupSummary>
+  <CAC_PetCountOne>1 隻寵物</CAC_PetCountOne>
+  <CAC_PetCount>{0} 隻寵物</CAC_PetCount>
+  <CAC_ColonistSubtitle>{0}，{1}</CAC_ColonistSubtitle>
+  <CAC_ColonistSubtitleXeno>{0}，{2}，{1}</CAC_ColonistSubtitleXeno>
+  <CAC_PetSubtitle>{0}，{1}</CAC_PetSubtitle>
+  <CAC_RandomName>隨機名字</CAC_RandomName>
+  <CAC_RotateLeft>向左轉</CAC_RotateLeft>
+  <CAC_RotateRight>向右轉</CAC_RotateRight>
+  <CAC_RandomColonist>隨機殖民者</CAC_RandomColonist>
+  <CAC_RandomPet>隨機寵物</CAC_RandomPet>
+  <CAC_Play>開始</CAC_Play>
+  <CAC_PlayTip>帶著這支隊伍開始殖民地。</CAC_PlayTip>
+  <CAC_ConfirmBack>返回上一頁？返回會讓遊戲重新產生初始殖民者，你在這裡建立的殖民者將會遺失（請先把想保留的殖民者儲存到圖庫）。</CAC_ConfirmBack>
+  <CAC_AddToGroup>加入殖民者或寵物</CAC_AddToGroup>
+  <CAC_AddColonist>加入殖民者</CAC_AddColonist>
+  <CAC_AddColonistFull>加入殖民者（已達上限 {0} 人）</CAC_AddColonistFull>
+  <CAC_AddPet>加入寵物</CAC_AddPet>
+  <CAC_AddFromGallery>從圖庫加入殖民者...</CAC_AddFromGallery>
+  <CAC_AddFromGalleryFull>從圖庫加入殖民者（隊伍已滿）</CAC_AddFromGalleryFull>
+  <CAC_ConfirmRemove>要將 {0} 從初始隊伍中移除嗎？</CAC_ConfirmRemove>
+  <CAC_None>無</CAC_None>
+  <CAC_Custom>自訂...</CAC_Custom>
+  <CAC_NothingMatches>沒有符合的結果。</CAC_NothingMatches>
+  <CAC_HoverForDetails>將滑鼠移到選項上查看說明。</CAC_HoverForDetails>
+  <CAC_HideWorkBlockers>隱藏會禁止工作的選項</CAC_HideWorkBlockers>
+  <CAC_MustDo>必須能做的工作...</CAC_MustDo>
+  <CAC_MustDoCount>必須能做的工作（{0}）...</CAC_MustDoCount>
+  <CAC_MustDoTitle>必須能做的工作</CAC_MustDoTitle>
+  <CAC_MustDoNote>只顯示不會禁止下列任何工作的背景故事和特性。這個設定會被記住。</CAC_MustDoNote>
+  <CAC_Violence>暴力</CAC_Violence>
+  <CAC_CantDo>無法：{0}</CAC_CantDo>
+  <CAC_ClearAll>全部清除</CAC_ClearAll>
+
+  <!-- Tabs -->
+  <CAC_Tab_Personality>個性</CAC_Tab_Personality>
+  <CAC_Tab_Appearance>外觀</CAC_Tab_Appearance>
+  <CAC_Tab_Genes>基因</CAC_Tab_Genes>
+  <CAC_Tab_Clothing>服裝</CAC_Tab_Clothing>
+  <CAC_Tab_Inventory>物品</CAC_Tab_Inventory>
+  <CAC_Tab_Relationships>關係</CAC_Tab_Relationships>
+  <CAC_Tab_Animal>動物</CAC_Tab_Animal>
+  <CAC_Tab_Ideoligion>理念</CAC_Tab_Ideoligion>
+  <CAC_Tab_Health>健康</CAC_Tab_Health>
+  <CAC_TabDesc_Personality>背景故事、特性、技能和熱情。</CAC_TabDesc_Personality>
+  <CAC_TabDesc_Appearance>性別、年齡、體型、頭型、髮型、鬍鬚、刺青、膚色、髮色和瞳色。</CAC_TabDesc_Appearance>
+  <CAC_TabDesc_Genes>異種人和基因。</CAC_TabDesc_Genes>
+  <CAC_TabDesc_Clothing>這名殖民者穿著的衣物。</CAC_TabDesc_Clothing>
+  <CAC_TabDesc_Inventory>武器、隨身物品以及殖民地的初始物資。</CAC_TabDesc_Inventory>
+  <CAC_TabDesc_Relationships>隊伍內的家人、伴侶和寵物羈絆。</CAC_TabDesc_Relationships>
+  <CAC_TabDesc_Animal>物種、性別和年齡。</CAC_TabDesc_Animal>
+  <CAC_TabDesc_Ideoligion>這名殖民者的信仰，以及信仰有多堅定。</CAC_TabDesc_Ideoligion>
+  <CAC_TabDesc_Health>舊傷、缺少的身體部位、義肢、植入物、疾病和成癮。</CAC_TabDesc_Health>
+
+  <!-- Personality -->
+  <CAC_Backstory>背景故事</CAC_Backstory>
+  <CAC_TooYoungForAdulthood>殖民者在 {0} 歲時獲得成年背景故事。</CAC_TooYoungForAdulthood>
+  <CAC_RandomBackstory>隨機背景故事</CAC_RandomBackstory>
+  <CAC_AddTrait>+ 加入特性</CAC_AddTrait>
+  <CAC_AlreadyHasTrait>已經擁有這個特性。</CAC_AlreadyHasTrait>
+  <CAC_ConflictsWith>與{0}衝突。</CAC_ConflictsWith>
+  <CAC_BackstoryForbids>背景故事「{0}」不允許。</CAC_BackstoryForbids>
+  <CAC_SkillsNote>技能等級取決於你選擇的背景故事和特性。左鍵點擊火焰圖示提高熱情，右鍵點擊降低熱情：無、有興趣、狂熱。 點擊等級數字可自行輸入（0–20）。</CAC_SkillsNote>
+  <CAC_PassionTip>熱情：{0}\n左鍵提高，右鍵降低。</CAC_PassionTip>
+  <CAC_Passion_None>無</CAC_Passion_None>
+  <CAC_Passion_Minor>有興趣</CAC_Passion_Minor>
+  <CAC_Passion_Major>狂熱</CAC_Passion_Major>
+
+  <!-- Appearance -->
+  <CAC_Sub_Body>身體</CAC_Sub_Body>
+  <CAC_Sub_Hair>頭髮</CAC_Sub_Hair>
+  <CAC_Sub_Beard>鬍鬚</CAC_Sub_Beard>
+  <CAC_Sub_Tattoos>刺青</CAC_Sub_Tattoos>
+  <CAC_Sub_Colours>顏色</CAC_Sub_Colours>
+  <CAC_Gender>性別</CAC_Gender>
+  <CAC_Age>年齡</CAC_Age>
+  <CAC_AgeValue>{0} 歲（{1} 年前出生）</CAC_AgeValue>
+  <CAC_AgeChrono>實際年齡</CAC_AgeChrono>
+  <CAC_AgeTip>生理年齡：身體的年齡。輸入數字或使用箭頭調整，最高 {0} 歲。</CAC_AgeTip>
+  <CAC_AgeChronoTip>實際年齡：出生至今的年數，包含在休眠艙中度過的時間。不能小於生理年齡。</CAC_AgeChronoTip>
+  <CAC_Undo>復原 (Ctrl+Z)</CAC_Undo>
+  <CAC_Redo>重做 (Ctrl+Y)</CAC_Redo>
+  <CAC_Coat>毛色</CAC_Coat>
+  <CAC_CoatNumber>毛色 {0}</CAC_CoatNumber>
+  <CAC_LockTab>鎖定此頁：點擊「{0}」時保留這裡的內容。</CAC_LockTab>
+  <CAC_UnlockTab>已鎖定：點擊「{0}」時保留這裡的內容。點擊解鎖。</CAC_UnlockTab>
+  <CAC_ChildNote>兒童無法從事所有工作，並會隨著時間長大。</CAC_ChildNote>
+  <CAC_BodyType>體型</CAC_BodyType>
+  <CAC_Body_Male>男性化</CAC_Body_Male>
+  <CAC_Body_Female>女性化</CAC_Body_Female>
+  <CAC_Body_Thin>纖瘦</CAC_Body_Thin>
+  <CAC_Body_Fat>肥胖</CAC_Body_Fat>
+  <CAC_Body_Hulk>魁梧</CAC_Body_Hulk>
+  <CAC_Body_Child>兒童</CAC_Body_Child>
+  <CAC_Body_Baby>嬰兒</CAC_Body_Baby>
+  <CAC_HeadType>頭型</CAC_HeadType>
+  <CAC_HairColour>髮色</CAC_HairColour>
+  <CAC_Hairstyle>髮型</CAC_Hairstyle>
+  <CAC_Beard>鬍鬚</CAC_Beard>
+  <CAC_NoStyle>這名殖民者無法改變造型。</CAC_NoStyle>
+  <CAC_FaceTattoo>臉部刺青</CAC_FaceTattoo>
+  <CAC_BodyTattoo>身體刺青</CAC_BodyTattoo>
+  <CAC_SkinColour>膚色</CAC_SkinColour>
+  <CAC_NaturalSkin>恢復天然膚色</CAC_NaturalSkin>
+  <CAC_EyeColour>瞳色</CAC_EyeColour>
+  <CAC_EyeColourNote>瞳色來自基因，包括其他模組加入的基因。有些模組的瞳色基因不只是改變顏色，把滑鼠移到上面可以查看它的全部效果。</CAC_EyeColourNote>
+  <CAC_NaturalEyes>天然瞳色（沒有瞳色基因）</CAC_NaturalEyes>
+  <CAC_NaturalEyesShort>天然</CAC_NaturalEyesShort>
+  <CAC_Brightness>亮度</CAC_Brightness>
+
+  <!-- Genes -->
+  <CAC_Xenotype>異種人</CAC_Xenotype>
+  <CAC_CustomXenotypes>你的自訂異種人</CAC_CustomXenotypes>
+  <CAC_OpenXenotypeEditor>建立自訂異種人...</CAC_OpenXenotypeEditor>
+  <CAC_GenesList>基因</CAC_GenesList>
+
+  <!-- Health -->
+  <CAC_HealthOverview>概況</CAC_HealthOverview>
+  <CAC_Conditions>健康狀況</CAC_Conditions>
+  <CAC_Healthy>{0} 完全健康。</CAC_Healthy>
+  <CAC_AddToHealth>加入</CAC_AddToHealth>
+  <CAC_HealthNote>這裡的一切在殖民地開局時就已存在。義肢和植入物是免費的，會導致殖民者死亡的內容無法加入。</CAC_HealthNote>
+  <CAC_AddImplant>義肢或植入物...</CAC_AddImplant>
+  <CAC_AddScar>舊傷...</CAC_AddScar>
+  <CAC_AddMissingPart>缺少的身體部位...</CAC_AddMissingPart>
+  <CAC_AddCondition>年齡相關疾病...</CAC_AddCondition>
+  <CAC_AddAddiction>成癮...</CAC_AddAddiction>
+  <CAC_HealAll>移除所有狀況</CAC_HealAll>
+  <CAC_RemoveCondition>移除</CAC_RemoveCondition>
+  <CAC_PartEfficiency>部位效率：{0}</CAC_PartEfficiency>
+  <CAC_ScarDesc>已經癒合、但留下永久疤痕的舊傷。有些疤痕仍會不時疼痛。</CAC_ScarDesc>
+  <CAC_MissingPartDesc>開局時就沒有{0}。之後可以用義肢替代。</CAC_MissingPartDesc>
+  <CAC_WouldKill>這會導致 {0} 死亡。</CAC_WouldKill>
+  <CAC_AlreadyHasThis>已經擁有。</CAC_AlreadyHasThis>
+  <CAC_WontTakeDrugs>由於特性或理念，{0} 不會服用藥物。</CAC_WontTakeDrugs>
+  <CAC_CouldNotAdd>無法加入{0}。這名殖民者可能已在所有可加入的部位擁有它。</CAC_CouldNotAdd>
+  <CAC_NothingToAdd>目前沒有這類可以加入的內容。</CAC_NothingToAdd>
+
+  <!-- Ideoligion -->
+  <CAC_ChangeIdeo>更換理念...</CAC_ChangeIdeo>
+  <CAC_IdeoDetails>完整詳情...</CAC_IdeoDetails>
+  <CAC_IdeoOfColony>你殖民地的主要理念</CAC_IdeoOfColony>
+  <CAC_IdeoOfFactions>信奉者：{0}</CAC_IdeoOfFactions>
+  <CAC_IdeoFromSaved>你儲存的理念之一</CAC_IdeoFromSaved>
+  <CAC_IdeoNoFaction>沒有派系信奉</CAC_IdeoNoFaction>
+  <CAC_CertaintyNote>{0} 信仰的堅定程度。感悟越低，越容易被他人轉化。</CAC_CertaintyNote>
+  <CAC_IdeoStory>描述</CAC_IdeoStory>
+  <CAC_ColonyIdeo>殖民地理念</CAC_ColonyIdeo>
+  <CAC_ColonyIdeoNote>遊戲開始時，大多數殖民者信奉的理念會成為殖民地的主要理念，與遊戲過程中的規則相同。信奉其他理念的殖民者會保留自己的理念。</CAC_ColonyIdeoNote>
+  <CAC_NoSavedIdeos>你還沒有儲存過理念。開始新殖民地時，可以在理念編輯器中儲存。</CAC_NoSavedIdeos>
+  <CAC_SavedIdeoFile>儲存為「{0}」</CAC_SavedIdeoFile>
+
+  <!-- Clothing -->
+  <CAC_Wearing>穿著</CAC_Wearing>
+  <CAC_WearingNothing>什麼都沒穿。</CAC_WearingNothing>
+  <CAC_RemoveAll>全部脫下</CAC_RemoveAll>
+  <CAC_AddClothing>加入服裝</CAC_AddClothing>
+  <CAC_Layer_All>全部</CAC_Layer_All>
+  <CAC_Layer_Head>頭部</CAC_Layer_Head>
+  <CAC_Layer_Outer>外層</CAC_Layer_Outer>
+  <CAC_Layer_Middle>中層</CAC_Layer_Middle>
+  <CAC_Layer_Skin>貼身</CAC_Layer_Skin>
+  <CAC_Layer_Belt>腰帶</CAC_Layer_Belt>
+  <CAC_Layer_Other>其他</CAC_Layer_Other>
+
+  <!-- Inventory -->
+  <CAC_Carried>這名殖民者</CAC_Carried>
+  <CAC_ColonySupplies>殖民地物資</CAC_ColonySupplies>
+  <CAC_Weapon>武器</CAC_Weapon>
+  <CAC_Unarmed>沒有武器。</CAC_Unarmed>
+  <CAC_ChooseWeapon>選擇武器...</CAC_ChooseWeapon>
+  <CAC_ChangeWeapon>更換武器...</CAC_ChangeWeapon>
+  <CAC_CarriedItems>隨身物品</CAC_CarriedItems>
+  <CAC_CarriedNote>這名殖民者口袋和背包裡攜帶的東西。能帶多少由遊戲本身決定，體型、基因以及改變負重的模組都會計算在內。</CAC_CarriedNote>
+  <CAC_CantCarry>{0} 無法攜帶任何東西。</CAC_CantCarry>
+  <CAC_Weight>負重 {0} / {1}</CAC_Weight>
+  <CAC_WeightTip>遊戲本身為這名殖民者設定的負重上限。穿著的衣物和武器：{0}。隨身物品：{1}。</CAC_WeightTip>
+  <CAC_NoRoom>{0} 已經帶不下更多東西了。</CAC_NoRoom>
+  <CAC_TooHeavyToAdd>太重了。{0} 只剩 {1} 的空間。</CAC_TooHeavyToAdd>
+  <CAC_OverWeight>{0} 超重了 {1}，可能是因為更重的衣服或武器。請移除一些東西，否則多出來的物品會在開局時落在旁邊。</CAC_OverWeight>
+  <CAC_ArrivesNextTo>這些東西放不進 {0} 的隨身物品，開局時會落在旁邊：</CAC_ArrivesNextTo>
+  <CAC_AddItem>+ 加入物品</CAC_AddItem>
+  <CAC_SuppliesNote>來自「{0}」劇本的共享初始物資。可以修改數量、加入或移除任何物品。按住 Shift 點擊 +/- 一次改變 10，按住 Ctrl 一次改變 100。</CAC_SuppliesNote>
+  <CAC_ArrivesWithColonists>與殖民者一同抵達</CAC_ArrivesWithColonists>
+  <CAC_ScatteredNearby>散落在附近</CAC_ScatteredNearby>
+  <CAC_AddSupply>+ 加入物資</CAC_AddSupply>
+  <CAC_ResetSupplies>恢復劇本預設</CAC_ResetSupplies>
+  <CAC_ResetSuppliesConfirm>要把殖民地物資恢復為劇本的原始清單嗎？</CAC_ResetSuppliesConfirm>
+
+  <!-- Relationships -->
+  <CAC_RelationsNote>{0} 與隊伍中其他人的關係。在每個下拉選單中選擇一種關係。</CAC_RelationsNote>
+  <CAC_InYourColony>殖民地成員</CAC_InYourColony>
+  <CAC_NoOneElse>加入更多殖民者後才能設定關係。</CAC_NoOneElse>
+  <CAC_IsMy>是 {0} 的</CAC_IsMy>
+  <CAC_RelationNone>無關係</CAC_RelationNone>
+  <CAC_Pets>寵物</CAC_Pets>
+  <CAC_Bonded>羈絆</CAC_Bonded>
+  <CAC_FamilyOutside>殖民地外的家人</CAC_FamilyOutside>
+  <CAC_FamilyOutsideNote>沒有加入的親屬。他們之後可能會在遊戲中出現。</CAC_FamilyOutsideNote>
+  <CAC_BondNote>有羈絆的寵物會跟隨主人，並已訓練為服從。選擇 {0} 與誰建立羈絆。</CAC_BondNote>
+  <CAC_BondedTo>羈絆對象</CAC_BondedTo>
+  <CAC_NoBond>無</CAC_NoBond>
+
+  <!-- Pets -->
+  <CAC_Species>物種</CAC_Species>
+  <CAC_PetsOnly>僅限寵物</CAC_PetsOnly>
+  <CAC_NotAPet>（野生動物）</CAC_NotAPet>
+
+  <!-- Gallery -->
+  <CAC_SaveToGallery>將殖民者儲存到圖庫</CAC_SaveToGallery>
+  <CAC_OpenGallery>圖庫：載入已儲存的殖民者或殖民地</CAC_OpenGallery>
+  <CAC_Gallery>圖庫</CAC_Gallery>
+  <CAC_GalleryEmpty>還沒有儲存的殖民者。使用殖民者上方的儲存按鈕來加入。</CAC_GalleryEmpty>
+  <CAC_OverwritePreset>已經存在名為「{0}」的殖民者。要取代嗎？</CAC_OverwritePreset>
+  <CAC_Saved>已將 {0} 儲存到圖庫。</CAC_Saved>
+  <CAC_LoadInto>載入到 {0}</CAC_LoadInto>
+  <CAC_AddAsNew>加入為新殖民者</CAC_AddAsNew>
+  <CAC_GroupFull>你的隊伍已滿。</CAC_GroupFull>
+  <CAC_DeletePreset>要從圖庫中刪除「{0}」嗎？</CAC_DeletePreset>
+  <CAC_SaveMenuTip>儲存到圖庫：這名殖民者或整個殖民地</CAC_SaveMenuTip>
+  <CAC_SaveThisColonist>儲存這名殖民者（{0}）</CAC_SaveThisColonist>
+  <CAC_SaveWholeColony>儲存整個殖民地</CAC_SaveWholeColony>
+  <CAC_SaveColonyTitle>將殖民地儲存到圖庫</CAC_SaveColonyTitle>
+  <CAC_OverwriteColony>已經存在名為「{0}」的殖民地。要取代嗎？</CAC_OverwriteColony>
+  <CAC_GalleryColonists>殖民者</CAC_GalleryColonists>
+  <CAC_GalleryColonies>殖民地</CAC_GalleryColonies>
+  <CAC_GalleryNoColonies>還沒有儲存的殖民地。點擊殖民者上方的儲存按鈕，然後選擇「儲存整個殖民地」。</CAC_GalleryNoColonies>
+  <CAC_ColonySummary>殖民者：{0} · 寵物：{1} · 物資：{2}</CAC_ColonySummary>
+  <CAC_LoadColony>載入這個殖民地</CAC_LoadColony>
+  <CAC_LoadColonyConfirm>要用「{0}」取代目前的殖民者、寵物和殖民地物資嗎？</CAC_LoadColonyConfirm>
+  <CAC_ColonyLoaded>已載入殖民地「{0}」。</CAC_ColonyLoaded>
+  <CAC_ColonyTooBig>這個殖民地有 {0} 名殖民者，但這次開局最多允許 {1} 名。只載入了前 {1} 名。</CAC_ColonyTooBig>
+  <CAC_Rename>重新命名</CAC_Rename>
+  <CAC_Duplicate>複製</CAC_Duplicate>
+  <CAC_RenameTitle>重新命名「{0}」</CAC_RenameTitle>
+  <CAC_Renamed>已重新命名為 {0}。</CAC_Renamed>
+  <CAC_Duplicated>已另存一份副本：「{0}」。</CAC_Duplicated>
+  <CAC_CopyName>{0}（副本）</CAC_CopyName>
+
+  <!-- Skill editing, Facial Animation, mod filter, info cards, colour reset -->
+  <CAC_SkillLevelTip>點擊數字輸入等級（0–20）。Enter 確認，Esc 取消。</CAC_SkillLevelTip>
+  <CAC_ManualSkills>手動設定技能等級</CAC_ManualSkills>
+  <CAC_ManualSkillsTip>輸入等級後自動開啟。之後變更背景故事、特性、年齡或異種類型都不會改動該殖民者的技能等級。</CAC_ManualSkillsTip>
+  <CAC_RecalculateSkills>依背景故事重新計算</CAC_RecalculateSkills>
+  <CAC_RecalculateSkillsTip>根據背景故事和特性重新計算該殖民者的技能等級，取代你輸入的數值。</CAC_RecalculateSkillsTip>
+  <CAC_FacialAnimation>Facial Animation</CAC_FacialAnimation>
+  <CAC_FaPart_Head>頭部</CAC_FaPart_Head>
+  <CAC_FaPart_Eye>眼睛</CAC_FaPart_Eye>
+  <CAC_FaPart_Brow>眉毛</CAC_FaPart_Brow>
+  <CAC_FaPart_Mouth>嘴巴</CAC_FaPart_Mouth>
+  <CAC_FaPart_Lid>眼瞼</CAC_FaPart_Lid>
+  <CAC_FaPart_Skin>皮膚</CAC_FaPart_Skin>
+  <CAC_FaNoStyles>Facial Animation 沒有適合該殖民者的此類樣式。</CAC_FaNoStyles>
+  <CAC_FaEyeColourNote>虹膜顏色在「顏色」分頁中設定。</CAC_FaEyeColourNote>
+  <CAC_FaEyeColour>虹膜顏色（Facial Animation）</CAC_FaEyeColour>
+  <CAC_OddEyes>異色瞳</CAC_OddEyes>
+  <CAC_FirstEye>第一隻眼</CAC_FirstEye>
+  <CAC_SecondEye>第二隻眼</CAC_SecondEye>
+  <CAC_ModAll>全部</CAC_ModAll>
+  <CAC_ModFilter>模組：{0}</CAC_ModFilter>
+  <CAC_ResetColour>重設</CAC_ResetColour>
+  <CAC_ClickForInfo>點擊查看詳情。</CAC_ClickForInfo>
+
+  <!-- Add from genetics -->
+  <CAC_AddFromGenetics>根據基因加入殖民者...</CAC_AddFromGenetics>
+  <CAC_AddFromGeneticsFull>根據基因加入殖民者（隊伍已滿）</CAC_AddFromGeneticsFull>
+  <CAC_GeneticsTitle>根據基因加入殖民者</CAC_GeneticsTitle>
+  <CAC_GeneticsNote>選擇新殖民者與現有殖民者的關係。其基因來自這些親屬。</CAC_GeneticsNote>
+  <CAC_GeneticsTheirRelation>新殖民者與此人的關係</CAC_GeneticsTheirRelation>
+  <CAC_GeneticsPickRelative>至少選擇一位親屬。</CAC_GeneticsPickRelative>
+  <CAC_GeneticsSavedParent>加入已儲存的殖民者作為父母...</CAC_GeneticsSavedParent>
+  <CAC_GeneticsAdd>加入隊伍</CAC_GeneticsAdd>
+  <CAC_GeneticsRoll>重新生成</CAC_GeneticsRoll>
+  <CAC_GeneticsAgeTip>親屬關係允許的任意年齡。</CAC_GeneticsAgeTip>
+  <CAC_GeneticsFailed>無法建立這名殖民者。詳情請查看紀錄檔。</CAC_GeneticsFailed>
+  <CAC_Newborn>新生兒</CAC_Newborn>
+  <CAC_TooYoungToBeParent>{0} 太年輕，不能成為父母。</CAC_TooYoungToBeParent>
+  <CAC_TwoParentsMax>一名殖民者最多只能有兩位父母。</CAC_TwoParentsMax>
+  <CAC_SiblingOrParents>兄弟姊妹共享父母，請選擇兄弟姊妹或父母，不能同時選擇。</CAC_SiblingOrParents>
+  <CAC_NotSiblings>{0} 和 {1} 不是兄弟姊妹。</CAC_NotSiblings>
+  <CAC_NoAgeFits>沒有合適的年齡：父母至少要比孩子年長 {0} 歲。</CAC_NoAgeFits>
+  <CAC_HasThatParent>{0} 在你的隊伍中已有這位家長。</CAC_HasThatParent>
+  <CAC_NeedsGrownUp>殖民地至少需要一名 {0} 歲或以上的成員。</CAC_NeedsGrownUp>
+  <CAC_BabyNote>嬰兒還沒有背景故事和特性，會在成長過程中獲得。</CAC_BabyNote>
+
+  <!-- The game keeps these in Ideology, so they are missing without it -->
+  <CAC_ShowApparel>顯示服裝</CAC_ShowApparel>
+  <CAC_ShowHeadgear>顯示頭飾</CAC_ShowHeadgear>
+  <CAC_Name>名稱</CAC_Name>
+
+</LanguageData>

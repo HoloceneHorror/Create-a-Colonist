@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Carries the pets made in the creator into the new colony. Removes itself once the game
+       has started, so saves never depend on this mod. -->
+  <ScenPartDef>
+    <defName>CAC_CreatorPets</defName>
+    <label>pets from Create a Colonist</label>
+    <scenPartClass>CreateAColonist.ScenPart_CreatorPets</scenPartClass>
+    <category>Fixed</category>
+    <selectionWeight>0</selectionWeight>
+    <canBeRandomlyAdded>false</canBeRandomlyAdded>
+    <canBePlayerAddedRemoved>false</canBePlayerAddedRemoved>
+    <summaryPriority>-1</summaryPriority>
+  </ScenPartDef>
+</Defs>

@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- New Colony popup -->
+  <CAC_ModeTitle>Как вы хотите создать поселенцев?</CAC_ModeTitle>
+  <CAC_ModeSubtitle>Сценарий, рассказчика и мир можно будет выбрать дальше, как обычно.</CAC_ModeSubtitle>
+  <CAC_ModeNormal>Обычное создание колонии</CAC_ModeNormal>
+  <CAC_ModeNormalDesc>Стандартный экран персонажей RimWorld: перебирайте случайных поселенцев, пока они вам не понравятся.</CAC_ModeNormalDesc>
+  <CAC_ModeCreator>Создание персонажей</CAC_ModeCreator>
+  <CAC_ModeCreatorDesc>Создайте каждого поселенца и питомца сами: характер, внешность, гены, одежду, снаряжение и отношения.</CAC_ModeCreatorDesc>
+
+  <!-- Page -->
+  <CAC_PageTitle>Создание поселенца</CAC_PageTitle>
+  <CAC_GroupSummary>{0}  ·  поселенцев: {1} из {2}  ·  {3}</CAC_GroupSummary>
+  <CAC_PetCountOne>питомцев: 1</CAC_PetCountOne>
+  <CAC_PetCount>питомцев: {0}</CAC_PetCount>
+  <CAC_ColonistSubtitle>{0}, {1}</CAC_ColonistSubtitle>
+  <CAC_ColonistSubtitleXeno>{0}, {1}, {2}</CAC_ColonistSubtitleXeno>
+  <CAC_PetSubtitle>{0}, {1}</CAC_PetSubtitle>
+  <CAC_RandomName>Случайное имя</CAC_RandomName>
+  <CAC_RotateLeft>Повернуть влево</CAC_RotateLeft>
+  <CAC_RotateRight>Повернуть вправо</CAC_RotateRight>
+  <CAC_RandomColonist>Случайный поселенец</CAC_RandomColonist>
+  <CAC_RandomPet>Случайный питомец</CAC_RandomPet>
+  <CAC_Play>Играть</CAC_Play>
+  <CAC_PlayTip>Начать колонию с этой группой.</CAC_PlayTip>
+  <CAC_ConfirmBack>Вернуться на предыдущую страницу? При возврате игра заново создаст стартовых поселенцев, и созданные здесь поселенцы будут потеряны (сначала сохраните в галерею тех, кого хотите оставить).</CAC_ConfirmBack>
+  <CAC_AddToGroup>Добавить поселенца или питомца</CAC_AddToGroup>
+  <CAC_AddColonist>Добавить поселенца</CAC_AddColonist>
+  <CAC_AddColonistFull>Добавить поселенца (достигнут предел: {0})</CAC_AddColonistFull>
+  <CAC_AddPet>Добавить питомца</CAC_AddPet>
+  <CAC_AddFromGallery>Добавить поселенца из галереи...</CAC_AddFromGallery>
+  <CAC_AddFromGalleryFull>Добавить поселенца из галереи (группа заполнена)</CAC_AddFromGalleryFull>
+  <CAC_ConfirmRemove>Убрать {0} из стартовой группы?</CAC_ConfirmRemove>
+  <CAC_None>Нет</CAC_None>
+  <CAC_Custom>Свой вариант...</CAC_Custom>
+  <CAC_NothingMatches>Ничего не найдено.</CAC_NothingMatches>
+  <CAC_HoverForDetails>Наведите курсор на вариант, чтобы увидеть, что он делает.</CAC_HoverForDetails>
+  <CAC_HideWorkBlockers>Скрыть то, что запрещает работу</CAC_HideWorkBlockers>
+  <CAC_MustDo>Обязательные работы...</CAC_MustDo>
+  <CAC_MustDoCount>Обязательные работы ({0})...</CAC_MustDoCount>
+  <CAC_MustDoTitle>Обязательные работы</CAC_MustDoTitle>
+  <CAC_MustDoNote>Показывать только биографии и черты, которые оставляют все эти работы доступными. Выбор запоминается.</CAC_MustDoNote>
+  <CAC_Violence>Насилие</CAC_Violence>
+  <CAC_CantDo>Нельзя: {0}</CAC_CantDo>
+  <CAC_ClearAll>Снять всё</CAC_ClearAll>
+
+  <!-- Tabs -->
+  <CAC_Tab_Personality>Характер</CAC_Tab_Personality>
+  <CAC_Tab_Appearance>Внешность</CAC_Tab_Appearance>
+  <CAC_Tab_Genes>Гены</CAC_Tab_Genes>
+  <CAC_Tab_Clothing>Одежда</CAC_Tab_Clothing>
+  <CAC_Tab_Inventory>Снаряжение</CAC_Tab_Inventory>
+  <CAC_Tab_Relationships>Отношения</CAC_Tab_Relationships>
+  <CAC_Tab_Animal>Животное</CAC_Tab_Animal>
+  <CAC_Tab_Ideoligion>Идеолигия</CAC_Tab_Ideoligion>
+  <CAC_Tab_Health>Здоровье</CAC_Tab_Health>
+  <CAC_TabDesc_Personality>Биография, черты характера, навыки и интересы.</CAC_TabDesc_Personality>
+  <CAC_TabDesc_Appearance>Пол, возраст, телосложение, голова, причёска, борода, татуировки, цвет кожи, волос и глаз.</CAC_TabDesc_Appearance>
+  <CAC_TabDesc_Genes>Ксенотип и гены.</CAC_TabDesc_Genes>
+  <CAC_TabDesc_Clothing>Что надето на этом поселенце.</CAC_TabDesc_Clothing>
+  <CAC_TabDesc_Inventory>Оружие, вещи при себе и стартовые припасы колонии.</CAC_TabDesc_Inventory>
+  <CAC_TabDesc_Relationships>Семья, партнёры и связи с питомцами внутри группы.</CAC_TabDesc_Relationships>
+  <CAC_TabDesc_Animal>Вид, пол и возраст.</CAC_TabDesc_Animal>
+  <CAC_TabDesc_Ideoligion>Во что верит этот поселенец и насколько твёрдо.</CAC_TabDesc_Ideoligion>
+  <CAC_TabDesc_Health>Старые раны, отсутствующие части тела, протезы, импланты, болезни и зависимости.</CAC_TabDesc_Health>
+
+  <!-- Personality -->
+  <CAC_Backstory>Биография</CAC_Backstory>
+  <CAC_TooYoungForAdulthood>Взрослая биография появляется в {0} лет.</CAC_TooYoungForAdulthood>
+  <CAC_RandomBackstory>Случайная биография</CAC_RandomBackstory>
+  <CAC_AddTrait>+ Добавить черту</CAC_AddTrait>
+  <CAC_AlreadyHasTrait>Уже есть эта черта.</CAC_AlreadyHasTrait>
+  <CAC_ConflictsWith>Несовместимо с чертой «{0}».</CAC_ConflictsWith>
+  <CAC_BackstoryForbids>Запрещено биографией «{0}».</CAC_BackstoryForbids>
+  <CAC_SkillsNote>Уровни навыков зависят от выбранной биографии и черт. Щелчок по огоньку повышает интерес, правый щелчок понижает: нет, интерес, страсть. Щёлкните по уровню, чтобы ввести своё значение (0–20).</CAC_SkillsNote>
+  <CAC_PassionTip>Интерес: {0}\nЩелчок повышает, правый щелчок понижает.</CAC_PassionTip>
+  <CAC_Passion_None>нет</CAC_Passion_None>
+  <CAC_Passion_Minor>интерес</CAC_Passion_Minor>
+  <CAC_Passion_Major>страсть</CAC_Passion_Major>
+
+  <!-- Appearance -->
+  <CAC_Sub_Body>Тело</CAC_Sub_Body>
+  <CAC_Sub_Hair>Волосы</CAC_Sub_Hair>
+  <CAC_Sub_Beard>Борода</CAC_Sub_Beard>
+  <CAC_Sub_Tattoos>Татуировки</CAC_Sub_Tattoos>
+  <CAC_Sub_Colours>Цвета</CAC_Sub_Colours>
+  <CAC_Gender>Пол</CAC_Gender>
+  <CAC_Age>Возраст</CAC_Age>
+  <CAC_AgeValue>Возраст: {0} (хронологический: {1})</CAC_AgeValue>
+  <CAC_AgeChrono>Хронологический возраст</CAC_AgeChrono>
+  <CAC_AgeTip>Биологический возраст: сколько лет телу. Введите число или используйте стрелки, до {0}.</CAC_AgeTip>
+  <CAC_AgeChronoTip>Хронологический возраст: годы с рождения, включая время в криптосне. Не может быть меньше биологического.</CAC_AgeChronoTip>
+  <CAC_Undo>Отменить (Ctrl+Z)</CAC_Undo>
+  <CAC_Redo>Повторить (Ctrl+Y)</CAC_Redo>
+  <CAC_Coat>Окрас</CAC_Coat>
+  <CAC_CoatNumber>Окрас {0}</CAC_CoatNumber>
+  <CAC_LockTab>Закрепить вкладку: при нажатии «{0}» её содержимое сохранится.</CAC_LockTab>
+  <CAC_UnlockTab>Закреплено: при нажатии «{0}» содержимое сохраняется. Нажмите, чтобы открепить.</CAC_UnlockTab>
+  <CAC_ChildNote>Дети могут выполнять не все работы и со временем растут.</CAC_ChildNote>
+  <CAC_BodyType>Телосложение</CAC_BodyType>
+  <CAC_Body_Male>Мужское</CAC_Body_Male>
+  <CAC_Body_Female>Женское</CAC_Body_Female>
+  <CAC_Body_Thin>Худое</CAC_Body_Thin>
+  <CAC_Body_Fat>Полное</CAC_Body_Fat>
+  <CAC_Body_Hulk>Мощное</CAC_Body_Hulk>
+  <CAC_Body_Child>Детское</CAC_Body_Child>
+  <CAC_Body_Baby>Младенческое</CAC_Body_Baby>
+  <CAC_HeadType>Голова</CAC_HeadType>
+  <CAC_HairColour>Цвет волос</CAC_HairColour>
+  <CAC_Hairstyle>Причёска</CAC_Hairstyle>
+  <CAC_Beard>Борода</CAC_Beard>
+  <CAC_NoStyle>Внешность этого поселенца менять нельзя.</CAC_NoStyle>
+  <CAC_FaceTattoo>Татуировка на лице</CAC_FaceTattoo>
+  <CAC_BodyTattoo>Татуировка на теле</CAC_BodyTattoo>
+  <CAC_SkinColour>Цвет кожи</CAC_SkinColour>
+  <CAC_NaturalSkin>Вернуть природный цвет кожи</CAC_NaturalSkin>
+  <CAC_EyeColour>Цвет глаз</CAC_EyeColour>
+  <CAC_EyeColourNote>Цвет глаз задаётся генами, включая гены из других модов. Некоторые гены глаз из модов делают больше, чем меняют цвет, поэтому наведите на них курсор, чтобы увидеть все эффекты.</CAC_EyeColourNote>
+  <CAC_NaturalEyes>Природные глаза (без гена цвета глаз)</CAC_NaturalEyes>
+  <CAC_NaturalEyesShort>Природные</CAC_NaturalEyesShort>
+  <CAC_Brightness>Яркость</CAC_Brightness>
+
+  <!-- Genes -->
+  <CAC_Xenotype>Ксенотип</CAC_Xenotype>
+  <CAC_CustomXenotypes>Ваши ксенотипы</CAC_CustomXenotypes>
+  <CAC_OpenXenotypeEditor>Создать свой ксенотип...</CAC_OpenXenotypeEditor>
+  <CAC_GenesList>Гены</CAC_GenesList>
+
+  <!-- Health -->
+  <CAC_HealthOverview>Обзор</CAC_HealthOverview>
+  <CAC_Conditions>Состояния</CAC_Conditions>
+  <CAC_Healthy>{0} полностью здоров(а).</CAC_Healthy>
+  <CAC_AddToHealth>Добавить</CAC_AddToHealth>
+  <CAC_HealthNote>Всё здесь будет у поселенца с самого начала колонии. Протезы и импланты бесплатны, а то, что убьёт поселенца, добавить нельзя.</CAC_HealthNote>
+  <CAC_AddImplant>Протез или имплант...</CAC_AddImplant>
+  <CAC_AddScar>Старая рана...</CAC_AddScar>
+  <CAC_AddMissingPart>Отсутствующая часть тела...</CAC_AddMissingPart>
+  <CAC_AddCondition>Возрастная болезнь...</CAC_AddCondition>
+  <CAC_AddAddiction>Зависимость...</CAC_AddAddiction>
+  <CAC_HealAll>Убрать все состояния</CAC_HealAll>
+  <CAC_RemoveCondition>Убрать</CAC_RemoveCondition>
+  <CAC_PartEfficiency>Эффективность части тела: {0}</CAC_PartEfficiency>
+  <CAC_ScarDesc>Зажившая рана, оставившая постоянный шрам. Некоторые шрамы до сих пор иногда болят.</CAC_ScarDesc>
+  <CAC_MissingPartDesc>Начинает игру без этой части тела: {0}. Позже её можно заменить протезом.</CAC_MissingPartDesc>
+  <CAC_WouldKill>Это убьёт {0}.</CAC_WouldKill>
+  <CAC_AlreadyHasThis>Уже есть.</CAC_AlreadyHasThis>
+  <CAC_WontTakeDrugs>{0} не принимает наркотики из-за черты характера или идеолигии.</CAC_WontTakeDrugs>
+  <CAC_CouldNotAdd>Не удалось добавить: {0}. Возможно, у поселенца это уже есть везде, где возможно.</CAC_CouldNotAdd>
+  <CAC_NothingToAdd>Сейчас нечего добавить из этой категории.</CAC_NothingToAdd>
+
+  <!-- Ideoligion -->
+  <CAC_ChangeIdeo>Сменить идеолигию...</CAC_ChangeIdeo>
+  <CAC_IdeoDetails>Подробнее...</CAC_IdeoDetails>
+  <CAC_IdeoOfColony>Основная идеолигия вашей колонии</CAC_IdeoOfColony>
+  <CAC_IdeoOfFactions>Её придерживаются: {0}</CAC_IdeoOfFactions>
+  <CAC_IdeoFromSaved>Одна из ваших сохранённых идеолигий</CAC_IdeoFromSaved>
+  <CAC_IdeoNoFaction>Ни одна фракция её не придерживается</CAC_IdeoNoFaction>
+  <CAC_CertaintyNote>Насколько твёрдо верит {0}. Чем ниже уверенность, тем легче обратить поселенца в другую веру.</CAC_CertaintyNote>
+  <CAC_IdeoStory>Описание</CAC_IdeoStory>
+  <CAC_ColonyIdeo>Идеолигия колонии</CAC_ColonyIdeo>
+  <CAC_ColonyIdeoNote>Когда игра начнётся, идеолигия большинства поселенцев станет основной идеолигией колонии, как это происходит и во время игры. Поселенцы, верящие во что-то другое, сохранят свою идеолигию.</CAC_ColonyIdeoNote>
+  <CAC_NoSavedIdeos>У вас пока нет сохранённых идеолигий. Сохранить идеолигию можно в её редакторе при создании колонии.</CAC_NoSavedIdeos>
+  <CAC_SavedIdeoFile>Сохранено как «{0}»</CAC_SavedIdeoFile>
+
+  <!-- Clothing -->
+  <CAC_Wearing>Надето</CAC_Wearing>
+  <CAC_WearingNothing>Ничего.</CAC_WearingNothing>
+  <CAC_RemoveAll>Снять всё</CAC_RemoveAll>
+  <CAC_AddClothing>Добавить одежду</CAC_AddClothing>
+  <CAC_Layer_All>Всё</CAC_Layer_All>
+  <CAC_Layer_Head>Голова</CAC_Layer_Head>
+  <CAC_Layer_Outer>Верхний слой</CAC_Layer_Outer>
+  <CAC_Layer_Middle>Средний слой</CAC_Layer_Middle>
+  <CAC_Layer_Skin>Нижний слой</CAC_Layer_Skin>
+  <CAC_Layer_Belt>Пояс</CAC_Layer_Belt>
+  <CAC_Layer_Other>Прочее</CAC_Layer_Other>
+
+  <!-- Inventory -->
+  <CAC_Carried>Этот поселенец</CAC_Carried>
+  <CAC_ColonySupplies>Припасы колонии</CAC_ColonySupplies>
+  <CAC_Weapon>Оружие</CAC_Weapon>
+  <CAC_Unarmed>Без оружия.</CAC_Unarmed>
+  <CAC_ChooseWeapon>Выбрать оружие...</CAC_ChooseWeapon>
+  <CAC_ChangeWeapon>Сменить оружие...</CAC_ChangeWeapon>
+  <CAC_CarriedItems>Инвентарь</CAC_CarriedItems>
+  <CAC_CarriedNote>Что поселенец несёт в карманах и сумке. Сколько можно унести, решает сама игра: учитываются размер тела, гены и моды, меняющие грузоподъёмность.</CAC_CarriedNote>
+  <CAC_CantCarry>{0} не может ничего нести.</CAC_CantCarry>
+  <CAC_Weight>Груз: {0} из {1}</CAC_Weight>
+  <CAC_WeightTip>Предел груза, который игра задаёт этому поселенцу. Одежда и оружие: {0}. Инвентарь: {1}.</CAC_WeightTip>
+  <CAC_NoRoom>{0} больше ничего не унесёт.</CAC_NoRoom>
+  <CAC_TooHeavyToAdd>Слишком тяжело: {0} может унести ещё только {1}.</CAC_TooHeavyToAdd>
+  <CAC_OverWeight>{0} несёт на {1} больше, чем может, возможно из-за более тяжёлой одежды или оружия. Уберите что-нибудь, иначе лишнее прибудет рядом с поселенцем в начале игры.</CAC_OverWeight>
+  <CAC_ArrivesNextTo>Это не помещается в инвентарь ({0}), поэтому прибудет рядом в начале игры:</CAC_ArrivesNextTo>
+  <CAC_AddItem>+ Добавить предмет</CAC_AddItem>
+  <CAC_SuppliesNote>Общие стартовые припасы из сценария «{0}». Меняйте количество, добавляйте или убирайте что угодно. Shift и щелчок по +/- меняют на 10, Ctrl — на 100.</CAC_SuppliesNote>
+  <CAC_ArrivesWithColonists>Прибывает с поселенцами</CAC_ArrivesWithColonists>
+  <CAC_ScatteredNearby>Разбросано поблизости</CAC_ScatteredNearby>
+  <CAC_AddSupply>+ Добавить припасы</CAC_AddSupply>
+  <CAC_ResetSupplies>Вернуть как в сценарии</CAC_ResetSupplies>
+  <CAC_ResetSuppliesConfirm>Вернуть припасы колонии к исходному списку сценария?</CAC_ResetSuppliesConfirm>
+
+  <!-- Relationships -->
+  <CAC_RelationsNote>Кем {0} приходится остальным в группе. Выберите отношение в каждом списке.</CAC_RelationsNote>
+  <CAC_InYourColony>В вашей колонии</CAC_InYourColony>
+  <CAC_NoOneElse>Добавьте ещё поселенцев, чтобы задать им отношения.</CAC_NoOneElse>
+  <CAC_IsMy>для {0}</CAC_IsMy>
+  <CAC_RelationNone>Нет отношений</CAC_RelationNone>
+  <CAC_Pets>Питомцы</CAC_Pets>
+  <CAC_Bonded>Связь</CAC_Bonded>
+  <CAC_FamilyOutside>Семья вне колонии</CAC_FamilyOutside>
+  <CAC_FamilyOutsideNote>Родственники, которые не присоединяются. Позже они могут появиться в игре.</CAC_FamilyOutsideNote>
+  <CAC_BondNote>Питомец, связанный с хозяином, следует за ним и обучен послушанию. Выберите, с кем связан(а) {0}.</CAC_BondNote>
+  <CAC_BondedTo>Связан с</CAC_BondedTo>
+  <CAC_NoBond>Ни с кем</CAC_NoBond>
+
+  <!-- Pets -->
+  <CAC_Species>Вид</CAC_Species>
+  <CAC_PetsOnly>Только питомцы</CAC_PetsOnly>
+  <CAC_NotAPet>(дикое животное)</CAC_NotAPet>
+
+  <!-- Gallery -->
+  <CAC_SaveToGallery>Сохранить поселенца в галерею</CAC_SaveToGallery>
+  <CAC_OpenGallery>Галерея: загрузить сохранённого поселенца или колонию</CAC_OpenGallery>
+  <CAC_Gallery>Галерея</CAC_Gallery>
+  <CAC_GalleryEmpty>Сохранённых поселенцев пока нет. Добавьте их кнопкой сохранения над поселенцем.</CAC_GalleryEmpty>
+  <CAC_OverwritePreset>Поселенец «{0}» уже сохранён. Заменить?</CAC_OverwritePreset>
+  <CAC_Saved>{0}: сохранено в галерею.</CAC_Saved>
+  <CAC_LoadInto>Загрузить в: {0}</CAC_LoadInto>
+  <CAC_AddAsNew>Добавить как нового поселенца</CAC_AddAsNew>
+  <CAC_GroupFull>Группа заполнена.</CAC_GroupFull>
+  <CAC_DeletePreset>Удалить «{0}» из галереи?</CAC_DeletePreset>
+  <CAC_SaveMenuTip>Сохранить в галерею: этого поселенца или всю колонию</CAC_SaveMenuTip>
+  <CAC_SaveThisColonist>Сохранить этого поселенца ({0})</CAC_SaveThisColonist>
+  <CAC_SaveWholeColony>Сохранить всю колонию</CAC_SaveWholeColony>
+  <CAC_SaveColonyTitle>Сохранить колонию в галерею</CAC_SaveColonyTitle>
+  <CAC_OverwriteColony>Колония «{0}» уже сохранена. Заменить?</CAC_OverwriteColony>
+  <CAC_GalleryColonists>Поселенцы</CAC_GalleryColonists>
+  <CAC_GalleryColonies>Колонии</CAC_GalleryColonies>
+  <CAC_GalleryNoColonies>Сохранённых колоний пока нет. Нажмите кнопку сохранения над поселенцем и выберите «Сохранить всю колонию».</CAC_GalleryNoColonies>
+  <CAC_ColonySummary>Поселенцы: {0} · Питомцы: {1} · Припасы: {2}</CAC_ColonySummary>
+  <CAC_LoadColony>Загрузить эту колонию</CAC_LoadColony>
+  <CAC_LoadColonyConfirm>Заменить текущих поселенцев, питомцев и припасы колонии на «{0}»?</CAC_LoadColonyConfirm>
+  <CAC_ColonyLoaded>Колония «{0}» загружена.</CAC_ColonyLoaded>
+  <CAC_ColonyTooBig>В этой колонии поселенцев: {0}, но этот старт допускает только {1}. Загружены только первые {1}.</CAC_ColonyTooBig>
+  <CAC_Rename>Переименовать</CAC_Rename>
+  <CAC_Duplicate>Дублировать</CAC_Duplicate>
+  <CAC_RenameTitle>Переименовать «{0}»</CAC_RenameTitle>
+  <CAC_Renamed>Новое имя: {0}.</CAC_Renamed>
+  <CAC_Duplicated>Копия сохранена как «{0}».</CAC_Duplicated>
+  <CAC_CopyName>{0} (копия)</CAC_CopyName>
+
+  <!-- Skill editing, Facial Animation, mod filter, info cards, colour reset -->
+  <CAC_SkillLevelTip>Щёлкните по числу, чтобы ввести уровень (0–20). Enter — сохранить, Esc — отмена.</CAC_SkillLevelTip>
+  <CAC_ManualSkills>Уровни навыков вручную</CAC_ManualSkills>
+  <CAC_ManualSkillsTip>Включается, как только вы вводите уровень. После этого смена биографии, черт, возраста или ксенотипа не меняет уровни навыков этого колониста.</CAC_ManualSkillsTip>
+  <CAC_RecalculateSkills>Пересчитать по биографии</CAC_RecalculateSkills>
+  <CAC_RecalculateSkillsTip>Заново рассчитать уровни навыков этого колониста по биографии и чертам, заменив введённые значения.</CAC_RecalculateSkillsTip>
+  <CAC_FacialAnimation>Facial Animation</CAC_FacialAnimation>
+  <CAC_FaPart_Head>Голова</CAC_FaPart_Head>
+  <CAC_FaPart_Eye>Глаза</CAC_FaPart_Eye>
+  <CAC_FaPart_Brow>Брови</CAC_FaPart_Brow>
+  <CAC_FaPart_Mouth>Рот</CAC_FaPart_Mouth>
+  <CAC_FaPart_Lid>Веки</CAC_FaPart_Lid>
+  <CAC_FaPart_Skin>Кожа</CAC_FaPart_Skin>
+  <CAC_FaNoStyles>В Facial Animation нет стилей этого типа для этого колониста.</CAC_FaNoStyles>
+  <CAC_FaEyeColourNote>Цвет радужки задаётся на вкладке «Цвета».</CAC_FaEyeColourNote>
+  <CAC_FaEyeColour>Цвет радужки (Facial Animation)</CAC_FaEyeColour>
+  <CAC_OddEyes>Разные глаза</CAC_OddEyes>
+  <CAC_FirstEye>Первый глаз</CAC_FirstEye>
+  <CAC_SecondEye>Второй глаз</CAC_SecondEye>
+  <CAC_ModAll>Все</CAC_ModAll>
+  <CAC_ModFilter>Мод: {0}</CAC_ModFilter>
+  <CAC_ResetColour>Сбросить</CAC_ResetColour>
+  <CAC_ClickForInfo>Щёлкните для подробностей.</CAC_ClickForInfo>
+
+  <!-- Add from genetics -->
+  <CAC_AddFromGenetics>Добавить поселенца по генетике...</CAC_AddFromGenetics>
+  <CAC_AddFromGeneticsFull>Добавить поселенца по генетике (группа заполнена)</CAC_AddFromGeneticsFull>
+  <CAC_GeneticsTitle>Добавить поселенца по генетике</CAC_GeneticsTitle>
+  <CAC_GeneticsNote>Выберите, кем новый поселенец приходится вашим поселенцам. Гены он получит от этих родственников.</CAC_GeneticsNote>
+  <CAC_GeneticsTheirRelation>Кем приходится новый поселенец</CAC_GeneticsTheirRelation>
+  <CAC_GeneticsPickRelative>Выберите хотя бы одного родственника.</CAC_GeneticsPickRelative>
+  <CAC_GeneticsSavedParent>Добавить сохранённого поселенца как родителя...</CAC_GeneticsSavedParent>
+  <CAC_GeneticsAdd>Добавить в группу</CAC_GeneticsAdd>
+  <CAC_GeneticsRoll>Перебросить</CAC_GeneticsRoll>
+  <CAC_GeneticsAgeTip>Любой возраст, который допускают родственники.</CAC_GeneticsAgeTip>
+  <CAC_GeneticsFailed>Не удалось создать этого поселенца. Подробности в журнале.</CAC_GeneticsFailed>
+  <CAC_Newborn>Новорождённый</CAC_Newborn>
+  <CAC_TooYoungToBeParent>{0}: слишком юный возраст для родителя.</CAC_TooYoungToBeParent>
+  <CAC_TwoParentsMax>У поселенца может быть только два родителя.</CAC_TwoParentsMax>
+  <CAC_SiblingOrParents>У братьев и сестёр общие родители: выберите либо брата или сестру, либо родителей.</CAC_SiblingOrParents>
+  <CAC_NotSiblings>{0} и {1} не братья и сёстры.</CAC_NotSiblings>
+  <CAC_NoAgeFits>Нет подходящего возраста: родитель должен быть старше ребёнка хотя бы на {0} лет.</CAC_NoAgeFits>
+  <CAC_HasThatParent>{0}: этот родитель уже есть в вашей группе.</CAC_HasThatParent>
+  <CAC_NeedsGrownUp>В колонии нужен кто-то не младше {0} лет.</CAC_NeedsGrownUp>
+  <CAC_BabyNote>У младенцев пока нет биографии и черт. Они появятся, когда младенец подрастёт.</CAC_BabyNote>
+
+  <!-- The game keeps these in Ideology, so they are missing without it -->
+  <CAC_ShowApparel>Показывать одежду</CAC_ShowApparel>
+  <CAC_ShowHeadgear>Показывать головные уборы</CAC_ShowHeadgear>
+  <CAC_Name>Имя</CAC_Name>
+
+</LanguageData>

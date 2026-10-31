@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- New Colony popup -->
+  <CAC_ModeTitle>Wie möchtest du deine Kolonisten erstellen?</CAC_ModeTitle>
+  <CAC_ModeSubtitle>Szenario, Erzähler und Welt wählst du danach wie gewohnt.</CAC_ModeSubtitle>
+  <CAC_ModeNormal>Normale Koloniegründung</CAC_ModeNormal>
+  <CAC_ModeNormalDesc>Der normale Charakterbildschirm von RimWorld: würfle Kolonisten neu, bis sie dir gefallen.</CAC_ModeNormalDesc>
+  <CAC_ModeCreator>Charaktererstellung</CAC_ModeCreator>
+  <CAC_ModeCreatorDesc>Gestalte jeden Kolonisten und jedes Haustier selbst: Persönlichkeit, Aussehen, Gene, Kleidung, Ausrüstung und Beziehungen.</CAC_ModeCreatorDesc>
+
+  <!-- Page -->
+  <CAC_PageTitle>Kolonisten erstellen</CAC_PageTitle>
+  <CAC_GroupSummary>{0}  ·  {1} von {2} Kolonisten  ·  {3}</CAC_GroupSummary>
+  <CAC_PetCountOne>1 Haustier</CAC_PetCountOne>
+  <CAC_PetCount>{0} Haustiere</CAC_PetCount>
+  <CAC_ColonistSubtitle>{0}, {1}</CAC_ColonistSubtitle>
+  <CAC_ColonistSubtitleXeno>{0}, {1}, {2}</CAC_ColonistSubtitleXeno>
+  <CAC_PetSubtitle>{0}, {1}</CAC_PetSubtitle>
+  <CAC_RandomName>Zufälliger Name</CAC_RandomName>
+  <CAC_RotateLeft>Nach links drehen</CAC_RotateLeft>
+  <CAC_RotateRight>Nach rechts drehen</CAC_RotateRight>
+  <CAC_RandomColonist>Kolonist auswürfeln</CAC_RandomColonist>
+  <CAC_RandomPet>Zufälliges Haustier</CAC_RandomPet>
+  <CAC_Play>Spielen</CAC_Play>
+  <CAC_PlayTip>Die Kolonie mit dieser Gruppe beginnen.</CAC_PlayTip>
+  <CAC_ConfirmBack>Zur vorherigen Seite zurück? Dabei erzeugt das Spiel neue Startkolonisten, und die hier erstellten Kolonisten gehen verloren (speichere vorher alle, die du behalten willst, in der Galerie).</CAC_ConfirmBack>
+  <CAC_AddToGroup>Kolonist oder Haustier hinzufügen</CAC_AddToGroup>
+  <CAC_AddColonist>Kolonist hinzufügen</CAC_AddColonist>
+  <CAC_AddColonistFull>Kolonist hinzufügen (Grenze von {0} erreicht)</CAC_AddColonistFull>
+  <CAC_AddPet>Haustier hinzufügen</CAC_AddPet>
+  <CAC_AddFromGallery>Kolonist aus der Galerie hinzufügen...</CAC_AddFromGallery>
+  <CAC_AddFromGalleryFull>Kolonist aus der Galerie hinzufügen (Gruppe ist voll)</CAC_AddFromGalleryFull>
+  <CAC_ConfirmRemove>{0} aus deiner Startgruppe entfernen?</CAC_ConfirmRemove>
+  <CAC_None>Keine</CAC_None>
+  <CAC_Custom>Eigene...</CAC_Custom>
+  <CAC_NothingMatches>Keine Treffer.</CAC_NothingMatches>
+  <CAC_HoverForDetails>Zeige auf eine Option, um zu sehen, was sie bewirkt.</CAC_HoverForDetails>
+  <CAC_HideWorkBlockers>Ausblenden, was Arbeit verbietet</CAC_HideWorkBlockers>
+  <CAC_MustDo>Muss können...</CAC_MustDo>
+  <CAC_MustDoCount>Muss können ({0})...</CAC_MustDoCount>
+  <CAC_MustDoTitle>Muss können</CAC_MustDoTitle>
+  <CAC_MustDoNote>Nur Vorgeschichten und Merkmale zeigen, die all diese Arbeiten erlauben. Die Auswahl wird gespeichert.</CAC_MustDoNote>
+  <CAC_Violence>Gewalt</CAC_Violence>
+  <CAC_CantDo>Kann nicht: {0}</CAC_CantDo>
+  <CAC_ClearAll>Alle entfernen</CAC_ClearAll>
+
+  <!-- Tabs -->
+  <CAC_Tab_Personality>Persönlichkeit</CAC_Tab_Personality>
+  <CAC_Tab_Appearance>Aussehen</CAC_Tab_Appearance>
+  <CAC_Tab_Genes>Gene</CAC_Tab_Genes>
+  <CAC_Tab_Clothing>Kleidung</CAC_Tab_Clothing>
+  <CAC_Tab_Inventory>Inventar</CAC_Tab_Inventory>
+  <CAC_Tab_Relationships>Beziehungen</CAC_Tab_Relationships>
+  <CAC_Tab_Animal>Tier</CAC_Tab_Animal>
+  <CAC_Tab_Ideoligion>Ideologie</CAC_Tab_Ideoligion>
+  <CAC_Tab_Health>Gesundheit</CAC_Tab_Health>
+  <CAC_TabDesc_Personality>Vorgeschichte, Merkmale, Fertigkeiten und Hingabe.</CAC_TabDesc_Personality>
+  <CAC_TabDesc_Appearance>Geschlecht, Alter, Körperbau, Kopf, Frisur, Bart, Tattoos, Haut-, Haar- und Augenfarbe.</CAC_TabDesc_Appearance>
+  <CAC_TabDesc_Genes>Xenotyp und Gene.</CAC_TabDesc_Genes>
+  <CAC_TabDesc_Clothing>Was dieser Kolonist trägt.</CAC_TabDesc_Clothing>
+  <CAC_TabDesc_Inventory>Waffe, mitgeführte Gegenstände und die Startvorräte der Kolonie.</CAC_TabDesc_Inventory>
+  <CAC_TabDesc_Relationships>Familie, Partner und Haustierbindungen innerhalb der Gruppe.</CAC_TabDesc_Relationships>
+  <CAC_TabDesc_Animal>Art, Geschlecht und Alter.</CAC_TabDesc_Animal>
+  <CAC_TabDesc_Ideoligion>Woran dieser Kolonist glaubt und wie fest.</CAC_TabDesc_Ideoligion>
+  <CAC_TabDesc_Health>Alte Verletzungen, fehlende Körperteile, Prothesen, Implantate, Leiden und Süchte.</CAC_TabDesc_Health>
+
+  <!-- Personality -->
+  <CAC_Backstory>Vorgeschichte</CAC_Backstory>
+  <CAC_TooYoungForAdulthood>Kolonisten bekommen mit {0} Jahren eine Erwachsenen-Vorgeschichte.</CAC_TooYoungForAdulthood>
+  <CAC_RandomBackstory>Zufällige Vorgeschichte</CAC_RandomBackstory>
+  <CAC_AddTrait>+ Merkmal hinzufügen</CAC_AddTrait>
+  <CAC_AlreadyHasTrait>Hat dieses Merkmal bereits.</CAC_AlreadyHasTrait>
+  <CAC_ConflictsWith>Verträgt sich nicht mit {0}.</CAC_ConflictsWith>
+  <CAC_BackstoryForbids>Durch die Vorgeschichte „{0}“ nicht erlaubt.</CAC_BackstoryForbids>
+  <CAC_SkillsNote>Fertigkeitsstufen ergeben sich aus den gewählten Vorgeschichten und Merkmalen. Linksklick auf eine Flamme erhöht die Hingabe, Rechtsklick senkt sie: keine, interessiert, leidenschaftlich. Klicke auf eine Stufe, um einen eigenen Wert (0–20) einzugeben.</CAC_SkillsNote>
+  <CAC_PassionTip>Hingabe: {0}\nLinksklick erhöht, Rechtsklick senkt.</CAC_PassionTip>
+  <CAC_Passion_None>keine</CAC_Passion_None>
+  <CAC_Passion_Minor>interessiert</CAC_Passion_Minor>
+  <CAC_Passion_Major>leidenschaftlich</CAC_Passion_Major>
+
+  <!-- Appearance -->
+  <CAC_Sub_Body>Körper</CAC_Sub_Body>
+  <CAC_Sub_Hair>Haare</CAC_Sub_Hair>
+  <CAC_Sub_Beard>Bart</CAC_Sub_Beard>
+  <CAC_Sub_Tattoos>Tattoos</CAC_Sub_Tattoos>
+  <CAC_Sub_Colours>Farben</CAC_Sub_Colours>
+  <CAC_Gender>Geschlecht</CAC_Gender>
+  <CAC_Age>Alter</CAC_Age>
+  <CAC_AgeValue>Alter {0} (vor {1} Jahren geboren)</CAC_AgeValue>
+  <CAC_AgeChrono>Chronologisches Alter</CAC_AgeChrono>
+  <CAC_AgeTip>Biologisches Alter: wie alt der Körper ist. Gib eine Zahl ein oder nutze die Pfeile, bis {0}.</CAC_AgeTip>
+  <CAC_AgeChronoTip>Chronologisches Alter: Jahre seit der Geburt, einschließlich der Zeit im Kryptoschlaf. Nie geringer als das biologische Alter.</CAC_AgeChronoTip>
+  <CAC_Undo>Rückgängig (Strg+Z)</CAC_Undo>
+  <CAC_Redo>Wiederholen (Strg+Y)</CAC_Redo>
+  <CAC_Coat>Fell</CAC_Coat>
+  <CAC_CoatNumber>Fell {0}</CAC_CoatNumber>
+  <CAC_LockTab>Diesen Reiter sperren: Sein Inhalt bleibt bei „{0}“ erhalten.</CAC_LockTab>
+  <CAC_UnlockTab>Gesperrt: Der Inhalt bleibt bei „{0}“ erhalten. Klicken zum Entsperren.</CAC_UnlockTab>
+  <CAC_ChildNote>Kinder können nicht jede Arbeit erledigen und wachsen mit der Zeit heran.</CAC_ChildNote>
+  <CAC_BodyType>Körperbau</CAC_BodyType>
+  <CAC_Body_Male>Männlich</CAC_Body_Male>
+  <CAC_Body_Female>Weiblich</CAC_Body_Female>
+  <CAC_Body_Thin>Schlank</CAC_Body_Thin>
+  <CAC_Body_Fat>Füllig</CAC_Body_Fat>
+  <CAC_Body_Hulk>Kräftig</CAC_Body_Hulk>
+  <CAC_Body_Child>Kind</CAC_Body_Child>
+  <CAC_Body_Baby>Baby</CAC_Body_Baby>
+  <CAC_HeadType>Kopf</CAC_HeadType>
+  <CAC_HairColour>Haarfarbe</CAC_HairColour>
+  <CAC_Hairstyle>Frisur</CAC_Hairstyle>
+  <CAC_Beard>Bart</CAC_Beard>
+  <CAC_NoStyle>Das Aussehen dieses Kolonisten lässt sich nicht ändern.</CAC_NoStyle>
+  <CAC_FaceTattoo>Gesichtstattoo</CAC_FaceTattoo>
+  <CAC_BodyTattoo>Körpertattoo</CAC_BodyTattoo>
+  <CAC_SkinColour>Hautfarbe</CAC_SkinColour>
+  <CAC_NaturalSkin>Zurück zur natürlichen Hautfarbe</CAC_NaturalSkin>
+  <CAC_EyeColour>Augenfarbe</CAC_EyeColour>
+  <CAC_EyeColourNote>Augenfarben kommen von Genen, auch von solchen aus anderen Mods. Manche Augengene aus Mods bewirken mehr als nur eine Farbe, also zeige darauf, um alle Effekte zu sehen.</CAC_EyeColourNote>
+  <CAC_NaturalEyes>Natürliche Augen (kein Augengen)</CAC_NaturalEyes>
+  <CAC_NaturalEyesShort>Natürlich</CAC_NaturalEyesShort>
+  <CAC_Brightness>Helligkeit</CAC_Brightness>
+
+  <!-- Genes -->
+  <CAC_Xenotype>Xenotyp</CAC_Xenotype>
+  <CAC_CustomXenotypes>Deine eigenen Xenotypen</CAC_CustomXenotypes>
+  <CAC_OpenXenotypeEditor>Eigenen Xenotyp erstellen...</CAC_OpenXenotypeEditor>
+  <CAC_GenesList>Gene</CAC_GenesList>
+
+  <!-- Health -->
+  <CAC_HealthOverview>Übersicht</CAC_HealthOverview>
+  <CAC_Conditions>Zustände</CAC_Conditions>
+  <CAC_Healthy>{0} ist kerngesund.</CAC_Healthy>
+  <CAC_AddToHealth>Hinzufügen</CAC_AddToHealth>
+  <CAC_HealthNote>Alles hier ist schon beim Start der Kolonie vorhanden. Prothesen und Implantate sind kostenlos, und nichts, was den Kolonisten töten würde, kann hinzugefügt werden.</CAC_HealthNote>
+  <CAC_AddImplant>Prothese oder Implantat...</CAC_AddImplant>
+  <CAC_AddScar>Alte Verletzung...</CAC_AddScar>
+  <CAC_AddMissingPart>Fehlendes Körperteil...</CAC_AddMissingPart>
+  <CAC_AddCondition>Altersleiden...</CAC_AddCondition>
+  <CAC_AddAddiction>Sucht...</CAC_AddAddiction>
+  <CAC_HealAll>Alle Zustände entfernen</CAC_HealAll>
+  <CAC_RemoveCondition>Entfernen</CAC_RemoveCondition>
+  <CAC_PartEfficiency>Effizienz des Körperteils: {0}</CAC_PartEfficiency>
+  <CAC_ScarDesc>Eine verheilte Verletzung, die eine bleibende Narbe hinterlassen hat. Manche Narben schmerzen noch ab und zu.</CAC_ScarDesc>
+  <CAC_MissingPartDesc>Beginnt das Spiel ohne dieses Körperteil: {0}. Eine Prothese kann es später ersetzen.</CAC_MissingPartDesc>
+  <CAC_WouldKill>Das würde {0} töten.</CAC_WouldKill>
+  <CAC_AlreadyHasThis>Bereits vorhanden.</CAC_AlreadyHasThis>
+  <CAC_WontTakeDrugs>{0} nimmt wegen eines Merkmals oder der Ideologie keine Drogen.</CAC_WontTakeDrugs>
+  <CAC_CouldNotAdd>{0} konnte nicht hinzugefügt werden. Der Kolonist hat es vielleicht schon überall, wo es möglich ist.</CAC_CouldNotAdd>
+  <CAC_NothingToAdd>Davon kann gerade nichts hinzugefügt werden.</CAC_NothingToAdd>
+
+  <!-- Ideoligion -->
+  <CAC_ChangeIdeo>Ideologie wechseln...</CAC_ChangeIdeo>
+  <CAC_IdeoDetails>Alle Details...</CAC_IdeoDetails>
+  <CAC_IdeoOfColony>Die Hauptideologie deiner Kolonie</CAC_IdeoOfColony>
+  <CAC_IdeoOfFactions>Anhänger: {0}</CAC_IdeoOfFactions>
+  <CAC_IdeoFromSaved>Eine deiner gespeicherten Ideologien</CAC_IdeoFromSaved>
+  <CAC_IdeoNoFaction>Keine Fraktion folgt ihr</CAC_IdeoNoFaction>
+  <CAC_CertaintyNote>Wie fest {0} glaubt. Je schwächer der Glaube, desto leichter lässt sich der Kolonist bekehren.</CAC_CertaintyNote>
+  <CAC_IdeoStory>Beschreibung</CAC_IdeoStory>
+  <CAC_ColonyIdeo>Ideologie der Kolonie</CAC_ColonyIdeo>
+  <CAC_ColonyIdeoNote>Beim Spielstart wird die Ideologie, der die meisten Kolonisten folgen, zur Hauptideologie der Kolonie, genau wie während des Spiels. Kolonisten, die an etwas anderes glauben, behalten ihre eigene Ideologie.</CAC_ColonyIdeoNote>
+  <CAC_NoSavedIdeos>Du hast noch keine gespeicherten Ideologien. Du kannst eine im Ideologie-Editor speichern, wenn du eine Kolonie beginnst.</CAC_NoSavedIdeos>
+  <CAC_SavedIdeoFile>Gespeichert als „{0}“</CAC_SavedIdeoFile>
+
+  <!-- Clothing -->
+  <CAC_Wearing>Trägt</CAC_Wearing>
+  <CAC_WearingNothing>Nichts.</CAC_WearingNothing>
+  <CAC_RemoveAll>Alles ablegen</CAC_RemoveAll>
+  <CAC_AddClothing>Kleidung hinzufügen</CAC_AddClothing>
+  <CAC_Layer_All>Alle</CAC_Layer_All>
+  <CAC_Layer_Head>Kopf</CAC_Layer_Head>
+  <CAC_Layer_Outer>Außen</CAC_Layer_Outer>
+  <CAC_Layer_Middle>Mitte</CAC_Layer_Middle>
+  <CAC_Layer_Skin>Haut</CAC_Layer_Skin>
+  <CAC_Layer_Belt>Gürtel</CAC_Layer_Belt>
+  <CAC_Layer_Other>Sonstiges</CAC_Layer_Other>
+
+  <!-- Inventory -->
+  <CAC_Carried>Dieser Kolonist</CAC_Carried>
+  <CAC_ColonySupplies>Koloniebedarf</CAC_ColonySupplies>
+  <CAC_Weapon>Waffe</CAC_Weapon>
+  <CAC_Unarmed>Unbewaffnet.</CAC_Unarmed>
+  <CAC_ChooseWeapon>Waffe wählen...</CAC_ChooseWeapon>
+  <CAC_ChangeWeapon>Waffe wechseln...</CAC_ChangeWeapon>
+  <CAC_CarriedItems>Inventar</CAC_CarriedItems>
+  <CAC_CarriedNote>Was dieser Kolonist in Taschen und Rucksack trägt. Die Traglast bestimmt das Spiel selbst: Körpergröße, Gene und Mods, die die Tragkraft ändern, zählen alle mit.</CAC_CarriedNote>
+  <CAC_CantCarry>{0} kann nichts tragen.</CAC_CantCarry>
+  <CAC_Weight>Trägt {0} von {1}</CAC_Weight>
+  <CAC_WeightTip>Die Traglast, die das Spiel diesem Kolonisten erlaubt. Getragene Kleidung und Waffe: {0}. Inventar: {1}.</CAC_WeightTip>
+  <CAC_NoRoom>{0} kann nichts mehr tragen.</CAC_NoRoom>
+  <CAC_TooHeavyToAdd>Zu schwer. {0} hat nur noch {1} Platz.</CAC_TooHeavyToAdd>
+  <CAC_OverWeight>{0} trägt {1} zu viel, vielleicht wegen schwererer Kleidung oder Waffe. Entferne etwas, sonst kommt der Rest beim Start neben dem Kolonisten an.</CAC_OverWeight>
+  <CAC_ArrivesNextTo>Das passt nicht in das Inventar von {0} und kommt deshalb beim Start daneben an:</CAC_ArrivesNextTo>
+  <CAC_AddItem>+ Gegenstand hinzufügen</CAC_AddItem>
+  <CAC_SuppliesNote>Gemeinsame Startvorräte aus dem Szenario „{0}“. Ändere Mengen, füge hinzu oder entferne, was du willst. Umschalt-Klick auf +/- für 10, Strg-Klick für 100.</CAC_SuppliesNote>
+  <CAC_ArrivesWithColonists>Kommt mit den Kolonisten</CAC_ArrivesWithColonists>
+  <CAC_ScatteredNearby>In der Nähe verstreut</CAC_ScatteredNearby>
+  <CAC_AddSupply>+ Vorrat hinzufügen</CAC_AddSupply>
+  <CAC_ResetSupplies>Auf Szenario-Standard zurücksetzen</CAC_ResetSupplies>
+  <CAC_ResetSuppliesConfirm>Den Koloniebedarf wieder auf die ursprüngliche Liste des Szenarios setzen?</CAC_ResetSuppliesConfirm>
+
+  <!-- Relationships -->
+  <CAC_RelationsNote>Wie {0} mit dem Rest deiner Gruppe verwandt ist. Wähle in jeder Liste eine Beziehung.</CAC_RelationsNote>
+  <CAC_InYourColony>In deiner Kolonie</CAC_InYourColony>
+  <CAC_NoOneElse>Füge weitere Kolonisten hinzu, um ihnen Beziehungen zu geben.</CAC_NoOneElse>
+  <CAC_IsMy>für {0}</CAC_IsMy>
+  <CAC_RelationNone>Keine Beziehung</CAC_RelationNone>
+  <CAC_Pets>Haustiere</CAC_Pets>
+  <CAC_Bonded>Gebunden</CAC_Bonded>
+  <CAC_FamilyOutside>Familie außerhalb der Kolonie</CAC_FamilyOutside>
+  <CAC_FamilyOutsideNote>Verwandte, die nicht mitkommen. Sie können später im Spiel auftauchen.</CAC_FamilyOutsideNote>
+  <CAC_BondNote>Ein gebundenes Haustier folgt seinem Herrchen und ist auf Gehorsam trainiert. Wähle, an wen {0} gebunden ist.</CAC_BondNote>
+  <CAC_BondedTo>Gebunden an</CAC_BondedTo>
+  <CAC_NoBond>Niemanden</CAC_NoBond>
+
+  <!-- Pets -->
+  <CAC_Species>Art</CAC_Species>
+  <CAC_PetsOnly>Nur Haustiere</CAC_PetsOnly>
+  <CAC_NotAPet>(Wildtier)</CAC_NotAPet>
+
+  <!-- Gallery -->
+  <CAC_SaveToGallery>Kolonist in der Galerie speichern</CAC_SaveToGallery>
+  <CAC_OpenGallery>Galerie: gespeicherten Kolonisten oder Kolonie laden</CAC_OpenGallery>
+  <CAC_Gallery>Galerie</CAC_Gallery>
+  <CAC_GalleryEmpty>Noch keine gespeicherten Kolonisten. Nutze den Speichern-Knopf über einem Kolonisten, um einen hinzuzufügen.</CAC_GalleryEmpty>
+  <CAC_OverwritePreset>Ein gespeicherter Kolonist namens „{0}“ existiert bereits. Ersetzen?</CAC_OverwritePreset>
+  <CAC_Saved>{0} in der Galerie gespeichert.</CAC_Saved>
+  <CAC_LoadInto>In {0} laden</CAC_LoadInto>
+  <CAC_AddAsNew>Als neuen Kolonisten hinzufügen</CAC_AddAsNew>
+  <CAC_GroupFull>Deine Gruppe ist voll.</CAC_GroupFull>
+  <CAC_DeletePreset>„{0}“ aus der Galerie löschen?</CAC_DeletePreset>
+  <CAC_SaveMenuTip>In der Galerie speichern: diesen Kolonisten oder die ganze Kolonie</CAC_SaveMenuTip>
+  <CAC_SaveThisColonist>Diesen Kolonisten speichern ({0})</CAC_SaveThisColonist>
+  <CAC_SaveWholeColony>Die ganze Kolonie speichern</CAC_SaveWholeColony>
+  <CAC_SaveColonyTitle>Kolonie in der Galerie speichern</CAC_SaveColonyTitle>
+  <CAC_OverwriteColony>Eine gespeicherte Kolonie namens „{0}“ existiert bereits. Ersetzen?</CAC_OverwriteColony>
+  <CAC_GalleryColonists>Kolonisten</CAC_GalleryColonists>
+  <CAC_GalleryColonies>Kolonien</CAC_GalleryColonies>
+  <CAC_GalleryNoColonies>Noch keine gespeicherten Kolonien. Nutze den Speichern-Knopf über einem Kolonisten und wähle „Die ganze Kolonie speichern“.</CAC_GalleryNoColonies>
+  <CAC_ColonySummary>Kolonisten: {0} · Haustiere: {1} · Bedarf: {2}</CAC_ColonySummary>
+  <CAC_LoadColony>Diese Kolonie laden</CAC_LoadColony>
+  <CAC_LoadColonyConfirm>Deine jetzigen Kolonisten, Haustiere und den Koloniebedarf durch „{0}“ ersetzen?</CAC_LoadColonyConfirm>
+  <CAC_ColonyLoaded>Kolonie „{0}“ geladen.</CAC_ColonyLoaded>
+  <CAC_ColonyTooBig>Diese Kolonie hat {0} Kolonisten, dieser Start erlaubt aber nur {1}. Nur die ersten {1} wurden geladen.</CAC_ColonyTooBig>
+  <CAC_Rename>Umbenennen</CAC_Rename>
+  <CAC_Duplicate>Duplizieren</CAC_Duplicate>
+  <CAC_RenameTitle>„{0}“ umbenennen</CAC_RenameTitle>
+  <CAC_Renamed>Umbenannt in {0}.</CAC_Renamed>
+  <CAC_Duplicated>Kopie gespeichert als „{0}“.</CAC_Duplicated>
+  <CAC_CopyName>{0} (Kopie)</CAC_CopyName>
+
+  <!-- Skill editing, Facial Animation, mod filter, info cards, colour reset -->
+  <CAC_SkillLevelTip>Klicke auf die Zahl, um eine Stufe einzugeben (0–20). Eingabe übernimmt, Esc bricht ab.</CAC_SkillLevelTip>
+  <CAC_ManualSkills>Fertigkeitsstufen von Hand</CAC_ManualSkills>
+  <CAC_ManualSkillsTip>Wird aktiv, sobald du eine Stufe eingibst. Änderungen an Vorgeschichte, Merkmalen, Alter oder Xenotyp lassen die Fertigkeitsstufen dieses Kolonisten dann unverändert.</CAC_ManualSkillsTip>
+  <CAC_RecalculateSkills>Aus Vorgeschichten neu berechnen</CAC_RecalculateSkills>
+  <CAC_RecalculateSkillsTip>Berechnet die Fertigkeitsstufen dieses Kolonisten neu aus Vorgeschichten und Merkmalen und ersetzt die eingegebenen Werte.</CAC_RecalculateSkillsTip>
+  <CAC_FacialAnimation>Facial Animation</CAC_FacialAnimation>
+  <CAC_FaPart_Head>Kopf</CAC_FaPart_Head>
+  <CAC_FaPart_Eye>Augen</CAC_FaPart_Eye>
+  <CAC_FaPart_Brow>Brauen</CAC_FaPart_Brow>
+  <CAC_FaPart_Mouth>Mund</CAC_FaPart_Mouth>
+  <CAC_FaPart_Lid>Lider</CAC_FaPart_Lid>
+  <CAC_FaPart_Skin>Haut</CAC_FaPart_Skin>
+  <CAC_FaNoStyles>Facial Animation hat für diesen Kolonisten keine Stile dieser Art.</CAC_FaNoStyles>
+  <CAC_FaEyeColourNote>Die Irisfarbe wird im Reiter Farben eingestellt.</CAC_FaEyeColourNote>
+  <CAC_FaEyeColour>Irisfarbe (Facial Animation)</CAC_FaEyeColour>
+  <CAC_OddEyes>Verschiedenfarbige Augen</CAC_OddEyes>
+  <CAC_FirstEye>Erstes Auge</CAC_FirstEye>
+  <CAC_SecondEye>Zweites Auge</CAC_SecondEye>
+  <CAC_ModAll>Alle</CAC_ModAll>
+  <CAC_ModFilter>Mod: {0}</CAC_ModFilter>
+  <CAC_ResetColour>Zurücksetzen</CAC_ResetColour>
+  <CAC_ClickForInfo>Klicken für Details.</CAC_ClickForInfo>
+
+  <!-- Add from genetics -->
+  <CAC_AddFromGenetics>Kolonist aus Genetik hinzufügen...</CAC_AddFromGenetics>
+  <CAC_AddFromGeneticsFull>Kolonist aus Genetik hinzufügen (Gruppe ist voll)</CAC_AddFromGeneticsFull>
+  <CAC_GeneticsTitle>Kolonist aus Genetik hinzufügen</CAC_GeneticsTitle>
+  <CAC_GeneticsNote>Wähle, wie der neue Kolonist mit deinen Kolonisten verwandt ist. Seine Gene stammen von diesen Verwandten.</CAC_GeneticsNote>
+  <CAC_GeneticsTheirRelation>Beziehung des neuen Kolonisten zu dieser Person</CAC_GeneticsTheirRelation>
+  <CAC_GeneticsPickRelative>Wähle mindestens einen Verwandten.</CAC_GeneticsPickRelative>
+  <CAC_GeneticsSavedParent>Gespeicherten Kolonisten als Elternteil hinzufügen...</CAC_GeneticsSavedParent>
+  <CAC_GeneticsAdd>Zur Gruppe hinzufügen</CAC_GeneticsAdd>
+  <CAC_GeneticsRoll>Neu würfeln</CAC_GeneticsRoll>
+  <CAC_GeneticsAgeTip>Jedes Alter, das die Verwandten zulassen.</CAC_GeneticsAgeTip>
+  <CAC_GeneticsFailed>Dieser Kolonist konnte nicht erstellt werden. Details stehen im Protokoll.</CAC_GeneticsFailed>
+  <CAC_Newborn>Neugeboren</CAC_Newborn>
+  <CAC_TooYoungToBeParent>{0} ist zu jung, um Elternteil zu sein.</CAC_TooYoungToBeParent>
+  <CAC_TwoParentsMax>Ein Kolonist kann nur zwei Elternteile haben.</CAC_TwoParentsMax>
+  <CAC_SiblingOrParents>Geschwister haben dieselben Eltern. Wähle Geschwister oder Eltern, nicht beides.</CAC_SiblingOrParents>
+  <CAC_NotSiblings>{0} und {1} sind keine Geschwister.</CAC_NotSiblings>
+  <CAC_NoAgeFits>Kein Alter passt: Ein Elternteil muss mindestens {0} Jahre älter sein als sein Kind.</CAC_NoAgeFits>
+  <CAC_HasThatParent>{0} hat diesen Elternteil schon in deiner Gruppe.</CAC_HasThatParent>
+  <CAC_NeedsGrownUp>Eine Kolonie braucht jemanden ab {0} Jahren.</CAC_NeedsGrownUp>
+  <CAC_BabyNote>Babys haben noch keine Vorgeschichte und keine Eigenschaften. Die bekommen sie, wenn sie aufwachsen.</CAC_BabyNote>
+
+  <!-- The game keeps these in Ideology, so they are missing without it -->
+  <CAC_ShowApparel>Kleidung anzeigen</CAC_ShowApparel>
+  <CAC_ShowHeadgear>Kopfbedeckung anzeigen</CAC_ShowHeadgear>
+  <CAC_Name>Name</CAC_Name>
+
+</LanguageData>

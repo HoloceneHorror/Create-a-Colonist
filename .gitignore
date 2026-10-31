@@ -1,0 +1,7 @@
+1.7/Assemblies/
+Assets.zip
+Assets.zip.*
+Source/Art/
+bin/
+obj/
+*.pdb

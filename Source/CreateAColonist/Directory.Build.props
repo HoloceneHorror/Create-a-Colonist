@@ -1,0 +1,6 @@
+<Project>
+  <!-- Keep build leftovers (obj) outside the mod folder: RimWorld's Workshop uploader copies every file in it. -->
+  <PropertyGroup>
+    <BaseIntermediateOutputPath>$(LOCALAPPDATA)\CreateAColonistBuild\obj\</BaseIntermediateOutputPath>
+  </PropertyGroup>
+</Project>

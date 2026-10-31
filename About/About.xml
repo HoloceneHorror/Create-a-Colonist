@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Create a Colonist</name>
+  <author>HoloceneHorror</author>
+  <packageId>HoloceneHorror.CreateAColonist</packageId>
+  <modVersion>1.7.0</modVersion>
+  <supportedVersions>
+    <li>1.7</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>Ludeon.RimWorld</li>
+    <li>Ludeon.RimWorld.Royalty</li>
+    <li>Ludeon.RimWorld.Ideology</li>
+    <li>Ludeon.RimWorld.Biotech</li>
+    <li>Ludeon.RimWorld.Anomaly</li>
+    <li>Ludeon.RimWorld.Odyssey</li>
+  </loadAfter>
+  <description>Create a Colonist turns RimWorld's character screen into a proper character creator, inspired by Create a Sim from The Sims 4. Instead of hitting randomize until someone decent shows up, you build your colonists yourself.
+
+When you start a new colony, the game asks how you want to make your colonists. Normal colony creation gives you the vanilla screen exactly as it always was. Character Creation opens the creator once you've picked your scenario, storyteller, world, landing site and ideoligion.
+
+Your colonist stands in the middle of the screen with the categories down the left side, and your whole starting group sits along the bottom. Click anyone in the group to work on them, or use the plus button to add another colonist (up to six) or a pet. You start with the people your scenario gives you and change as much or as little as you like.
+
+The personality tab covers backstories, traits and passions. Skills come from the backstories you choose, the same way they do in vanilla, so a colonist still makes sense for the life they've lived. Appearance lets you set gender, age, body type, head, hairstyle, beard, face and body tattoos, skin colour, hair colour and favourite colour, and children are supported if you have Biotech. The genes tab lets you pick any xenotype, including custom ones, and the vanilla xenotype editor is one click away.
+
+You can dress your colonists in any clothing in the game and choose the material, quality and colour of each piece. The inventory tab handles their weapon and whatever they carry, and it also lets you edit the scenario's starting supplies. In the relationships tab you can make colonists spouses, lovers, siblings, parents or children, and bond pets to their owners. Pets work just like colonists: pick the species, gender and age, then decide who they belong to.
+
+If you make a colonist you're proud of, save them to the gallery and bring them into a future colony.
+
+The creator reads everything from the game itself, so clothing, weapons, items, hairstyles, beards, tattoos, xenotypes, animals, backstories and traits added by other mods show up on their own. I tested it with a load order of over a hundred mods, including the Vanilla Expanded series, several hair packs and a pile of xenotype mods. The one thing it doesn't handle yet is custom alien races, which use their own body systems, and it won't mix with other mods that replace the character screen.
+
+Nothing from this mod is stored in your save files, so you can remove it from an ongoing game safely. It needs Harmony and is built for RimWorld 1.7.</description>
+</ModMetaData>

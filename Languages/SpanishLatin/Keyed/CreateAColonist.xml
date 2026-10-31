@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- New Colony popup -->
+  <CAC_ModeTitle>¿Cómo quieres crear a tus colonos?</CAC_ModeTitle>
+  <CAC_ModeSubtitle>Después podrás elegir el escenario, el narrador y el mundo como siempre.</CAC_ModeSubtitle>
+  <CAC_ModeNormal>Creación de colonia normal</CAC_ModeNormal>
+  <CAC_ModeNormalDesc>La pantalla de personajes de siempre de RimWorld: genera colonos al azar hasta que te gusten.</CAC_ModeNormalDesc>
+  <CAC_ModeCreator>Creación de personajes</CAC_ModeCreator>
+  <CAC_ModeCreatorDesc>Diseña tú mismo a cada colono y mascota: personalidad, aspecto, genes, ropa, equipo y relaciones.</CAC_ModeCreatorDesc>
+
+  <!-- Page -->
+  <CAC_PageTitle>Crear un colono</CAC_PageTitle>
+  <CAC_GroupSummary>{0}  ·  {1} de {2} colonos  ·  {3}</CAC_GroupSummary>
+  <CAC_PetCountOne>1 mascota</CAC_PetCountOne>
+  <CAC_PetCount>{0} mascotas</CAC_PetCount>
+  <CAC_ColonistSubtitle>{0}, {1}</CAC_ColonistSubtitle>
+  <CAC_ColonistSubtitleXeno>{0}, {1}, {2}</CAC_ColonistSubtitleXeno>
+  <CAC_PetSubtitle>{0}, {1}</CAC_PetSubtitle>
+  <CAC_RandomName>Nombre aleatorio</CAC_RandomName>
+  <CAC_RotateLeft>Girar a la izquierda</CAC_RotateLeft>
+  <CAC_RotateRight>Girar a la derecha</CAC_RotateRight>
+  <CAC_RandomColonist>Colono aleatorio</CAC_RandomColonist>
+  <CAC_RandomPet>Mascota aleatoria</CAC_RandomPet>
+  <CAC_Play>Jugar</CAC_Play>
+  <CAC_PlayTip>Empezar la colonia con este grupo.</CAC_PlayTip>
+  <CAC_ConfirmBack>¿Volver a la página anterior? Al volver, el juego generará nuevos colonos iniciales y se perderán los que has creado aquí (guarda antes en la galería los que quieras conservar).</CAC_ConfirmBack>
+  <CAC_AddToGroup>Añadir un colono o una mascota</CAC_AddToGroup>
+  <CAC_AddColonist>Añadir colono</CAC_AddColonist>
+  <CAC_AddColonistFull>Añadir colono (límite de {0} alcanzado)</CAC_AddColonistFull>
+  <CAC_AddPet>Añadir mascota</CAC_AddPet>
+  <CAC_AddFromGallery>Añadir colono de la galería...</CAC_AddFromGallery>
+  <CAC_AddFromGalleryFull>Añadir colono de la galería (el grupo está lleno)</CAC_AddFromGalleryFull>
+  <CAC_ConfirmRemove>¿Quitar a {0} de tu grupo inicial?</CAC_ConfirmRemove>
+  <CAC_None>Ninguno</CAC_None>
+  <CAC_Custom>Personalizado...</CAC_Custom>
+  <CAC_NothingMatches>No hay coincidencias.</CAC_NothingMatches>
+  <CAC_HoverForDetails>Pasa el cursor sobre una opción para ver lo que hace.</CAC_HoverForDetails>
+  <CAC_HideWorkBlockers>Ocultar lo que impide trabajos</CAC_HideWorkBlockers>
+  <CAC_MustDo>Debe poder hacer...</CAC_MustDo>
+  <CAC_MustDoCount>Debe poder hacer ({0})...</CAC_MustDoCount>
+  <CAC_MustDoTitle>Debe poder hacer</CAC_MustDoTitle>
+  <CAC_MustDoNote>Mostrar solo trasfondos y rasgos que permitan todos estos trabajos. La elección se recuerda.</CAC_MustDoNote>
+  <CAC_Violence>Violencia</CAC_Violence>
+  <CAC_CantDo>No puede: {0}</CAC_CantDo>
+  <CAC_ClearAll>Quitar todo</CAC_ClearAll>
+
+  <!-- Tabs -->
+  <CAC_Tab_Personality>Personalidad</CAC_Tab_Personality>
+  <CAC_Tab_Appearance>Aspecto</CAC_Tab_Appearance>
+  <CAC_Tab_Genes>Genes</CAC_Tab_Genes>
+  <CAC_Tab_Clothing>Ropa</CAC_Tab_Clothing>
+  <CAC_Tab_Inventory>Inventario</CAC_Tab_Inventory>
+  <CAC_Tab_Relationships>Relaciones</CAC_Tab_Relationships>
+  <CAC_Tab_Animal>Animal</CAC_Tab_Animal>
+  <CAC_Tab_Ideoligion>Ideoligión</CAC_Tab_Ideoligion>
+  <CAC_Tab_Health>Salud</CAC_Tab_Health>
+  <CAC_TabDesc_Personality>Trasfondo, rasgos, habilidades y pasiones.</CAC_TabDesc_Personality>
+  <CAC_TabDesc_Appearance>Género, edad, complexión, cabeza, peinado, barba, tatuajes, color de piel, de pelo y de ojos.</CAC_TabDesc_Appearance>
+  <CAC_TabDesc_Genes>Xenotipo y genes.</CAC_TabDesc_Genes>
+  <CAC_TabDesc_Clothing>Lo que lleva puesto este colono.</CAC_TabDesc_Clothing>
+  <CAC_TabDesc_Inventory>Arma, objetos que lleva encima y los suministros iniciales de la colonia.</CAC_TabDesc_Inventory>
+  <CAC_TabDesc_Relationships>Familia, parejas y vínculos con mascotas dentro del grupo.</CAC_TabDesc_Relationships>
+  <CAC_TabDesc_Animal>Especie, sexo y edad.</CAC_TabDesc_Animal>
+  <CAC_TabDesc_Ideoligion>En qué cree este colono y con qué firmeza.</CAC_TabDesc_Ideoligion>
+  <CAC_TabDesc_Health>Heridas antiguas, partes del cuerpo que faltan, prótesis, implantes, dolencias y adicciones.</CAC_TabDesc_Health>
+
+  <!-- Personality -->
+  <CAC_Backstory>Trasfondo</CAC_Backstory>
+  <CAC_TooYoungForAdulthood>Los colonos reciben un trasfondo adulto a los {0} años.</CAC_TooYoungForAdulthood>
+  <CAC_RandomBackstory>Trasfondo aleatorio</CAC_RandomBackstory>
+  <CAC_AddTrait>+ Añadir rasgo</CAC_AddTrait>
+  <CAC_AlreadyHasTrait>Ya tiene este rasgo.</CAC_AlreadyHasTrait>
+  <CAC_ConflictsWith>Incompatible con {0}.</CAC_ConflictsWith>
+  <CAC_BackstoryForbids>No lo permite el trasfondo «{0}».</CAC_BackstoryForbids>
+  <CAC_SkillsNote>Los niveles de habilidad dependen de los trasfondos y rasgos que elijas. Haz clic en una llama para subir la pasión y clic derecho para bajarla: ninguna, interesado, apasionado. Haz clic en un nivel para escribir tu propio valor (0–20).</CAC_SkillsNote>
+  <CAC_PassionTip>Pasión: {0}\nClic para subirla, clic derecho para bajarla.</CAC_PassionTip>
+  <CAC_Passion_None>ninguna</CAC_Passion_None>
+  <CAC_Passion_Minor>interesado</CAC_Passion_Minor>
+  <CAC_Passion_Major>apasionado</CAC_Passion_Major>
+
+  <!-- Appearance -->
+  <CAC_Sub_Body>Cuerpo</CAC_Sub_Body>
+  <CAC_Sub_Hair>Pelo</CAC_Sub_Hair>
+  <CAC_Sub_Beard>Barba</CAC_Sub_Beard>
+  <CAC_Sub_Tattoos>Tatuajes</CAC_Sub_Tattoos>
+  <CAC_Sub_Colours>Colores</CAC_Sub_Colours>
+  <CAC_Gender>Género</CAC_Gender>
+  <CAC_Age>Edad</CAC_Age>
+  <CAC_AgeValue>{0} años (edad cronológica: {1})</CAC_AgeValue>
+  <CAC_AgeChrono>Edad cronológica</CAC_AgeChrono>
+  <CAC_AgeTip>Edad biológica: la edad de su cuerpo. Escribe un número o usa las flechas, hasta {0}.</CAC_AgeTip>
+  <CAC_AgeChronoTip>Edad cronológica: años desde su nacimiento, contando el tiempo en criptosueño. Nunca menor que la edad biológica.</CAC_AgeChronoTip>
+  <CAC_Undo>Deshacer (Ctrl+Z)</CAC_Undo>
+  <CAC_Redo>Rehacer (Ctrl+Y)</CAC_Redo>
+  <CAC_Coat>Pelaje</CAC_Coat>
+  <CAC_CoatNumber>Pelaje {0}</CAC_CoatNumber>
+  <CAC_LockTab>Bloquear esta pestaña: lo que hay aquí se conserva al presionar "{0}".</CAC_LockTab>
+  <CAC_UnlockTab>Bloqueada: lo que hay aquí se conserva al presionar "{0}". Haz clic para desbloquear.</CAC_UnlockTab>
+  <CAC_ChildNote>Los niños no pueden hacer todos los trabajos y crecen con el tiempo.</CAC_ChildNote>
+  <CAC_BodyType>Complexión</CAC_BodyType>
+  <CAC_Body_Male>Masculina</CAC_Body_Male>
+  <CAC_Body_Female>Femenina</CAC_Body_Female>
+  <CAC_Body_Thin>Delgada</CAC_Body_Thin>
+  <CAC_Body_Fat>Corpulenta</CAC_Body_Fat>
+  <CAC_Body_Hulk>Fornida</CAC_Body_Hulk>
+  <CAC_Body_Child>Infantil</CAC_Body_Child>
+  <CAC_Body_Baby>Bebé</CAC_Body_Baby>
+  <CAC_HeadType>Cabeza</CAC_HeadType>
+  <CAC_HairColour>Color de pelo</CAC_HairColour>
+  <CAC_Hairstyle>Peinado</CAC_Hairstyle>
+  <CAC_Beard>Barba</CAC_Beard>
+  <CAC_NoStyle>No se puede cambiar el estilo de este colono.</CAC_NoStyle>
+  <CAC_FaceTattoo>Tatuaje facial</CAC_FaceTattoo>
+  <CAC_BodyTattoo>Tatuaje corporal</CAC_BodyTattoo>
+  <CAC_SkinColour>Color de piel</CAC_SkinColour>
+  <CAC_NaturalSkin>Volver a la piel natural</CAC_NaturalSkin>
+  <CAC_EyeColour>Color de ojos</CAC_EyeColour>
+  <CAC_EyeColourNote>El color de ojos viene de los genes, incluidos los que añaden tus otros mods. Algunos genes de ojos de mods hacen algo más que cambiar el color, así que pasa el cursor por encima para ver todos sus efectos.</CAC_EyeColourNote>
+  <CAC_NaturalEyes>Ojos naturales (sin gen de color de ojos)</CAC_NaturalEyes>
+  <CAC_NaturalEyesShort>Naturales</CAC_NaturalEyesShort>
+  <CAC_Brightness>Brillo</CAC_Brightness>
+
+  <!-- Genes -->
+  <CAC_Xenotype>Xenotipo</CAC_Xenotype>
+  <CAC_CustomXenotypes>Tus xenotipos personalizados</CAC_CustomXenotypes>
+  <CAC_OpenXenotypeEditor>Crear un xenotipo personalizado...</CAC_OpenXenotypeEditor>
+  <CAC_GenesList>Genes</CAC_GenesList>
+
+  <!-- Health -->
+  <CAC_HealthOverview>Resumen</CAC_HealthOverview>
+  <CAC_Conditions>Afecciones</CAC_Conditions>
+  <CAC_Healthy>{0} está en perfecto estado de salud.</CAC_Healthy>
+  <CAC_AddToHealth>Añadir</CAC_AddToHealth>
+  <CAC_HealthNote>Todo lo que hay aquí estará presente desde el inicio de la colonia. Las prótesis y los implantes son gratis, y no se puede añadir nada que mate al colono.</CAC_HealthNote>
+  <CAC_AddImplant>Prótesis o implante...</CAC_AddImplant>
+  <CAC_AddScar>Herida antigua...</CAC_AddScar>
+  <CAC_AddMissingPart>Parte del cuerpo que falta...</CAC_AddMissingPart>
+  <CAC_AddCondition>Dolencia de la edad...</CAC_AddCondition>
+  <CAC_AddAddiction>Adicción...</CAC_AddAddiction>
+  <CAC_HealAll>Quitar todas las afecciones</CAC_HealAll>
+  <CAC_RemoveCondition>Quitar</CAC_RemoveCondition>
+  <CAC_PartEfficiency>Eficiencia de la parte: {0}</CAC_PartEfficiency>
+  <CAC_ScarDesc>Una herida curada que dejó una cicatriz permanente. Algunas cicatrices todavía duelen de vez en cuando.</CAC_ScarDesc>
+  <CAC_MissingPartDesc>Empieza la partida sin esta parte del cuerpo: {0}. Más adelante se puede sustituir por una prótesis.</CAC_MissingPartDesc>
+  <CAC_WouldKill>Esto mataría a {0}.</CAC_WouldKill>
+  <CAC_AlreadyHasThis>Ya lo tiene.</CAC_AlreadyHasThis>
+  <CAC_WontTakeDrugs>{0} no consume drogas por un rasgo o por su ideoligión.</CAC_WontTakeDrugs>
+  <CAC_CouldNotAdd>No se pudo añadir {0}. Puede que el colono ya lo tenga en todas las partes posibles.</CAC_CouldNotAdd>
+  <CAC_NothingToAdd>Ahora mismo no se puede añadir nada de este tipo.</CAC_NothingToAdd>
+
+  <!-- Ideoligion -->
+  <CAC_ChangeIdeo>Cambiar de ideoligión...</CAC_ChangeIdeo>
+  <CAC_IdeoDetails>Todos los detalles...</CAC_IdeoDetails>
+  <CAC_IdeoOfColony>La ideoligión principal de tu colonia</CAC_IdeoOfColony>
+  <CAC_IdeoOfFactions>La siguen: {0}</CAC_IdeoOfFactions>
+  <CAC_IdeoFromSaved>Una de tus ideoligiones guardadas</CAC_IdeoFromSaved>
+  <CAC_IdeoNoFaction>Ninguna facción la sigue</CAC_IdeoNoFaction>
+  <CAC_CertaintyNote>Con qué firmeza cree {0}. Cuanto menor es la certeza, más fácil es convertir a este colono.</CAC_CertaintyNote>
+  <CAC_IdeoStory>Descripción</CAC_IdeoStory>
+  <CAC_ColonyIdeo>Ideoligión de la colonia</CAC_ColonyIdeo>
+  <CAC_ColonyIdeoNote>Al empezar la partida, la ideoligión que sigue la mayoría de tus colonos pasa a ser la principal de la colonia, igual que durante el juego. Los colonos que creen en otra cosa conservan su propia ideoligión.</CAC_ColonyIdeoNote>
+  <CAC_NoSavedIdeos>Todavía no tienes ideoligiones guardadas. Puedes guardar una desde el editor de ideoligión al empezar una colonia.</CAC_NoSavedIdeos>
+  <CAC_SavedIdeoFile>Guardada como «{0}»</CAC_SavedIdeoFile>
+
+  <!-- Clothing -->
+  <CAC_Wearing>Lleva puesto</CAC_Wearing>
+  <CAC_WearingNothing>Nada.</CAC_WearingNothing>
+  <CAC_RemoveAll>Quitar todo</CAC_RemoveAll>
+  <CAC_AddClothing>Añadir ropa</CAC_AddClothing>
+  <CAC_Layer_All>Todo</CAC_Layer_All>
+  <CAC_Layer_Head>Cabeza</CAC_Layer_Head>
+  <CAC_Layer_Outer>Exterior</CAC_Layer_Outer>
+  <CAC_Layer_Middle>Intermedia</CAC_Layer_Middle>
+  <CAC_Layer_Skin>Piel</CAC_Layer_Skin>
+  <CAC_Layer_Belt>Cinturón</CAC_Layer_Belt>
+  <CAC_Layer_Other>Otro</CAC_Layer_Other>
+
+  <!-- Inventory -->
+  <CAC_Carried>Este colono</CAC_Carried>
+  <CAC_ColonySupplies>Suministros de la colonia</CAC_ColonySupplies>
+  <CAC_Weapon>Arma</CAC_Weapon>
+  <CAC_Unarmed>Desarmado.</CAC_Unarmed>
+  <CAC_ChooseWeapon>Elegir arma...</CAC_ChooseWeapon>
+  <CAC_ChangeWeapon>Cambiar de arma...</CAC_ChangeWeapon>
+  <CAC_CarriedItems>Inventario</CAC_CarriedItems>
+  <CAC_CarriedNote>Lo que este colono lleva en los bolsillos y la mochila. El límite lo pone el propio juego: cuentan el tamaño, los genes y los mods que cambian la capacidad de carga.</CAC_CarriedNote>
+  <CAC_CantCarry>{0} no puede llevar nada.</CAC_CantCarry>
+  <CAC_Weight>Carga: {0} de {1}</CAC_Weight>
+  <CAC_WeightTip>El límite de carga que el juego fija para este colono. Ropa puesta y arma: {0}. Inventario: {1}.</CAC_WeightTip>
+  <CAC_NoRoom>{0} no puede llevar nada más.</CAC_NoRoom>
+  <CAC_TooHeavyToAdd>Demasiado pesado. A {0} solo le queda espacio para {1}.</CAC_TooHeavyToAdd>
+  <CAC_OverWeight>{0} lleva {1} de más, quizá por ropa o un arma más pesadas. Quita algo, o lo que sobre llegará a su lado al empezar la partida.</CAC_OverWeight>
+  <CAC_ArrivesNextTo>Esto no cabe en el inventario de {0}, así que llegará a su lado al empezar la partida:</CAC_ArrivesNextTo>
+  <CAC_AddItem>+ Añadir objeto</CAC_AddItem>
+  <CAC_SuppliesNote>Suministros iniciales compartidos del escenario «{0}». Cambia las cantidades, añade o quita lo que quieras. Mayús+clic en +/- para 10, Ctrl+clic para 100.</CAC_SuppliesNote>
+  <CAC_ArrivesWithColonists>Llega con los colonos</CAC_ArrivesWithColonists>
+  <CAC_ScatteredNearby>Esparcido cerca</CAC_ScatteredNearby>
+  <CAC_AddSupply>+ Añadir suministro</CAC_AddSupply>
+  <CAC_ResetSupplies>Restablecer según el escenario</CAC_ResetSupplies>
+  <CAC_ResetSuppliesConfirm>¿Devolver los suministros de la colonia a la lista original del escenario?</CAC_ResetSuppliesConfirm>
+
+  <!-- Relationships -->
+  <CAC_RelationsNote>Cómo está relacionado {0} con el resto de tu grupo. Elige una relación en cada lista.</CAC_RelationsNote>
+  <CAC_InYourColony>En tu colonia</CAC_InYourColony>
+  <CAC_NoOneElse>Añade más colonos para darles relaciones.</CAC_NoOneElse>
+  <CAC_IsMy>para {0}</CAC_IsMy>
+  <CAC_RelationNone>Sin relación</CAC_RelationNone>
+  <CAC_Pets>Mascotas</CAC_Pets>
+  <CAC_Bonded>Vinculado</CAC_Bonded>
+  <CAC_FamilyOutside>Familia fuera de la colonia</CAC_FamilyOutside>
+  <CAC_FamilyOutsideNote>Familiares que no se unen. Puede que aparezcan más adelante en la partida.</CAC_FamilyOutsideNote>
+  <CAC_BondNote>Una mascota vinculada sigue a su amo y está adiestrada para obedecer. Elige con quién está vinculado {0}.</CAC_BondNote>
+  <CAC_BondedTo>Vinculado a</CAC_BondedTo>
+  <CAC_NoBond>Nadie</CAC_NoBond>
+
+  <!-- Pets -->
+  <CAC_Species>Especie</CAC_Species>
+  <CAC_PetsOnly>Solo mascotas</CAC_PetsOnly>
+  <CAC_NotAPet>(animal salvaje)</CAC_NotAPet>
+
+  <!-- Gallery -->
+  <CAC_SaveToGallery>Guardar colono en la galería</CAC_SaveToGallery>
+  <CAC_OpenGallery>Galería: cargar un colono o una colonia guardados</CAC_OpenGallery>
+  <CAC_Gallery>Galería</CAC_Gallery>
+  <CAC_GalleryEmpty>Todavía no hay colonos guardados. Usa el botón de guardar que hay sobre un colono para añadir uno.</CAC_GalleryEmpty>
+  <CAC_OverwritePreset>Ya existe un colono guardado llamado «{0}». ¿Reemplazarlo?</CAC_OverwritePreset>
+  <CAC_Saved>{0} guardado en la galería.</CAC_Saved>
+  <CAC_LoadInto>Cargar en {0}</CAC_LoadInto>
+  <CAC_AddAsNew>Añadir como colono nuevo</CAC_AddAsNew>
+  <CAC_GroupFull>Tu grupo está lleno.</CAC_GroupFull>
+  <CAC_DeletePreset>¿Borrar «{0}» de la galería?</CAC_DeletePreset>
+  <CAC_SaveMenuTip>Guardar en la galería: este colono o toda la colonia</CAC_SaveMenuTip>
+  <CAC_SaveThisColonist>Guardar este colono ({0})</CAC_SaveThisColonist>
+  <CAC_SaveWholeColony>Guardar toda la colonia</CAC_SaveWholeColony>
+  <CAC_SaveColonyTitle>Guardar la colonia en la galería</CAC_SaveColonyTitle>
+  <CAC_OverwriteColony>Ya existe una colonia guardada llamada «{0}». ¿Reemplazarla?</CAC_OverwriteColony>
+  <CAC_GalleryColonists>Colonos</CAC_GalleryColonists>
+  <CAC_GalleryColonies>Colonias</CAC_GalleryColonies>
+  <CAC_GalleryNoColonies>Todavía no hay colonias guardadas. Usa el botón de guardar que hay sobre un colono y elige «Guardar toda la colonia».</CAC_GalleryNoColonies>
+  <CAC_ColonySummary>Colonos: {0} · Mascotas: {1} · Suministros: {2}</CAC_ColonySummary>
+  <CAC_LoadColony>Cargar esta colonia</CAC_LoadColony>
+  <CAC_LoadColonyConfirm>¿Reemplazar tus colonos, mascotas y suministros de la colonia actuales por «{0}»?</CAC_LoadColonyConfirm>
+  <CAC_ColonyLoaded>Colonia «{0}» cargada.</CAC_ColonyLoaded>
+  <CAC_ColonyTooBig>Esa colonia tiene {0} colonos, pero este comienzo permite {1}. Solo se cargaron los primeros {1}.</CAC_ColonyTooBig>
+  <CAC_Rename>Renombrar</CAC_Rename>
+  <CAC_Duplicate>Duplicar</CAC_Duplicate>
+  <CAC_RenameTitle>Renombrar «{0}»</CAC_RenameTitle>
+  <CAC_Renamed>Renombrado a {0}.</CAC_Renamed>
+  <CAC_Duplicated>Copia guardada como «{0}».</CAC_Duplicated>
+  <CAC_CopyName>{0} (copia)</CAC_CopyName>
+
+  <!-- Skill editing, Facial Animation, mod filter, info cards, colour reset -->
+  <CAC_SkillLevelTip>Haz clic en el número para escribir un nivel (0–20). Enter lo confirma, Esc cancela.</CAC_SkillLevelTip>
+  <CAC_ManualSkills>Niveles de habilidad manuales</CAC_ManualSkills>
+  <CAC_ManualSkillsTip>Se activa al escribir un nivel. Desde entonces, cambiar trasfondos, rasgos, edad o xenotipo no modifica los niveles de habilidad de este colono.</CAC_ManualSkillsTip>
+  <CAC_RecalculateSkills>Recalcular según trasfondos</CAC_RecalculateSkills>
+  <CAC_RecalculateSkillsTip>Vuelve a calcular los niveles de habilidad de este colono según sus trasfondos y rasgos, reemplazando los que escribiste.</CAC_RecalculateSkillsTip>
+  <CAC_FacialAnimation>Facial Animation</CAC_FacialAnimation>
+  <CAC_FaPart_Head>Cabeza</CAC_FaPart_Head>
+  <CAC_FaPart_Eye>Ojos</CAC_FaPart_Eye>
+  <CAC_FaPart_Brow>Cejas</CAC_FaPart_Brow>
+  <CAC_FaPart_Mouth>Boca</CAC_FaPart_Mouth>
+  <CAC_FaPart_Lid>Párpados</CAC_FaPart_Lid>
+  <CAC_FaPart_Skin>Piel</CAC_FaPart_Skin>
+  <CAC_FaNoStyles>Facial Animation no tiene estilos de este tipo para este colono.</CAC_FaNoStyles>
+  <CAC_FaEyeColourNote>El color del iris se elige en la pestaña Colores.</CAC_FaEyeColourNote>
+  <CAC_FaEyeColour>Color del iris (Facial Animation)</CAC_FaEyeColour>
+  <CAC_OddEyes>Ojos de distinto color</CAC_OddEyes>
+  <CAC_FirstEye>Primer ojo</CAC_FirstEye>
+  <CAC_SecondEye>Segundo ojo</CAC_SecondEye>
+  <CAC_ModAll>Todos</CAC_ModAll>
+  <CAC_ModFilter>Mod: {0}</CAC_ModFilter>
+  <CAC_ResetColour>Restablecer</CAC_ResetColour>
+  <CAC_ClickForInfo>Haz clic para ver detalles.</CAC_ClickForInfo>
+
+  <!-- Add from genetics -->
+  <CAC_AddFromGenetics>Añadir colono por genética...</CAC_AddFromGenetics>
+  <CAC_AddFromGeneticsFull>Añadir colono por genética (el grupo está lleno)</CAC_AddFromGeneticsFull>
+  <CAC_GeneticsTitle>Añadir colono por genética</CAC_GeneticsTitle>
+  <CAC_GeneticsNote>Elige el parentesco del nuevo colono con tus colonos. Sus genes vienen de esos parientes.</CAC_GeneticsNote>
+  <CAC_GeneticsTheirRelation>Parentesco del nuevo colono con cada uno</CAC_GeneticsTheirRelation>
+  <CAC_GeneticsPickRelative>Elige al menos un pariente.</CAC_GeneticsPickRelative>
+  <CAC_GeneticsSavedParent>Añadir un colono guardado como progenitor...</CAC_GeneticsSavedParent>
+  <CAC_GeneticsAdd>Añadir al grupo</CAC_GeneticsAdd>
+  <CAC_GeneticsRoll>Tirar de nuevo</CAC_GeneticsRoll>
+  <CAC_GeneticsAgeTip>Cualquier edad que permitan sus parientes.</CAC_GeneticsAgeTip>
+  <CAC_GeneticsFailed>No se pudo crear este colono. El registro tiene los detalles.</CAC_GeneticsFailed>
+  <CAC_Newborn>Recién nacido</CAC_Newborn>
+  <CAC_TooYoungToBeParent>{0} es demasiado joven para ser progenitor.</CAC_TooYoungToBeParent>
+  <CAC_TwoParentsMax>Un colono solo puede tener dos progenitores.</CAC_TwoParentsMax>
+  <CAC_SiblingOrParents>Los hermanos comparten progenitores: elige un hermano o los progenitores, no ambos.</CAC_SiblingOrParents>
+  <CAC_NotSiblings>{0} y {1} no son hermanos.</CAC_NotSiblings>
+  <CAC_NoAgeFits>Ninguna edad encaja: un progenitor debe tener al menos {0} años más que su hijo.</CAC_NoAgeFits>
+  <CAC_HasThatParent>{0} ya tiene ese progenitor en tu grupo.</CAC_HasThatParent>
+  <CAC_NeedsGrownUp>Una colonia necesita a alguien de {0} años o más.</CAC_NeedsGrownUp>
+  <CAC_BabyNote>Los bebés aún no tienen trasfondo ni rasgos. Los obtienen al crecer.</CAC_BabyNote>
+
+  <!-- The game keeps these in Ideology, so they are missing without it -->
+  <CAC_ShowApparel>Mostrar la ropa</CAC_ShowApparel>
+  <CAC_ShowHeadgear>Mostrar gorro</CAC_ShowHeadgear>
+  <CAC_Name>Nombre</CAC_Name>
+
+</LanguageData>
