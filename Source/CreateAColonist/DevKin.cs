@@ -548,6 +548,17 @@ namespace CreateAColonist
                 Expect(!a.relations.DirectRelations.Any(r => r.def == PawnRelationDefOf.Spouse), "the left-out colonist's spouse link landed on a relative");
                 Expect(PawnEditor.ParentsOf(a).Any(p => p.LabelShort == "Elsewhere"), "the relative's link was lost");
             }, false, null, 3);
+
+            Add("kin_remove_sibling_keeps_parents", () => { }, () =>
+            {
+                // The parent comes after b in the list: b is reached while the sister still has her link.
+                Pawn parent = AddColonist(), sister = AddColonist();
+                PawnEditor.SetParent(b, parent);
+                PawnEditor.SetParent(sister, parent);
+                Remove(sister);
+                Expect(PawnEditor.ParentsOf(b).Contains(parent), "removing a colonist took their sibling's parent too");
+                Remove(parent);
+            }, false, null, 3);
         }
     }
 

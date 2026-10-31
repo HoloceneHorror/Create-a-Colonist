@@ -785,13 +785,8 @@ namespace CreateAColonist
                     return;
                 }
                 state.Notify_ColonistRemoved(pawn);
-                foreach (Pawn other in Colonists)
-                {
-                    if (other != pawn)
-                    {
-                        PawnEditor.ClearRelationsBetween(other, pawn);
-                    }
-                }
+                // Only this colonist's own links: their siblings keep the parents they share.
+                pawn.relations.ClearAllRelations();
                 // Its generation request goes too, or the next added colonist would be generated from it
                 // (forced xenotype and all).
                 PawnEditor.RemoveGenerationRequest(index);
